@@ -106,7 +106,7 @@
 			<div id="menu-navi">
 				<div class="menu-navi-inner">
 					<nav id="site-navi">
-						<hr>
+						
 						<ul>
 							<li><a <?php if (is_page('concept')) { echo 'class="current"'; } ?> href="<?php echo esc_url( home_url('/concept/') ); ?>">ブランドコンセプト</a></li>
 							<li>
@@ -139,7 +139,7 @@
 												<li class="col-4 col-sm-3">
 													<a href="<?php echo esc_url( home_url('/lineup/macha-white-chocolate/') ); ?>">
 														<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/subnavi_matcha.jpg" alt=""></figure>
-														抹茶チョコレート
+														抹茶<br>チョコレート
 													</a>
 												</li>
 												<li class="col-4 col-sm-3">
@@ -157,7 +157,7 @@
 												<li class="col-4 col-sm-3">
 													<a href="<?php echo esc_url( home_url('/lineup/toast/') ); ?>">
 														<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/subnavi_toast.jpg" alt=""></figure>
-														はちみつトースト
+														はちみつ<br>トースト
 													</a>
 												</li>
 												<li class="col-4 col-sm-3">
@@ -181,7 +181,7 @@
 												<li class="col-4 col-sm-3">
 													<a href="<?php echo esc_url( home_url('/lineup/brownsugar-soybeanflour/') ); ?>">
 														<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/subnavi_brownsugar.jpg" alt=""></figure>
-														こくとうときなこ
+														こくとうと<br>きなこ
 													</a>
 												</li>
 												<li class="col-4 col-sm-3">
@@ -206,7 +206,7 @@
 							<li><a <?php if( is_page('access') ){ echo 'class="current"'; } ?> href="<?php echo esc_url( home_url('/access/') ); ?>">店舗紹介・アクセス</a></li>
 							<li><a <?php if( get_post_type() == 'topics' ){ echo 'class="current"'; } ?> href="<?php echo esc_url( home_url('/topics/') ); ?>">ニュース・トピックス</a></li>
 						</ul>
-						<hr>
+						
 						<ul>
 							<li><a href="<?php echo esc_url( home_url('/business/') ); ?>">法人のお客様（出店・催事）</a></li>
 							<li><a href="https://hotey.co.jp/recruit/" target="_blank">採用情報</a></li>

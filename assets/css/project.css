@@ -144,7 +144,7 @@ header .logo-area h1 {
 }
 header #site-navi > ul {
 	font-size: 1.4rem;
-	padding: 20px 0;
+	padding: 0px 0px 20px;
 }
 header #site-navi hr {
 	width: 200px;
@@ -205,11 +205,11 @@ header #site-navi > ul > #slide-navi .site-subnavi {
 	z-index: -1;
 	left: -100%;
 	top: 0;
-	width: 390px;
+	width: 300px;
 	height: 100vh;
 	padding: 35px 35px 0 35px;
 	background: rgba(252,141,125,0.8);
-	font-size: 1.2rem;
+	font-size: 1rem;
 	line-height: 1.2;
 	transition: 1s;
 }
@@ -250,8 +250,7 @@ header .shareList {
 	display: table;
 	width : 200px;
 	margin: auto;
-	border-top: solid 1px #000000;
-	padding: 20px 20px 0 20px;
+	padding: 0px 20px 0 20px;
 	table-layout: fixed;
 	line-height: 1;
 	text-align: center;
@@ -275,6 +274,8 @@ header .insta_btn .fa-facebook-f {
 header .insta_btn .fa-line {
 	font-size: 2.0rem;
 }
+
+
 
 #menu-background,
 #menu-cb,
