@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+/* common */
+.lineup .cont-txt{
+	margin-bottom:40px;
+}
+.lineup.idx .contents li {
+	margin-top: 30px;
+}
+.lineup .contents li .text-area {
+	margin:15px 0 0px;
+	padding-bottom: 30px;
+}
+.lineup .contents li .text-area .eng {
+	color: #fc8d7d;
+}
+.lineup .contents li .text-area .comment {
+	font-size: 1.2rem;
+}
+.lineup .contents li .more {
+	position: absolute;
+	right: 20px;
+	bottom: -15px;
+}
+.lineup .contents  .package .lineupbox {
+	margin-top: 10px;
+}
+.lineup .contents .package .giftset {
+	margin-top: 110px;
+}
+.lineup .contents .package .giftset .text-area {
+	background-color: #f3f4f3;
+	margin-top: 0;
+	padding: 35px;
+	display: flex;
+	flex-wrap: wrap;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.lineup .contents .package .giftset .text-area .ttl {
+	font-family: 'Noto Serif Japanese', serif;
+	font-weight: 500;
+	font-size: 2.2rem;
+}
+.lineup .contents .package .giftset .more {
+	position: absolute;
+	right: 35px;
+	bottom: 35px;
+}
+.lineup .contents .package .lineupbox li .text-area {
+	margin-top: 20px;
+}
+.lineup .contents .package .lineupbox li .text-area .ttl {
+	margin-bottom: 10px;
+}
+.lineup .contents .package .material {
+	margin-top: 60px;
+}
+.lineup .contents .package .material .fa-egg-fried,
+.lineup .contents .package .material .fa-coffee,
+.lineup .contents .package .material .fa-wheat {
+	font-size: 3.0rem;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+.lineup .contents .package .material .specific li {
+	display: inline-block;
+	margin-right: 20px;
+}
+.lineup .contents  .flavor .lineupbox li .text-area {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+
+
+/* idx */
+.lineup.idx .contents .lineupbox {
+	margin-top: 70px;
+}
+.lineup.idx .contents .lineupbox li .photo {
+	margin: 30px 20px;
+}
+.lineup.idx .chocolate .lineupbox li .text-area {
+	width: 100%;
+}
+
+
+/* detail */
+.lineup.detail .feature li {
+	margin-top: 30px;
+}
+.lineup.detail .feature li .photo {
+	width: 63.25%;
+}
+.lineup.detail .feature li .text-area {
+	width: 36.75%;
+	padding: 0 35px;
+}
+.lineup.detail .feature li .text-area .catch {
+	font-family: 'Noto Serif Japanese', serif;
+	font-weight: 500;
+	font-size: 2.2rem;
+	margin-bottom: 10px;
+}
+.lineup.detail .contents .lineupbox li {
+	margin-top: 45px;
+}
+.lineup.detail .contents .lineupbox li:nth-child(-n + 4) {
+	margin-top: 0;
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+	.lineup.idx .contents .lineup > figure {
+		
+	}
+	.lineup.idx .contents .lineup > figure img{
+		width:100%;
+		height:auto;
+	}
+	.lineup .contents .lineupbox li {
+		margin-top: 20px;
+	}
+	.lineup .contents .lineupbox img {
+		width: 100%;
+		height: auto;
+	}
+	.lineup .contents .lineupbox li .more {
+		position: absolute;
+		right: 0;
+		bottom: -15px;
+	}
+	.lineup.detail .feature li .text-area {
+		width: 100%;
+		padding: 0;
+	}
+	.lineup .contents .package .lineupbox li {
+		margin-top: 30px;
+	}
+	.lineup .contents .package .lineupbox li:first-child {
+		margin-top: 0;
+	}
+	.lineup .contents .package .lineupbox li .text-area {
+		margin-top: 10px;
+	}
+	.lineup .contents .package .giftset {
+		margin-top: 50px;
+	}
+	.lineup .contents .package .giftset .text-area {
+		padding: 15px 15px 55px 15px;
+		display: block;
+	}
+	.lineup .contents .package .giftset .text-area .ttl {
+		font-size: 1.8rem;
+		text-align: center;
+	}
+	.lineup .contents .package .giftset .more {
+		right: 15px;
+		bottom: 0;
+	}
+
+	.lineup .contents .flavor .lineupbox li .text-area {
+		margin: 15px 0 0;
+		padding-bottom: 30px;
+	}
+
+	.lineup.idx .contents .lineupbox {
+		margin-top: 35px;
+	}
+	.lineup.idx .contents .lineupbox > figure {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+	.lineup.idx .contents .lineupbox > figure img{
+		width:100%;
+		height:auto;
+	}
+	.lineup.idx .contents .lineupbox li .photo {
+		margin: 0 20px;
+	}
+	.lineup.idx .chocolate .lineupbox li .text-area {
+		margin-top: 15px;
+		padding-bottom: 40px;
+	}
+
+	.lineup.detail .contents .lineupbox li {
+		margin-top: 30px;
+	}
+
+	.lineup.detail .feature li .photo {
+		width: 100%;
+	}
+}

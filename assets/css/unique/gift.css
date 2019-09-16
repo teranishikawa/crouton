@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+.wide .photo {
+    width: 63.086%;
+}
+
+.wide .text-area {
+    width: 36.914%;
+}
+
+.wide .about-noshi .photo {
+    width: 31.5%;
+}
+
+.wide.giftset-intro .text-area {
+    width: 100%;
+}
+
+.giftset-intro .catch {
+    font-family: 'Noto Serif Japanese', serif;
+    font-size: 2.4rem;
+}
+
+.giftset-intro .catch + .cont-txt {
+    margin-top: 20px;
+}
+
+
+.recommended-gift li:nth-of-type(odd) .photo + .text-area,
+.season-gift-set .photo + .text-area,
+.return-gift li:nth-of-type(odd) .photo + .text-area {
+    padding-left: 3.6rem;
+}
+
+.recommended-gift li:nth-of-type(even) .photo + .text-area,
+.return-gift li:nth-of-type(even) .photo + .text-area {
+    padding-right: 3.6rem;
+}
+
+.recommended-gift li + li,
+.return-gift li + li {
+    margin-top: 60px;
+}
+
+.swiper-container-thumbs {
+    margin-top: 10px;
+}
+
+.swiper-slide-thumb-active {
+    border: 2px solid #fc8d7d;
+}
+
+.product-description-txt + .product-description-txt {
+    margin-top: 40px;
+}
+
+.product-description-txt dt {
+    font-family: 'Noto Serif Japanese', serif;
+    font-size: 2.2rem;
+}
+
+.product-description-txt dd {
+    line-height: 2;
+}
+
+.product-description-txt dt + dd {
+    margin-top: 20px;
+}
+
+.product-price-txt {
+    font-family: 'Noto Serif japanese', serif;
+    font-size: 1.8rem;
+}
+
+.product-description-txt + .product-price-txt {
+    margin-top: 60px;
+}
+
+.about-noshi {
+    padding: 30px;
+    background: #f3f4f3;
+}
+
+.noshi-txt dt {
+    font-family: 'Noto Serif Japanese', serif;
+    font-size: 2.2rem;
+}
+
+.noshi-txt dt + dd {
+    margin-top: 10px;
+}
+
+.noshi-txt + .row {
+    margin-top: 30px;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .wide .photo,
+    .wide .text-area,
+    .wide .about-noshi .photo {
+        width: 100%;
+    }
+    
+    .recommended-gift li:first-of-type .photo + .text-area,
+    .season-gift-set .photo + .text-area,
+    .return-gift li:nth-of-type(odd) .photo + .text-area {
+        margin-top: 20px;
+        padding-left: 0;
+    }
+
+    .recommended-gift li:last-of-type .photo + .text-area,
+    .return-gift li:nth-of-type(even) .photo + .text-area {
+        margin-top: 20px;
+        padding-right: 0;
+    }
+
+    .product-description-txt + .product-description-txt {
+        margin-top: 20px;
+    }
+
+    .product-description-txt dt {
+        font-size: 1.8rem;
+    }
+
+    .product-description-txt dd {
+        font-size: 1.2rem;
+    }
+
+    .product-price-txt {
+        font-size: 1.4rem;
+    }
+
+    .product-description-txt + .product-price-txt {
+        margin-top: 30px;
+    }
+
+    .recommended-gift .product-description-txt dt + dd,
+    .season-gift-set .product-description-txt dt + dd {
+        margin-top: 20px;
+    }
+
+    .product-description-txt dt + dd {
+        margin-top: 0;
+    }
+
+    .about-noshi {
+        padding: 20px;
+    }
+
+    .noshi-txt dt {
+        font-size: 1.8rem;
+    }
+
+    .noshi-txt dd {
+        font-size: 1.2rem;
+    }
+
+    .about-noshi .photo + .photo {
+        margin-top: 20px;
+    }
+}

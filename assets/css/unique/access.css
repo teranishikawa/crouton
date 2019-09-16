@@ -1,0 +1,59 @@
+/* lead section*/
+.contents h3.title {
+    margin-bottom:20px;
+}
+#access-area h2, .contents h3.title {
+    font-family: 'Noto Serif Japanese', serif;
+    font-weight: 500;
+    font-size: 2.4rem;
+    margin-bottom: 40px;
+}
+
+.lead-access .contents .cont-txt {
+    margin-bottom:50px;
+}
+
+
+/* anker section */
+.anker-access {
+    margin:50px auto 0;
+    padding-top:0;
+}
+
+
+/* time section */
+.time-access .cont-txt {
+    padding-left:60px;
+}
+
+
+/* map section */
+.map-access p {
+    font-size:;
+}
+
+.map-access .store-name {
+    font-weight:bold;
+    margin-top:40px;
+}
+
+.map-access .store-address,
+.map-access .store-access {
+    margin-top:20px;
+}
+.map-access .arrow{
+    margin-top:40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+
+
+
+/* responsive */
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    figure img {
+        width:100%;
+    }
+}
+

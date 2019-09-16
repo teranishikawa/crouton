@@ -1,0 +1,208 @@
+/* lead section*/
+.contents h3.title {
+    margin-bottom:20px;
+}
+.contents .lead-business .cont-txt {
+    margin-bottom:50px;
+}
+
+
+/* anker section */
+.anker-business {
+    margin:50px auto 0;
+    padding-top:0;
+}
+
+.anker-business .business-numbering-title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 50px;
+    font-family: 'Noto Serif Japanese', serif;
+    font-weight: 500;
+    text-align:center;
+}
+.anker-business .business-numbering-title:before,
+.anker-business li:last-child .business-numbering-title:last-child:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    height: 20px;
+    margin: auto;
+    background: #000000;
+}
+.anker-business .business-numbering-title:before {
+    left: 0;
+}
+.anker-business li:last-child .business-numbering-title:after {
+    right: 0;
+}
+.anker-business ul > li {
+    width: calc( 100% / 7 );
+}
+
+
+/* linup section */
+.lineup-business .text-area {
+    margin: 15px 0 0px;
+    padding-bottom: 30px;
+}
+.lineup-business .text-area .comment {
+    font-size: 1.2rem;
+}
+.lineup-business .text-area .ttl {
+    font-family: 'Noto Serif Japanese', serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.lineup-business li .text-area .eng {
+    color: #fc8d7d;
+    display: block;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+.lineup-business li .more {
+	position: absolute;
+	right: 20px;
+	bottom: -15px;
+}
+
+
+/* giftset section */
+.giftset-business .product-name {
+    margin-top:20px;
+}
+
+
+/* product section */
+.product-business .photo {
+    width: 63.25%;
+}
+
+.product-business .text-area {
+    width: 36.75%;
+    padding: 0 35px;
+}
+
+
+/*  section */
+.birth-business .photo {
+    width: 63.25%;
+}
+
+.birth-business .text-area {
+    width: 36.75%;
+    padding: 0 35px;
+}
+
+
+/*  section */
+.large-business .large-product-name {
+    margin-top:20px;
+}
+
+
+/*  section */
+.front-business h3.title {
+    width:100%;
+    padding:0 15px;
+    margin:0 0 10px;
+}
+.front-business .cont-txt {
+    width:100%;
+    padding:0 15px;
+    margin:0 0 30px;
+}
+.front-business .graybase {
+    background-color:#f3f4f3;
+    padding:15px 20px 20px;
+    box-sizing: border-box;
+}
+.front-business .icongraph:last-child a {
+    border-right:1px solid #000;
+}
+.front-business .icongraph a {
+    margin:0px auto;
+    padding:15px 0 0px;
+    display:inline-block;
+    width:100%;
+    height:100%;
+    text-align:center;
+    border-left:1px solid #000;
+}
+.front-business .icongraph figure img {
+    height:auto;
+    width:auto;
+}
+
+.front-business .caption {
+    margin:25px auto 0;
+    font-size:20px;
+}
+.front-business .caption.jpn {
+    font-family:'Noto Serif Japanese';
+}
+.front-business .caption.eng{
+    font-family:'Montserrat';
+}
+.front-business .sup {
+    margin-bottom:10px;
+    font-size:14px;
+}
+
+
+/* responsive */
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    figure img {
+        width:100%;
+    }
+
+    .anker-business {
+        padding:0 !important;
+    }
+    .anker-business ul > li {
+        width:50%;
+    }
+    .anker-business ul > li:last-child {
+        width:100%;
+    }
+    .product-business .text-area{
+       padding:20px 0 0; 
+    }
+    .birth-business .text-area{
+        padding: 0 0 40px;
+    }
+    .anker-business .business-numbering-title:before,
+    .anker-business .business-numbering-title::after {
+        content: none !important;
+    }
+    .col-4{margin-bottom:30px;}
+    .col-6{margin-bottom:10px;}
+
+    .anker-business .business-numbering-title {
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
+        min-height:30px;
+        margin:10px 0;
+    }
+    .anker-business li:nth-child(2n)  .business-numbering-title {
+        border-left: none;
+    }
+
+    .front-business .icongraph {
+        margin:10px 0;
+    }
+    .front-business .icongraph a {
+        border-left:1px solid #000;
+        border-right:1px solid #000;
+    }
+
+
+
+
+}
