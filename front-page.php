@@ -12,6 +12,15 @@
 								<div class="swiper-slide">
 									<img class="js-switch" src="<?php echo get_template_directory_uri(); ?>/assets/images/top/p_mv02_pc.jpg" alt="" class="js-switch">
 								</div>
+								<div class="swiper-slide">
+									<img class="js-switch" src="<?php echo get_template_directory_uri(); ?>/assets/images/top/p_mv03_pc.jpg" alt="" class="js-switch">
+								</div>
+								<div class="swiper-slide">
+									<img class="js-switch" src="<?php echo get_template_directory_uri(); ?>/assets/images/top/p_mv04_pc.jpg" alt="" class="js-switch">
+								</div>
+								<div class="swiper-slide">
+									<img class="js-switch" src="<?php echo get_template_directory_uri(); ?>/assets/images/top/p_mv05_pc.jpg" alt="" class="js-switch">
+								</div>
 							</div>
 
 							<div class="swiper-pagination"></div>
