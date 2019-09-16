@@ -142,9 +142,10 @@
 						</div>
 						<div class="text-area" data-aos="fade-left">							
 							<p class="copy" data-aos="fade-up" data-aos-delay="600">食卓がつくる、絆をもっと。</p>			
-							<p class="tx-concept" data-aos="fade-left" data-aos-delay="900">食卓は、心をつくる。<br>心を寄せあう、分けあう、重ねあう場所だから。<br>かぞくとは、大切な人との絆。<br>かぞくの心の温もりが届いたら、<br>心の食卓はつながって、かぞくの絆がつくられる。<br>離れていたって、心はひとりにならない。<br>
-							食卓がつくる、絆をもっと。<br>かぞくのクルトン</p>
-							<p class="more" data-aos="fade-right" data-aos-delay="1200"><a href="<?php echo esc_url( home_url('/concept/') ); ?>" class="arrow">LEAN MORE</a></p>
+							<p class="tx-concept" data-aos="fade-left" data-aos-delay="900">
+								<p data-aos="zoom-in-left" data-aos-delay="100">食卓は、心をつくる。</p><p data-aos="zoom-in-left" data-aos-delay="300">心を寄せあう、分けあう、重ねあう場所だから。</p><p data-aos="zoom-in-left" data-aos-delay="500">かぞくとは、大切な人との絆。</p><p data-aos="zoom-in-left" data-aos-delay="600">かぞくの心の温もりが届いたら、</p><p data-aos="zoom-in-left" data-aos-delay="800">心の食卓はつながって、かぞくの絆がつくられる。</p><p data-aos="zoom-in-left" data-aos-delay="1000">離れていたって、心はひとりにならない。</p>
+							<p data-aos="zoom-in-left" data-aos-delay="1200">食卓がつくる、絆をもっと。</p><p data-aos="zoom-in-left" data-aos-delay="1400">かぞくのクルトン</p>
+							<p class="more" data-aos="fade-right" data-aos-delay="1600"><a href="<?php echo esc_url( home_url('/concept/') ); ?>" class="arrow">LEAN MORE</a></p>
 						</div>
 						<!--
 						<div class="row no-gutters no-gutters-sm justify-content-between">
@@ -171,13 +172,13 @@
 					</div>
 				</section>
 
-				<section id="lineup" class="lineup wide" data-aos="fade-up">
+				<section id="lineup" class="lineup wide">
 					<div class="inner">
 						<div class="ttl-area" data-aos="fade-right" data-aos-delay="300">
 							<h2><span class="eng line" data-aos="fade-right" data-aos-delay="600"></span>ラインナップ</h2>
 						</div>
 						<ul class="row no-gutters no-gutters-sm seasonal">
-							<li class="col-4 one-item" data-aos="fade-up">
+							<li class="col-4 one-item" data-aos="zoom-out-up">
 								<a href="<?php echo esc_url( home_url('/lineup/salt-dark-chocolate/') ); ?>" class="arrow only">
 									<figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/lineup_salt_chocolate_off.jpg" alt="塩チョコレート" data-productname="salt_chocolate"></figure>
 									<div class="text-area">
@@ -186,7 +187,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="col-4 one-item" data-aos="fade-up">
+							<li class="col-4 one-item" data-aos="zoom-out-down" data-aos-delay="300">
 								<a href="<?php echo esc_url( home_url('/lineup/salt-caramel_blonde-chocolate/') ); ?>" class="arrow only">
 									<figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/lineup_salt_caramel_off.jpg" alt="塩キャラメルチョコレート" data-productname="salt_caramel"></figure>
 									<div class="text-area">
@@ -195,7 +196,7 @@
 									</div>
 								</a>
 							</li>
-							<li class="col-4 one-item" data-aos="fade-up">
+							<li class="col-4 one-item" data-aos="zoom-out-up" data-aos-delay="300">
 								<a href="<?php echo esc_url( home_url('/lineup/macha-white-chocolate/') ); ?>" class="arrow only">
 									<figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/lineup_salt_greentea_off.jpg" alt="抹茶チョコレート" data-productname="salt_greentea"></figure>
 									<div class="text-area">
@@ -210,89 +211,89 @@
 							<table class="menu-tbl">
 								<tbody>
 									<tr>
-										<td colspan="2" class="one-item" data-aos="fade-up">
+										<td colspan="2" class="one-item" data-aos="zoom-in-up">
 											<a href="<?php echo esc_url( home_url('/lineup/tomato/') ); ?>" class="arrow only">
 												<figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/lineup_tomato.jpg" alt="もぎたてトマト" data-productname="tomato"></figure>
 												<div class="text-area">
 													<p class="label new">NEW</p>
-													<p class="ttl"><small>もぎたて</small>トマト<span class="eng">TOMATO</span></p>
+													<p class="ttl" data-aos="zoom-in-down" data-aos-delay="300"><small>もぎたて</small>トマト<span class="eng">TOMATO</span></p>
 												</div>
 											</a>
 										</td>
-										<td colspan="2" class="one-item" data-aos="fade-up">
+										<td colspan="2" class="one-item" data-aos="zoom-in-down" data-aos-delay="200">
 											<a href="<?php echo esc_url( home_url('/lineup/potato/') ); ?>" class="arrow only">
 												<figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/lineup_potato.jpg" alt="ホクホクポテト" data-productname="potato"></figure>
 												<div class="text-area">
 													<p class="label new">NEW</p>
-													<p class="ttl"><small>ホクホク</small>ポテト<span class="eng">POTATO</span></p>
+													<p class="ttl" data-aos="zoom-in-down" data-aos-delay="300"><small>ホクホク</small>ポテト<span class="eng">POTATO</span></p>
 												</div>
 											</a>
 										</td>
-										<td rowspan="2" class="one-item" data-aos="fade-up">
+										<td rowspan="2" class="one-item" data-aos="zoom-in-up" data-aos-delay="400">
 											<a href="<?php echo esc_url( home_url('/lineup/cheese/') ); ?>" class="arrow only">
 												<figure class="vertically zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/lineup_cheese.jpg" alt="コクうまチーズ" data-productname="cheese"></figure>
 												<div class="text-area vertically">
-													<p class="ttl"><small>コクうま</small>チーズ<span class="eng">CHEESE</span></p>
+													<p class="ttl" data-aos="zoom-in-down" data-aos-delay="300"><small>コクうま</small>チーズ<span class="eng">CHEESE</span></p>
 												</div>
 											</a>
 										</td>
 									</tr>
 									<tr>
-										<td colspan="2" class="one-item" data-aos="fade-up">
+										<td colspan="2" class="one-item" data-aos="zoom-in-up">
 											<a href="<?php echo esc_url( home_url('/lineup/toast/') ); ?>" class="arrow only">
 												<figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/lineup_toast.jpg" alt="はちみつトースト" data-productname="toast"></figure>
 												<div class="text-area order-first">
-													<p class="ttl"><small>はちみつ</small>トースト<span class="eng">TOAST</span></p>
+													<p class="ttl" data-aos="zoom-in-down" data-aos-delay="300"><small>はちみつ</small>トースト<span class="eng">TOAST</span></p>
 												</div>
 											</a>
 										</td>
-										<td colspan="2" rowspan="2" data-aos="fade-up">
+										<td colspan="2" rowspan="2" data-aos="zoom-in-down" data-aos-delay="200">
 											<figure class="vertically"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/lineup_photo01.jpg" alt="" data-productname=""></figure>
 										</td>
 									</tr>
 									<tr>
-										<td colspan="2" class="one-item" data-aos="fade-up">
+										<td colspan="2" class="one-item" data-aos="zoom-in-up" data-aos-delay="400">
 											<a href="<?php echo esc_url( home_url('/lineup/corn/') ); ?>" class="arrow only">
 												<figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/lineup_corn.jpg" alt="やきたてコーン" data-productname="corn"></figure>
 												<div class="text-area">
-													<p class="ttl"><small>やきたて</small>コーン<span class="eng">CORN</span></p>
+													<p class="ttl" data-aos="zoom-in-down" data-aos-delay="300"><small>やきたて</small>コーン<span class="eng">CORN</span></p>
 												</div>
 											</a>
 										</td>
-										<td rowspan="2" class="one-item" data-aos="fade-up">
+										<td rowspan="2" class="one-item" data-aos="zoom-in-down" data-aos-delay="600">
 											<a href="<?php echo esc_url( home_url('/lineup/curry/') ); ?>" class="arrow only">
 												<figure class="vertically zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/lineup_curry.jpg" alt="おいしいカレー" data-productname="curry"></figure>
 												<div class="text-area vertically">
-													<p class="ttl"><small>おいしい</small>カレー<span class="eng">CURRY</span></p>
+													<p class="ttl" data-aos="zoom-in-down" data-aos-delay="300"><small>おいしい</small>カレー<span class="eng">CURRY</span></p>
 												</div>
 											</a>
 										</td>
 									</tr>
 									<tr>
-										<td colspan="2" data-aos="fade-up"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/lineup_photo02.jpg" alt=""></td>
-										<td colspan="2" class="one-item" data-aos="fade-up">
+										<td colspan="2" data-aos="zoom-in-up"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/lineup_photo02.jpg" alt=""></td>
+										<td colspan="2" class="one-item" data-aos="zoom-in-up">
 											<a href="<?php echo esc_url( home_url('/lineup/brownsugar-soybeanflour/') ); ?>" class="arrow only">
 												<figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/lineup_brownsugar.jpg" alt="こくとうときなこ" data-productname="brownsugar"></figure>
 												<div class="text-area order-first">
-													<p class="ttl">こくとう<small>と</small>きなこ<span class="eng">BROWN SUGAR &amp; SOYBEAN FLOUR</span></p>
+													<p class="ttl" data-aos="zoom-in-down" data-aos-delay="300">こくとう<small>と</small>きなこ<span class="eng">BROWN SUGAR &amp; SOYBEAN FLOUR</span></p>
 												</div>
 											</a>
 										</td>
 									</tr>
 									<tr>
-										<td colspan="2" class="one-item" data-aos="fade-up">
+										<td colspan="2" class="one-item" data-aos="zoom-in-down" data-aos-delay="200">
 											<a href="<?php echo esc_url( home_url('/lineup/purplesweetpotato/') ); ?>" class="arrow only">
 												<figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/lineup_sweetpotato.jpg" alt="むらさきいも" data-productname="sweetpotato"></figure>
 												<div class="text-area">
-													<p class="ttl"><small>むらさき</small>いも<span class="eng">PURPLE SWEET POTATO</span></p>
+													<p class="ttl" data-aos="zoom-in-down" data-aos-delay="300"><small>むらさき</small>いも<span class="eng">PURPLE SWEET POTATO</span></p>
 												</div>
 											</a>
 										</td>
-										<td colspan="2" class="one-item" data-aos="fade-up">
+										<td colspan="2" class="one-item" data-aos="zoom-in-up" data-aos-delay="400">
 											<a href="<?php echo esc_url( home_url('/lineup/soysauce/') ); ?>" class="arrow only">
 												<figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/lineup_soysauce.jpg" alt="みたらし醤油" data-productname="soysauce"></figure>
 												<div class="text-area">
-													<p class="ttl"><small>みたらし</small>醤油<span class="eng">SOY SAUCE</span></p>
+													<p class="ttl" data-aos="zoom-in-down" data-aos-delay="300"><small>みたらし</small>醤油<span class="eng">SOY SAUCE</span></p>
 												</div>
 											</a>
 										</td>
@@ -305,7 +306,7 @@
 						</div>
 
 						<div class="menu-list forSP">
-							<table class="menu-tbl" data-aos="fade-up">
+							<table class="menu-tbl" data-aos="zoom-in-up">
 								<tbody>
 									<tr>
 										<td colspan="2" class="one-item">

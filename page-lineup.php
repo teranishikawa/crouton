@@ -156,7 +156,7 @@
 				<section class="wide package">
 					<div class="inner">
 						<h3 class="title" data-aos="fade-right"><span class="eng line"></span>パッケージラインナップ</h3>
-						<p class="cont-txt" data-aos="fade-right" data-aos-delay="300">ライフスタイルや用途に合わせて、3種類のパッケージをご用意しました。</p>
+						<p class="cont-txt" data-aos="fade-right" data-aos-delay="300">ライフスタイルや用途に合わせて、2種類のパッケージをご用意しました。</p>
 
 						<div class="lineup">
 							<div class="width-fixed">
