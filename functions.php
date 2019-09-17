@@ -21,8 +21,17 @@ function output_title() {
 			$title = $pageTitle.' | '.$parent_slug.' | '.$siteTitle ;
 		}
 	}
-	elseif( is_single() ){//記事ページの場合
-		$title = $pageTitle.' | PICK UP NEWS | '.$siteTitle ;
+	elseif( is_post_type_archive('topics') || is_tax('topics_cat') ) {//記事ページの場合
+		$title = 'ニュース・トピックス | '.$siteTitle ;
+	}
+	elseif( is_singular('topics') ){
+		$title = $pageTitle.' | ニュース・トピックス | '.$siteTitle ;
+	}
+	elseif( is_post_type_archive('recipe') || is_tax('recipe_cat') ) {//アレンジレシピ
+		$title = 'アレンジレシピ | '.$siteTitle ;
+	}
+	elseif( is_singular('recipe') ){
+		$title = $pageTitle.' | アレンジレシピ | '.$siteTitle ;
 	}
 	else if( is_404() ){
 		$title = 'エラーページ | '.$siteTitle ;
@@ -43,6 +52,9 @@ function addSlugName($attr) {
 		$slug = 'single';
 		if(is_singular('topics')){
 			$slug = 'topics';
+		}
+		if(is_singular('recipe')){
+			$slug = 'recipe';
 		}
 	}
 	elseif( is_page() ) {//固定ページの場合
@@ -67,8 +79,11 @@ function addSlugName($attr) {
 			}
 		}
 	}
-	elseif( is_archive('topics') ) {//ニュースの場合
+	elseif( is_post_type_archive('topics') || is_tax('topics_cat') ) {//ニュースの場合
 		$slug = 'topics';
+	}
+	elseif( is_post_type_archive('recipe') || is_tax('recipe_cat') ) {//アレンジレシピの場合
+		$slug = 'recipe';
 	}
 	elseif( is_404() ) {//エラーページの場合
 		$slug = 'error';
@@ -106,3 +121,6 @@ function is_page_ancestor($parent_slug_name){
 }
 
 add_image_size('topics', 310, 310, true);
+add_image_size('recipe', 370, 250, true);
+add_image_size('recipe_lineup', 380, 314, true);
+add_image_size('gift', 740, 520, true);
