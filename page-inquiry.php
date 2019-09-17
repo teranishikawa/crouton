@@ -18,7 +18,6 @@
 								<figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_secret.jpg" alt=""></figure>
 								<div class="text-area col-sm-5">
 									<p class="ttl">かぞくのクルトンのひみつ</p>
-									<p class="eng">SECRET OF CROUTON</p>
 									<p class="more"><span><a href="/secret/" class="arrow">LEARN MORE</a></span></p>
 								</div>
 							</li>
@@ -26,7 +25,6 @@
 								<figure class="zoom col-sm-7"><span><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_lineup.jpg" alt=""></span></figure>
 								<div class="text-area col-sm-5 order-sm-first">
 									<p class="ttl">ラインナップ</p>
-									<p class="eng">LINE UP</p>
 									<p class="more"><span><a href="/lineup/" class="arrow">LEARN MORE</a></span></p>
 								</div>
 							</li>
@@ -34,7 +32,6 @@
 								<figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_gift.jpg" alt=""></figure>
 								<div class="text-area col-sm-5">
 									<p class="ttl">ギフトセット</p>
-									<p class="eng">GIFT SET</p>
 									<p class="more"><span><a href="/secret/" class="arrow">LEARN MORE</a></span></p>
 								</div>
 							</li>

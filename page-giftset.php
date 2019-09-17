@@ -301,21 +301,21 @@ get_header();
                                 <figure class="zoom col-sm-7"><span><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_lineup.jpg" alt=""></span></figure>
                                 <div class="text-area col-sm-5 order-sm-first">
                                     <p class="ttl">ラインナップ</p>
-                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/lineup/') ); ?>" class="arrow">MORE</a></span></p>
+                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/lineup/') ); ?>" class="arrow">LEARN MORE</a></span></p>
                                 </div>
                             </li>
                             <li class="col-4 col-sm-12 one-item js-clickArea active" data-aos="fade-up" data-aos-delay="300">
                                 <figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_gift.jpg" alt=""></figure>
                                 <div class="text-area col-sm-5">
                                     <p class="ttl">ギフトセット</p>
-                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/') ); ?>" class="arrow">MORE</a></span></p>
+                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/') ); ?>" class="arrow">LEARN MORE</a></span></p>
                                 </div>
                             </li>
                             <li class="col-4 col-sm-12 one-item js-clickArea" data-aos="fade-up" data-aos-delay="600">
                                 <figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_recipe.jpg" alt=""></figure>
                                 <div class="text-area col-sm-5">
                                     <p class="ttl">おいしいお召し上がり方</p>
-                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/recipe/') ); ?>" class="arrow">MORE</a></span></p>
+                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/recipe/') ); ?>" class="arrow">LEARN MORE</a></span></p>
                                 </div>
                             </li>
 						</ul>
