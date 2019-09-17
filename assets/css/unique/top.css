@@ -145,48 +145,68 @@
 	width:320px;
 	height:120px;
 	background-color:rgba(0,0,0,0.5);
+	padding:0;
 }
 
 #top #pickup .swiper-container,
 #top #pickup .swiper-wrapper {
-	position: absolute;
-	bottom:20px;
-	left:20px;
 	width:320px;
 	height:120px;
+	max-height:120px;
 }
-
 #top #pickup .pickup-swiper-pagination {
-	padding: 5px 0px 0 100px;
+	position:absolute;
+	padding: 0 0 5px 10px;
+	margin-left: 40%;
 }
-
-
+#top #pickup .swiper-pagination-bullets {
+	bottom:0;
+}
 #top #pickup .swiper-pagination-bullet {
     width: 8px;
     height: 8px;
     background: #fff;
 }
-
-
+#top #pickup .row {
+	position:relative;
+	display:flex;
+}
 #top #pickup .label {
+    z-index: 4;
     font-weight: 300;
     font-size: 1.2rem;
     padding: 5px 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
-
+#top #pickup .img-area {
+	flex-basis: 40%;
+	max-width: 40%;
+	position:relative;
+}
+#top #pickup .img-area:before {
+	content:'';
+	display:block;
+	width:100%;
+	height:0;
+	padding-bottom:100%;
+}
+#top #pickup .img-area figure {
+	width:100%;
+	height:auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 #top #pickup .text-area {
-	padding-left:20px;
-	width: 55%;
+	flex-basis: 60%;
+	max-width: 60%;
 	color:#fff;
+	padding-left:15px;
 }
 #top #pickup .text-area a {
 	display: block;
-}
-#top #pickup .img-area {
-	width: 40%;
-	display: flex;
-	justify-content: flex-end;
-	align-items: flex-end;
 }
 #top #pickup .text-area p + p {
 	margin-top: 10px;
@@ -195,7 +215,9 @@
 	margin-top: 15px;
 	font-size: 1.2rem;
 }
-
+#top #pickup .text-area .more {
+	display:none;
+}
 #top #pickup .text-area .date {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 200;
@@ -574,6 +596,19 @@
 		text-align: center;
 		padding: 20px 0 0 0;
 	}
+	#top #pickup .swiper-container, #top #pickup .swiper-wrapper {
+		width:100%;
+		height:auto;
+		max-height:none;
+	}
+	#top #pickup {
+		position:relative;
+		width: 90vw;
+		height:auto;
+		left: 0;
+		bottom: 0;
+		margin: 5vw auto;
+	}
 	#top #pickup .text-area {
 		width: 100%;
 		text-align: left;
@@ -583,6 +618,7 @@
 	}
 	#top #pickup .img-area {
 		width: 100%;
+		margin-bottom: 0;
 	}
 	#top #pickup .text-area .ttl {
 		margin-top: 10px;
@@ -595,6 +631,9 @@
 		width: 100%;
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+	#top #pickup .pickup-swiper-pagination {
+		text-align: left;
 	}
 	#top #concept .copy-area {
 		margin-right: -20px;

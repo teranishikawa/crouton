@@ -93,23 +93,23 @@
 											if((int)$thumb){
 												$img_src = '<img src="'.get_template_directory_uri().'/assets/images/topics/thumb_index_0'.$thumb.'.jpg" alt="'.get_the_title().'">';
 											}else{
-												$img_src = wp_get_attachment_image_src(CFS()->get('topics_catch'),'full');
+												$img_src = wp_get_attachment_image_src(CFS()->get('topics_catch'),'topics');
 												if($img_src) $img_src = '<img src="'.$img_src[0].'" alt="'.get_the_title().'">';
 											}
 								?>
 								<div class="swiper-slide">
-									<div class="row no-gutters no-gutters-sm align-items-center justify-content-between">
-										<div class="img-area order-sm-first">
-											<figure><?php echo $img_src ?></figure>
-										</div>
-										<div class="text-area js-clickArea">
-											<p class="label"><?php
+									<div class="row no-gutters no-gutters-sm">
+										<p class="label"><?php
 										if ($terms = get_the_terms($post->ID, 'topics_cat')){
 											foreach ( $terms as $term ){
 											echo esc_html($term->name);
 											}
 										}
 									?></p>
+										<div class="img-area order-sm-first">
+											<figure><?php echo $img_src ?></figure>
+										</div>
+										<div class="text-area js-clickArea">
 											<p class="ttl"><?php the_title(); ?></p>
 											<p class="date"><?php the_time('Y.m.d', $post->ID); ?></p>
 											<p class="more"><a href="<?php echo get_permalink() ?>" class="arrow">LEARN MORE</a></p>
@@ -443,99 +443,65 @@
 					</ul>
 				</section>
 
+<?php
+	$args = array(
+		'post_type' => 'topics',
+		'post_status' => 'publish',
+		'orderby' => 'date',
+		'orderby' => 'DESC',
+		'posts_per_page' => 6,
+	);
+	$the_query = new WP_Query($args);
+	if($the_query->have_posts()){
+?>
 				<section id="topics">
 					<div class="width-fixed">
 						<h2 data-aos="fade-right"><span class="eng line"></span>ニュース・トピックス</h2>
 						<ul class="row">
+<?php
+		while($the_query->have_posts()){
+			$the_query->the_post();
+?>
 							<li class="col-4 col-sm-6" data-aos="fade-up">
-								<a href="<?php echo esc_url( home_url('/dummy/') ); ?>">
+								<a href="<?php echo get_permalink() ?>">
 									<div class="item">
-										<figure>
-											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/topics/news_item_01.jpg" alt="">
-										</figure>
+										<figure><?php
+	$wk = CFS()->get('topics_thumb');
+	foreach ($wk as $thumb => $label){
+		break;
+	}
+	$img_src = "";
+	if((int)$thumb){
+		$img_src = '<img src="'.get_template_directory_uri().'/assets/images/topics/thumb_index_0'.$thumb.'.jpg" alt="ニュース・トピックス">';
+	}else{
+		$img_src = wp_get_attachment_image_src(CFS()->get('topics_catch'),'topics');
+		if($img_src) $img_src = '<img src="'.$img_src[0].'" alt="ニュース・トピックス">';
+	}
+?><?php echo $img_src ?></figure>
 										<div class="text-area">
-											<p class="label">商品</p>
-											<p class="ttl">冬季限定「ストロベリーフレーバー」新発売！</p>
-											<p class="date">2019.01.10</p>
+											<p class="label"><?php
+	if ($terms = get_the_terms($post->ID, 'topics_cat')){
+		foreach ( $terms as $term ){
+			echo esc_html($term->name);
+		}
+	}
+?></p>
+											<p class="ttl"><?php the_title(); ?></p>
+											<p class="date"><?php the_time('Y.m.d', $post->ID); ?></p>
 										</div>
 									</div>
 								</a>
 							</li>
-							<li class="col-4 col-sm-6" data-aos="fade-up">
-								<a href="<?php echo esc_url( home_url('/dummy/') ); ?>">
-									<div class="item">
-										<figure>
-											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/topics/news_item_02.jpg" alt="">
-										</figure>
-										<div class="text-area">
-											<p class="label">商品</p>
-											<p class="ttl">新商品「コーンポタージュフレーバー」発売！</p>
-											<p class="date">2019.01.10</p>
-										</div>
-									</div>
-								</a>
-							</li>
-							<li class="col-4 col-sm-6" data-aos="fade-up">
-								<a href="<?php echo esc_url( home_url('/dummy/') ); ?>">
-									<div class="item">
-										<figure>
-											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/topics/news_no-item.jpg" alt="">
-										</figure>
-										<div class="text-area">
-											<p class="label">お知らせ</p>
-											<p class="ttl">停電点検作業にともなう休館のお知らせ</p>
-											<p class="date">2019.01.10</p>
-										</div>
-									</div>
-								</a>
-							</li>
-							<li class="col-4 col-sm-6" data-aos="fade-up">
-								<a href="<?php echo esc_url( home_url('/dummy/') ); ?>">
-									<div class="item">
-										<figure>
-											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/topics/news_item_03.jpg" alt="">
-										</figure>
-										<div class="text-area">
-											<p class="label">商品</p>
-											<p class="ttl">冬季限定「ストロベリーフレーバー」新発売！冬季限定「ストロベリーフレーバー」新発売！</p>
-											<p class="date">2019.01.10</p>
-										</div>
-									</div>
-								</a>
-							</li>
-							<li class="col-4 col-sm-6" data-aos="fade-up">
-								<a href="<?php echo esc_url( home_url('/dummy/') ); ?>">
-									<div class="item">
-										<figure>
-											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/topics/news_no-item.jpg" alt="">
-										</figure>
-										<div class="text-area">
-											<p class="label">お知らせ</p>
-											<p class="ttl">停電点検作業にともなう休館のお知らせ</p>
-											<p class="date">2019.01.10</p>
-										</div>
-									</div>
-								</a>
-							</li>
-							<li class="col-4 col-sm-6" data-aos="fade-up">
-								<a href="<?php echo esc_url( home_url('/dummy/') ); ?>">
-									<div class="item">
-										<figure>
-											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/topics/news_item_01.jpg" alt="">
-										</figure>
-										<div class="text-area">
-											<p class="label">商品</p>
-											<p class="ttl">新商品「コーンポタージュフレーバー」発売！</p>
-											<p class="date">2019.01.10</p>
-										</div>
-									</div>
-								</a>
-							</li>
+<?php
+		}
+?>
 						</ul>
 						<p class="more"><a href="<?php echo esc_url( home_url('/topics/') ); ?>" class="arrow">LEARN MORE</a></p>
 					</div>
 				</section>
-
+<?php
+	}
+?>
 			</div>
 		</main>
 
