@@ -104,9 +104,7 @@ get_header();
                                             <dd><?php echo CFS()->get('body') ?></dd>
                                         </dl>
                                         <p class="product-price-txt"><?php echo CFS()->get('amount') ?>　税込<?php echo number_format((int)CFS()->get('in_tax')) ?>円（税抜<?php echo number_format((int)CFS()->get('out_tax')) ?>円）</p>
-<?php if(CFS()->get('url') != ""){ ?>
-                                        <p class="more"><span><a href="<?php echo CFS()->get('url') ?>" class="arrow">店舗のご案内</a></span></p>
-<?php } ?>
+                                        <p class="more"><span><a href="/access/" class="arrow">店舗のご案内</a></span></p>
                                     </div>
                                 </li>
 <?php
@@ -201,9 +199,7 @@ get_header();
                                         <dd><?php echo CFS()->get('body') ?></dd>
                                     </dl>
                                     <p class="product-price-txt"><?php echo CFS()->get('amount') ?>　税込<?php echo number_format((int)CFS()->get('in_tax')) ?>円（税抜<?php echo number_format((int)CFS()->get('out_tax')) ?>円）</p>
-<?php if(CFS()->get('url') != ""){ ?>
-                                    <p class="more"><span><a href="<?php echo CFS()->get('url') ?>" class="arrow">店舗のご案内</a></span></p>
-<?php } ?>
+                                    <p class="more"><span><a href="/access/" class="arrow">店舗のご案内</a></span></p>
                                 </div>
                             </div>
 <?php
