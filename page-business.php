@@ -54,7 +54,7 @@ get_header();
                 						<div class="text-area">
                 							<p class="comment">ごほうびにどうぞ</p>
                 							<p class="ttl"><small>塩</small>チョコレート<span class="eng">SALT DARK CHOCOLATE</span></p>
-                							<p class="more"><span><a href="/lineup/salt-dark-chocolate/" class="arrow">LEAN MORE</a></span></p>
+                							<p class="more"><span><a href="/lineup/salt-dark-chocolate/" class="arrow">LEARN MORE</a></span></p>
                 						</div>
                 					</li>
                 					<li class="col-3 col-sm-6 js-clickArea one-item" data-aos="fade-up" data-aos-delay="300">
@@ -62,7 +62,7 @@ get_header();
                 						<div class="text-area">
                 							<p class="comment">おまちどうさま</p>
                 							<p class="ttl"><small>塩</small>キャラメル<small>チョコレート</small><span class="eng">SALT CARAMEL BLONDE CHOCOLATE</span></p>
-                							<p class="more"><span><a href="/lineup/salt-caramel_blonde-chocolate/" class="arrow">LEAN MORE</a></span></p>
+                							<p class="more"><span><a href="/lineup/salt-caramel_blonde-chocolate/" class="arrow">LEARN MORE</a></span></p>
                 						</div>
                 					</li>
                 					<li class="col-3 col-sm-6 js-clickArea one-item" data-aos="fade-up" data-aos-delay="600">
@@ -70,7 +70,7 @@ get_header();
                 						<div class="text-area">
                 							<p class="comment">深みが良いね</p>
                 							<p class="ttl"><small>抹茶</small>チョコレート<span class="eng">MATCHA WHITE CHOCOLATE</span></p>
-                							<p class="more"><span><a href="/lineup/macha-white-chocolate/" class="arrow">LEAN MORE</a></span></p>
+                							<p class="more"><span><a href="/lineup/macha-white-chocolate/" class="arrow">LEARN MORE</a></span></p>
                 						</div>
                 					</li>
                 					<li class="col-3 col-sm-6 js-clickArea one-item" data-aos="fade-up" data-aos-delay="900">
@@ -78,7 +78,7 @@ get_header();
                 						<div class="text-area">
                 							<p class="comment">ちょっとひとくち</p>
                 							<p class="ttl"><small>もぎたて</small>トマト<span class="eng">TOMATO</span></p>
-                							<p class="more"><a href="/lineup/tomato/" class="arrow">LEAN MORE</a></p>
+                							<p class="more"><a href="/lineup/tomato/" class="arrow">LEARN MORE</a></p>
                 						</div>
                 					</li>
                 					<li class="col-3 col-sm-6 js-clickArea one-item" data-aos="fade-up">
@@ -86,7 +86,7 @@ get_header();
                 						<div class="text-area">
                 							<p class="comment">いつの間にかなくなる</p>
                 							<p class="ttl"><small>ホクホク</small>ポテト<span class="eng">POTATO</span></p>
-                							<p class="more"><a href="/lineup/potato/" class="arrow">LEAN MORE</a></p>
+                							<p class="more"><a href="/lineup/potato/" class="arrow">LEARN MORE</a></p>
                 						</div>
                 					</li>
                 					<li class="col-3 col-sm-6 js-clickArea one-item" data-aos="fade-up" data-aos-delay="300">
@@ -94,7 +94,7 @@ get_header();
                 						<div class="text-area">
                 							<p class="comment">あなたと食べたい</p>
                 							<p class="ttl"><small>はちみつ</small>トースト<span class="eng">TOAST</span></p>
-                							<p class="more"><a href="/lineup/toast/" class="arrow">LEAN MORE</a></p>
+                							<p class="more"><a href="/lineup/toast/" class="arrow">LEARN MORE</a></p>
                 						</div>
                 					</li>
                 					<li class="col-3 col-sm-6 js-clickArea one-item" data-aos="fade-up" data-aos-delay="600">
@@ -102,7 +102,7 @@ get_header();
                 						<div class="text-area">
                 							<p class="comment">ついつい食べちゃうよね</p>
                 							<p class="ttl"><small>コクうま</small>チーズ<span class="eng">CHEESE</span></p>
-                							<p class="more"><a href="/lineup/cheese/" class="arrow">LEAN MORE</a></p>
+                							<p class="more"><a href="/lineup/cheese/" class="arrow">LEARN MORE</a></p>
                 						</div>
                 					</li>
                 					<li class="col-3 col-sm-6 js-clickArea one-item" data-aos="fade-up" data-aos-delay="900">
@@ -110,7 +110,7 @@ get_header();
                 						<div class="text-area">
                 							<p class="comment">届けおいしさ</p>
                 							<p class="ttl"><small>やきたて</small>コーン<span class="eng">CORN</span></p>
-                							<p class="more"><a href="/lineup/corn/" class="arrow">LEAN MORE</a></p>
+                							<p class="more"><a href="/lineup/corn/" class="arrow">LEARN MORE</a></p>
                 						</div>
                 					</li>
                 					<li class="col-3 col-sm-6 js-clickArea one-item" data-aos="fade-up">
@@ -118,7 +118,7 @@ get_header();
                 						<div class="text-area">
                 							<p class="comment">さあ、いただきましょう</p>
                 							<p class="ttl"><small>おいしい</small>カレー<span class="eng">CURRY</span></p>
-                							<p class="more"><a href="/lineup/curry/" class="arrow">LEAN MORE</a></p>
+                							<p class="more"><a href="/lineup/curry/" class="arrow">LEARN MORE</a></p>
                 						</div>
                 					</li>
                 					<li class="col-3 col-sm-6 js-clickArea one-item" data-aos="fade-up" data-aos-delay="300">
@@ -126,7 +126,7 @@ get_header();
                 						<div class="text-area">
                 							<p class="comment">いっしょに休もう</p>
                 							<p class="ttl">こくとう<small>と</small>きなこ<span class="eng">BROWN SUGAR &amp; SOYBEAN FLOUR</span></p>
-                							<p class="more"><a href="/lineup/brownsugar-soybeanflour/" class="arrow">LEAN MORE</a></p>
+                							<p class="more"><a href="/lineup/brownsugar-soybeanflour/" class="arrow">LEARN MORE</a></p>
                 						</div>
                 					</li>
                 					<li class="col-3 col-sm-6 js-clickArea one-item" data-aos="fade-up" data-aos-delay="600">
@@ -134,7 +134,7 @@ get_header();
                 						<div class="text-area">
                 							<p class="comment">ほっとしたい時間に</p>
                 							<p class="ttl"><small>むらさき</small>いも<span class="eng">PURPLE SWEET POTATO</span></p>
-                							<p class="more"><a href="/lineup/purplesweetpotato/" class="arrow">LEAN MORE</a></p>
+                							<p class="more"><a href="/lineup/purplesweetpotato/" class="arrow">LEARN MORE</a></p>
                 						</div>
                 					</li>
                 					<li class="col-3 col-sm-6 js-clickArea one-item" data-aos="fade-up" data-aos-delay="900">
@@ -142,7 +142,7 @@ get_header();
                 						<div class="text-area">
                 							<p class="comment">おーい、食べよう！</p>
                 							<p class="ttl"><small>みたらし</small>醤油<span class="eng">SOY SAUCE</span></p>
-                							<p class="more"><span><a href="/lineup/soysauce/" class="arrow">LEAN MORE</a></span></p>
+                							<p class="more"><span><a href="/lineup/soysauce/" class="arrow">LEARN MORE</a></span></p>
                 						</div>
                 					</li>
                 					
@@ -205,7 +205,7 @@ get_header();
                                     <p class="cont-txt">
 かぞくのために、腕をふるう手料理のように、素材を吟味し、手間をかけ、工夫を重ねて。化学調味料・保存料など余分なものはできるだけ使わずに、温かく、自然な味わいに仕上げました。
                                     </p>
-                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/secret/birth/') ); ?>" class="arrow">LEAN MORE</a></span></p>
+                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/secret/birth/') ); ?>" class="arrow">LEARN MORE</a></span></p>
                                 </li>
                             </ul>
                         </div>
@@ -222,7 +222,7 @@ get_header();
                                     <p class="cont-txt">
                                         原材料からはじまり生産工程を隅々まで管理し、クルトン作りに携わる人すべてが品質に対して高い意識を持つことで、安心・安全なクルトンは生まれます。
                                     </p>
-                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/secret/birth/#safety') ); ?>" class="arrow">LEAN MORE</a></span></p>
+                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/secret/birth/#safety') ); ?>" class="arrow">LEARN MORE</a></span></p>
                                 </li>
                                 <li class="photo col-sm-12" data-aos="fade-left">
                                     <figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/business/business_birth.jpg" alt=""></figure>

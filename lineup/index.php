@@ -70,7 +70,7 @@
 											<div class="text-area">
 												<p class="comment">ごほうびにどうぞ</p>
 												<p class="ttl"><small>塩</small>チョコレート<span class="eng">SALT DARK CHOCOLATE</span></p>
-												<p class="more"><a href="/lineup/salt-dark-chocolate.php" class="arrow">LEAN MORE</a></p>
+												<p class="more"><a href="/lineup/salt-dark-chocolate.php" class="arrow">LEARN MORE</a></p>
 											</div>
 										</div>
 									</li>
@@ -80,7 +80,7 @@
 											<div class="text-area">
 												<p class="comment">おまちどうさま</p>
 												<p class="ttl"><small>塩</small>キャラメル<small>チョコレート</small><span class="eng">SALT CARAMEL BLONDE CHOCOLATE</span></p>
-												<p class="more"><a href="/lineup/salt-caramel_blonde-chocolate.php" class="arrow">LEAN MORE</a></p>
+												<p class="more"><a href="/lineup/salt-caramel_blonde-chocolate.php" class="arrow">LEARN MORE</a></p>
 											</div>
 										</div>
 										<div class="col-8 col-sm-12 order-sm-first" data-aos="fade-left">
@@ -96,7 +96,7 @@
 											<div class="text-area">
 												<p class="comment">深みが良いね</p>
 												<p class="ttl"><small>抹茶</small>チョコレート<span class="eng">MATCHA WHITE CHOCOLATE</span></p>
-												<p class="more"><a href="/lineup/macha-white-chocolate.php" class="arrow">LEAN MORE</a></p>
+												<p class="more"><a href="/lineup/macha-white-chocolate.php" class="arrow">LEARN MORE</a></p>
 											</div>
 										</div>
 									</li>
@@ -120,7 +120,7 @@
 										<div class="text-area">
 											<p class="comment">ちょっとひとくち</p>
 											<p class="ttl"><small>もぎたて</small>トマト<span class="eng">TOMATO</span></p>
-											<p class="more"><a href="/lineup/tomato.php" class="arrow">LEAN MORE</a></p>
+											<p class="more"><a href="/lineup/tomato.php" class="arrow">LEARN MORE</a></p>
 										</div>
 									</li>
 									<li class="col-4 col-sm-6 js-clickArea one-item" data-aos="fade-up" data-aos-delay="600">
@@ -128,7 +128,7 @@
 										<div class="text-area">
 											<p class="comment">いつの間にかなくなる</p>
 											<p class="ttl"><small>ホクホク</small>ポテト<span class="eng">POTATO</span></p>
-											<p class="more"><a href="/lineup/potato.php" class="arrow">LEAN MORE</a></p>
+											<p class="more"><a href="/lineup/potato.php" class="arrow">LEARN MORE</a></p>
 										</div>
 									</li>
 									<li class="col-4 col-sm-6 js-clickArea one-item" data-aos="fade-up" data-aos-delay="900">
@@ -136,7 +136,7 @@
 										<div class="text-area">
 											<p class="comment">あなたと食べたい</p>
 											<p class="ttl"><small>はちみつ</small>トースト<span class="eng">TOAST</span></p>
-											<p class="more"><a href="/lineup/toast.php" class="arrow">LEAN MORE</a></p>
+											<p class="more"><a href="/lineup/toast.php" class="arrow">LEARN MORE</a></p>
 										</div>
 									</li>
 									<li class="col-4 col-sm-6 js-clickArea one-item" data-aos="fade-up">
@@ -144,7 +144,7 @@
 										<div class="text-area">
 											<p class="comment">ついつい食べちゃうよね</p>
 											<p class="ttl"><small>コクうま</small>チーズ<span class="eng">CHEESE</span></p>
-											<p class="more"><a href="/lineup/cheese.php" class="arrow">LEAN MORE</a></p>
+											<p class="more"><a href="/lineup/cheese.php" class="arrow">LEARN MORE</a></p>
 										</div>
 									</li>
 									<li class="col-4 col-sm-6 js-clickArea one-item" data-aos="fade-up">
@@ -152,7 +152,7 @@
 										<div class="text-area">
 											<p class="comment">届けおいしさ</p>
 											<p class="ttl"><small>やきたて</small>コーン<span class="eng">CORN</span></p>
-											<p class="more"><a href="/lineup/corn.php" class="arrow">LEAN MORE</a></p>
+											<p class="more"><a href="/lineup/corn.php" class="arrow">LEARN MORE</a></p>
 										</div>
 									</li>
 									<li class="col-4 col-sm-6 js-clickArea one-item" data-aos="fade-up">
@@ -160,7 +160,7 @@
 										<div class="text-area">
 											<p class="comment">さあ、いただきましょう</p>
 											<p class="ttl"><small>おいしい</small>カレー<span class="eng">CURRY</span></p>
-											<p class="more"><a href="/lineup/curry.php" class="arrow">LEAN MORE</a></p>
+											<p class="more"><a href="/lineup/curry.php" class="arrow">LEARN MORE</a></p>
 										</div>
 									</li>
 									<li class="col-4 col-sm-6 js-clickArea one-item" data-aos="fade-up">
@@ -168,7 +168,7 @@
 										<div class="text-area">
 											<p class="comment">いっしょに休もう</p>
 											<p class="ttl">こくとう<small>と</small>きなこ<span class="eng">BROWN SUGAR &amp; SOYBEAN FLOUR</span></p>
-											<p class="more"><a href="/lineup/brownsugar-soybeanflour/" class="arrow">LEAN MORE</a></p>
+											<p class="more"><a href="/lineup/brownsugar-soybeanflour/" class="arrow">LEARN MORE</a></p>
 										</div>
 									</li>
 									<li class="col-4 col-sm-6 js-clickArea one-item" data-aos="fade-up">
@@ -176,7 +176,7 @@
 										<div class="text-area">
 											<p class="comment">ほっとしたい時間に</p>
 											<p class="ttl"><small>むらさき</small>いも<span class="eng">PURPLE SWEET POTATO</span></p>
-											<p class="more"><a href="/lineup/purplesweetpotato.php" class="arrow">LEAN MORE</a></p>
+											<p class="more"><a href="/lineup/purplesweetpotato.php" class="arrow">LEARN MORE</a></p>
 										</div>
 									</li>
 									<li class="col-4 col-sm-6 js-clickArea one-item" data-aos="fade-up">
@@ -184,7 +184,7 @@
 										<div class="text-area">
 											<p class="comment">おーい、食べよう！</p>
 											<p class="ttl"><small>みたらし</small>醤油<span class="eng">SOY SAUCE</span></p>
-											<p class="more"><span><a href="/lineup/soysauce.php" class="arrow">LEAN MORE</a></span></p>
+											<p class="more"><span><a href="/lineup/soysauce.php" class="arrow">LEARN MORE</a></span></p>
 										</div>
 									</li>
 								</ul>
@@ -225,7 +225,7 @@
 										<figure class="col-7 col-sm-12 zoom" data-aos="fade-right"><img src="/assets/images/lineup/idx_giftset.jpg" alt="ギフトセット"></figure>
 										<div class="col-5 col-sm-12 text-area" data-aos="fade-left">
 											<p class="ttl">贈り物に最適な<br>ギフトセットのご案内</p>
-											<p class="more"><span><a href="/gift/" class="arrow">LEAN MORE</a></span></p>
+											<p class="more"><span><a href="/gift/" class="arrow">LEARN MORE</a></span></p>
 										</div>
 									</div>
 								</li>
@@ -242,7 +242,7 @@
 								<div class="text-area col-sm-5">
 									<p class="ttl">かぞくのクルトンのひみつ</p>
 									<p class="eng">SECRET OF CROUTON</p>
-									<p class="more"><span><a href="/secret/" class="arrow">LEAN MORE</a></span></p>
+									<p class="more"><span><a href="/secret/" class="arrow">LEARN MORE</a></span></p>
 								</div>
 							</li>
 							<li class="col-4 col-sm-12 one-item js-clickArea active" data-aos="fade-up">
@@ -250,7 +250,7 @@
 								<div class="text-area col-sm-5 order-sm-first">
 									<p class="ttl">ラインナップ</p>
 									<p class="eng">LINE UP</p>
-									<p class="more"><span><a href="/lineup/" class="arrow">LEAN MORE</a></span></p>
+									<p class="more"><span><a href="/lineup/" class="arrow">LEARN MORE</a></span></p>
 								</div>
 							</li>
 							<li class="col-4 col-sm-12 one-item js-clickArea" data-aos="fade-up">
@@ -258,7 +258,7 @@
 								<div class="text-area col-sm-5">
 									<p class="ttl">ギフトセット</p>
 									<p class="eng">GIFT SET</p>
-									<p class="more"><span><a href="/secret/" class="arrow">LEAN MORE</a></span></p>
+									<p class="more"><span><a href="/secret/" class="arrow">LEARN MORE</a></span></p>
 								</div>
 							</li>
 						</ul>

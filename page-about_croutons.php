@@ -83,7 +83,7 @@ get_header();
                                     <div class="text-area" data-aos="fade-left">
                                         <p class="catch">かぞくのクルトン誕生のひみつ</p>
                                         <p class="cont-txt">とても個性的なお菓子である「かぞくのクルトン」が生まれた背景には、半世紀以上に渡る小麦に関わるノウハウと想いが詰まっています。</p>
-                                        <p class="more"><span><a href="<?php echo esc_url( home_url('/secret/birth/') ); ?>"    class="arrow">LEAN MORE</a></span></p>
+                                        <p class="more"><span><a href="<?php echo esc_url( home_url('/secret/birth/') ); ?>"    class="arrow">LEARN MORE</a></span></p>
                                     </div>
                                 </li>
                             </ul>
@@ -98,21 +98,21 @@ get_header();
                                 <figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_brandconcept.jpg" alt=""></figure>
                                 <div class="text-area col-sm-5">
                                     <p class="ttl">ブランドコンセプト</p>
-                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/concept/') ); ?>" class="arrow">LEAN MORE</a></span></p>
+                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/concept/') ); ?>" class="arrow">LEARN MORE</a></span></p>
                                 </div>
                             </li>
                             <li class="col-4 col-sm-12 one-item js-clickArea active" data-aos="fade-up" data-aos-delay="300">
                                 <figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_secret.jpg" alt=""></figure>
                                 <div class="text-area col-sm-5">
                                     <p class="ttl">かぞくのクルトンのひみつ</p>
-                                    <p class="more"><span><a href="/secret/" class="arrow">LEAN MORE</a></span></p>
+                                    <p class="more"><span><a href="/secret/" class="arrow">LEARN MORE</a></span></p>
                                 </div>
                             </li>
                             <li class="col-4 col-sm-12 one-item js-clickArea active" data-aos="fade-up" data-aos-delay="600">
                                 <figure class="zoom col-sm-7"><span><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_lineup.jpg" alt=""></span></figure>
                                 <div class="text-area col-sm-5 order-sm-first">
                                     <p class="ttl">ラインナップ</p>
-                                    <p class="more"><span><a href="/lineup/" class="arrow">LEAN MORE</a></span></p>
+                                    <p class="more"><span><a href="/lineup/" class="arrow">LEARN MORE</a></span></p>
                                 </div>
                             </li>
                         </ul>

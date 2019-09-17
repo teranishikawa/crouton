@@ -112,7 +112,7 @@
 									?></p>
 											<p class="ttl"><?php the_title(); ?></p>
 											<p class="date"><?php the_time('Y.m.d', $post->ID); ?></p>
-											<p class="more"><a href="<?php echo get_permalink() ?>" class="arrow">LEAN MORE</a></p>
+											<p class="more"><a href="<?php echo get_permalink() ?>" class="arrow">LEARN MORE</a></p>
 										</div>
 										
 									</div>
@@ -145,7 +145,7 @@
 							<p class="tx-concept" data-aos="fade-left" data-aos-delay="900">
 								<p data-aos="zoom-in-left" data-aos-delay="100">食卓は、心をつくる。</p><p data-aos="zoom-in-left" data-aos-delay="300">心を寄せあう、分けあう、重ねあう場所だから。</p><p data-aos="zoom-in-left" data-aos-delay="500">かぞくとは、大切な人との絆。</p><p data-aos="zoom-in-left" data-aos-delay="600">かぞくの心の温もりが届いたら、</p><p data-aos="zoom-in-left" data-aos-delay="800">心の食卓はつながって、かぞくの絆がつくられる。</p><p data-aos="zoom-in-left" data-aos-delay="1000">離れていたって、心はひとりにならない。</p>
 							<p data-aos="zoom-in-left" data-aos-delay="1200">食卓がつくる、絆をもっと。</p><p data-aos="zoom-in-left" data-aos-delay="1400">かぞくのクルトン</p>
-							<p class="more" data-aos="fade-right" data-aos-delay="1600"><a href="<?php echo esc_url( home_url('/concept/') ); ?>" class="arrow">LEAN MORE</a></p>
+							<p class="more" data-aos="fade-right" data-aos-delay="1600"><a href="<?php echo esc_url( home_url('/concept/') ); ?>" class="arrow">LEARN MORE</a></p>
 						</div>
 						<!--
 						<div class="row no-gutters no-gutters-sm justify-content-between">
@@ -155,7 +155,7 @@
 									<p class="copy" data-aos=""><img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/tx_concept01.png" alt="食卓がつくる、絆をもっと。" class="w-auto"></p>
 								</div>
 								<p class="tx-concept" data-aos="">食卓は、心をつくる。<br>心を寄せあう、分けあう、重ねあう場所だから。<br>かぞくとは、大切な人との絆。<br>かぞくの心の温もりが届いたら、<br>心の食卓はつながって、かぞくの絆がつくられる。<br>離れていたって、心はひとりにならない。</p>
-								<p class="more"><a href="<?php echo esc_url( home_url('/concept/') ); ?>" class="arrow">LEAN MORE</a></p>
+								<p class="more"><a href="<?php echo esc_url( home_url('/concept/') ); ?>" class="arrow">LEARN MORE</a></p>
 							</div>
 							<div class="roll-area" style="overflow:hidden">
 								<div id="js-roll-slick-container">
@@ -298,7 +298,7 @@
 											</a>
 										</td>
 										<td class="more-link">
-											<p class="more"><a href="<?php echo esc_url( home_url('/lineup/') ); ?>" class="arrow">LEAN MORE</a></p>
+											<p class="more"><a href="<?php echo esc_url( home_url('/lineup/') ); ?>" class="arrow">LEARN MORE</a></p>
 										</td>
 									</tr>
 								</tbody>
@@ -392,7 +392,7 @@
 											</a>
 										</td>
 										<td colspan="2" class="more-link">
-											<p class="more"><a href="<?php echo esc_url( home_url('/lineup/') ); ?>" class="arrow">LEAN MORE</a></p>
+											<p class="more"><a href="<?php echo esc_url( home_url('/lineup/') ); ?>" class="arrow">LEARN MORE</a></p>
 										</td>
 									</tr>
 								</tbody>
@@ -408,37 +408,37 @@
 							<div class="row no-gutters no-gutters-sm js-clickArea">
 								<div class="col-6 col-sm-12 text-area" data-aos="fade-right">
 									<h2><span class="eng line"></span>かぞくのクルトンのひみつ</h2>
-									<p class="more forPC"><a href="<?php echo esc_url( home_url('/secret/') ); ?>" class="arrow">LEAN MORE</a></p>
+									<p class="more forPC"><a href="<?php echo esc_url( home_url('/secret/') ); ?>" class="arrow">LEARN MORE</a></p>
 								</div>
 								<figure class="col-6 col-sm-12" data-aos="fade-left">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/idx_secret.jpg" alt="">
 								</figure>
 							</div>
-							<p class="more forSP"><a href="<?php echo esc_url( home_url('/secret/') ); ?>" class="arrow">LEAN MORE</a></p>
+							<p class="more forSP"><a href="<?php echo esc_url( home_url('/secret/') ); ?>" class="arrow">LEARN MORE</a></p>
 						</li>
 						<li id="recipe">
 							<div class="row no-gutters no-gutters-sm js-clickArea">
 								<div class="col-6 col-sm-12 text-area order-last order-sm-first" data-aos="fade-left">
 									<h2><span class="eng line"></span>おいしいお召し上がり方</h2>
-									<p class="more forPC"><a href="<?php echo esc_url( home_url('/recipe/') ); ?>" class="arrow">LEAN MORE</a></p>
+									<p class="more forPC"><a href="<?php echo esc_url( home_url('/recipe/') ); ?>" class="arrow">LEARN MORE</a></p>
 								</div>
 								<figure class="col-6 col-sm-12" data-aos="fade-right">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/idx_recipe.jpg" alt="">
 								</figure>
 							</div>
-							<p class="more forSP"><a href="<?php echo esc_url( home_url('/recipe/') ); ?>" class="arrow">LEAN MORE</a></p>
+							<p class="more forSP"><a href="<?php echo esc_url( home_url('/recipe/') ); ?>" class="arrow">LEARN MORE</a></p>
 						</li>
 						<li id="gift">
 							<div class="row no-gutters no-gutters-sm js-clickArea">
 								<div class="col-6 col-sm-12 text-area" data-aos="fade-right">
 									<h2><span class="eng line"></span>ギフトセット</h2>
-									<p class="more forPC"><a href="<?php echo esc_url( home_url('/gift/') ); ?>" class="arrow">LEAN MORE</a></p>
+									<p class="more forPC"><a href="<?php echo esc_url( home_url('/gift/') ); ?>" class="arrow">LEARN MORE</a></p>
 								</div>
 								<figure class="col-6 col-sm-12" data-aos="fade-left">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/idx_gift.jpg" alt="">
 								</figure>
 							</div>
-							<p class="more forSP"><a href="<?php echo esc_url( home_url('/gift/') ); ?>" class="arrow">LEAN MORE</a></p>
+							<p class="more forSP"><a href="<?php echo esc_url( home_url('/gift/') ); ?>" class="arrow">LEARN MORE</a></p>
 						</li>
 					</ul>
 				</section>
@@ -532,7 +532,7 @@
 								</a>
 							</li>
 						</ul>
-						<p class="more"><a href="<?php echo esc_url( home_url('/topics/') ); ?>" class="arrow">LEAN MORE</a></p>
+						<p class="more"><a href="<?php echo esc_url( home_url('/topics/') ); ?>" class="arrow">LEARN MORE</a></p>
 					</div>
 				</section>
 

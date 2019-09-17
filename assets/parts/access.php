@@ -7,7 +7,7 @@
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/footer_shop.jpg" alt="かぞくのクルトン　店舗写真">
 						<div class="forPC">
 								<ul class="links justify-content-end">
-								<li><a href="<?php echo esc_url( home_url('/access/') ); ?>" class="arrow">LEAN MORE</a></li>
+								<li><a href="<?php echo esc_url( home_url('/access/') ); ?>" class="arrow">LEARN MORE</a></li>
 								<li><a href="<?php echo esc_url( home_url('/dummy/') ); ?>" class="arrow" target="_blank">MAP</a></li>
 							</ul>
 						</div>
@@ -25,7 +25,7 @@
 						</div>
 						<div class="forSP">
 								<ul class="links justify-content-end">
-								<li><a href="<?php echo esc_url( home_url('/access/') ); ?>" class="arrow">LEAN MORE</a></li>
+								<li><a href="<?php echo esc_url( home_url('/access/') ); ?>" class="arrow">LEARN MORE</a></li>
 								<li><a href="<?php echo esc_url( home_url('/dummy/') ); ?>" class="arrow" target="_blank">ZOOM MAP</a></li>
 							</ul>
 						</div>

@@ -83,7 +83,7 @@
 									<dt><?php the_title(); ?></dt>
 								</dl>
 								<time><?php the_time('Y.m.d', $post->ID); ?></time>
-								<p class="more"><a href="<?php echo get_permalink() ?>" class="arrow">LEAN MORE</a></p>
+								<p class="more"><a href="<?php echo get_permalink() ?>" class="arrow">LEARN MORE</a></p>
 								</a>
 								</div>
 							</li>
@@ -121,7 +121,7 @@ if(function_exists('wp_pagenavi')){
 								<figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_brandconcept.jpg" alt=""></figure>
 								<div class="text-area col-sm-5">
 									<p class="ttl">ブランドコンセプト</p>
-									<p class="more"><span><a href="<?php echo esc_url( home_url('/concept/') ); ?>" class="arrow">LEAN MORE</a></span></p>
+									<p class="more"><span><a href="<?php echo esc_url( home_url('/concept/') ); ?>" class="arrow">LEARN MORE</a></span></p>
 								</div>
 							</li>
 						</ul>

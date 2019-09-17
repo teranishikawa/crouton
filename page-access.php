@@ -59,7 +59,7 @@ get_header();
 								<div class="text-area col-sm-5">
 									<p class="ttl">かぞくのクルトンのひみつ</p>
 									<p class="eng">SECRET OF CROUTON</p>
-									<p class="more"><span><a href="/secret/" class="arrow">LEAN MORE</a></span></p>
+									<p class="more"><span><a href="/secret/" class="arrow">LEARN MORE</a></span></p>
 								</div>
 							</li>
 							<li class="col-4 col-sm-12 one-item js-clickArea active" data-aos="fade-up" data-aos-delay="300">
@@ -67,7 +67,7 @@ get_header();
 								<div class="text-area col-sm-5 order-sm-first">
 									<p class="ttl">ラインナップ</p>
 									<p class="eng">LINE UP</p>
-									<p class="more"><span><a href="/lineup/" class="arrow">LEAN MORE</a></span></p>
+									<p class="more"><span><a href="/lineup/" class="arrow">LEARN MORE</a></span></p>
 								</div>
 							</li>
 							<li class="col-4 col-sm-12 one-item js-clickArea" data-aos="fade-up" data-aos-delay="600">
@@ -75,7 +75,7 @@ get_header();
 								<div class="text-area col-sm-5">
 									<p class="ttl">ギフトセット</p>
 									<p class="eng">GIFT SET</p>
-									<p class="more"><span><a href="/secret/" class="arrow">LEAN MORE</a></span></p>
+									<p class="more"><span><a href="/secret/" class="arrow">LEARN MORE</a></span></p>
 								</div>
 							</li>
 						</ul>

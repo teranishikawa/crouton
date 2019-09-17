@@ -134,7 +134,7 @@
 										<figure class="col-7 col-sm-12 zoom" data-aos="fade-right"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/lineup/idx_giftset.jpg" alt="ギフトセット"></figure>
 										<div class="col-5 col-sm-12 text-area" data-aos="fade-left">
 											<p class="ttl">贈り物に最適な<br>ギフトセットのご案内</p>
-											<p class="more"><span><a href="/gift/" class="arrow">LEAN MORE</a></span></p>
+											<p class="more"><span><a href="/gift/" class="arrow">LEARN MORE</a></span></p>
 										</div>
 									</div>
 								</li>
@@ -153,7 +153,7 @@
 								<div class="text-area">
 									<p class="ttl">かぞくのクルトンのひみつ</p>
 									<p class="eng">SECRET OF CROUTON</p>
-									<p class="more"><span><a href="/secret/" class="arrow">LEAN MORE</a></span></p>
+									<p class="more"><span><a href="/secret/" class="arrow">LEARN MORE</a></span></p>
 								</div>
 							</li>
 							<li class="col-4 col-sm-12 one-item js-clickArea active" data-aos="fade-up">
@@ -161,7 +161,7 @@
 								<div class="text-area">
 									<p class="ttl">ラインナップ</p>
 									<p class="eng">LINE UP</p>
-									<p class="more"><span><a href="/lineup/" class="arrow">LEAN MORE</a></span></p>
+									<p class="more"><span><a href="/lineup/" class="arrow">LEARN MORE</a></span></p>
 								</div>
 							</li>
 							<li class="col-4 col-sm-12 one-item js-clickArea" data-aos="fade-up">
@@ -169,7 +169,7 @@
 								<div class="text-area">
 									<p class="ttl">ギフトセット</p>
 									<p class="eng">GIFT SET</p>
-									<p class="more"><span><a href="/secret/" class="arrow">LEAN MORE</a></span></p>
+									<p class="more"><span><a href="/secret/" class="arrow">LEARN MORE</a></span></p>
 								</div>
 							</li>
 						</ul>

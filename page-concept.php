@@ -85,14 +85,11 @@ get_header();
 								</li>
 								<li class="text-area col-sm-12" data-aos="fade-left">
 									<p class="cont-txt">
-										朝起きるのが苦手な私に同僚からすすめられて以来、一番のお気に入りは
-										朝の読書と「はちみつトースト」。<br>
-										口に入れるとクルトンの食感とはちみつの甘さが
-										ブラックコーヒーの苦みとほどよく混ざりあう。<br>
-										起きがけの冷えた身体がじんわり温まり、
-										少し眠い頭に文字とともに染み渡っていく。<br>
-										この日課のお陰で、いつしか朝のこの時間を迎えるのが大の楽しみに。<br><br>
-										同僚には、お返しのかぞくのクルトンをいっぱい持っていこう。
+										ここのところ毎朝食べているのは、母から届いた「かぞくのクルトン」。<br>
+										「珍しいお菓子を発見したから送ったよ！」と言っているけれど、きっと私が朝食を食べず、コーヒーだけで済ませることを知って、気遣ってくれたのだろう。<br>
+										眠気覚ましのブラックコーヒーと「はちみつトースト」の甘さがマッチして、食欲のない朝でもついつい手が伸びてしまう。<br>
+										口にするたびに、「ちゃんと食べてる？」と母の声が聞こえるようで、何だかうれしい。お母さん、ありがとう。<br>
+										誕生日に、今度は私から送ってみようかな。
 									</p>
 								</li>
 							</ul>
@@ -112,14 +109,12 @@ get_header();
 									<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/story_lunch_2.jpg" alt=""></figure>
 								</li>
 								<li class="text-area col-sm-12 order-first" data-aos="fade-left">
-									<p class="cont-txt">結婚報告をかねて、
-										学生時代の友人を招いてランチパーティー。<br>
-										なつかしい顔に、想い出話の花が咲く。<br>
-										食後は紅茶にチョコレートのクルトンで夫がおもてなし。<br>
-										おいしいクルトンと自慢の夫に色めき立つ友人に私は何だか鼻高々。
-										まろやかなチョコレートのコクに包まれたクルトンと、
-										ほんのりとした紅茶の苦味がマッチして、
-										お互い少し緊張していた友人と夫の会話も弾んでいく。
+									<p class="cont-txt">久しぶりに息子夫婦がやってきました。<br>
+										かぞくなんだから特別なことはしなくてもいいはずなのに、お菓子や果物をテーブルに並べてしまいます。<br>
+										いつまで経っても「子どもは子ども」ということでしょうね。<br>
+										お嫁さんは用意したチョコレートのクルトンを「これ美味しい」と言って、たくさん食べてくれます。<br>
+										そんな彼女を見て笑みがこぼれる私たち両親に、「もうすぐかぞくが増えるんだ」と息子がひと言。えっ、私、おばあちゃんになるの？<br>
+										新しいかぞくがクルトンを食べられる日はまだ先だけど、そのころにはこんな食卓を囲めるといいですね。
 									</p>
 								</li>
 							</ul>
@@ -139,13 +134,11 @@ get_header();
 									<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/story_afternoon_2.jpg" alt=""></figure>
 								</li>
 								<li class="text-area col-sm-12 order-first" data-aos="fade-left">
-									<p class="cont-txt">今日のティータイムのお供は、3色の色合いが鮮やかなクルトン。<br>
-										「やきたてコーン」のしょっぱさと「むらさきいも」と「はちみつトースト」の甘さと紅茶の苦味の組み合わせに、
-										ついつい手が伸びて、久しぶりに来てくれた母と話が弾む。<br>
-										ねえ、そろそろじゃない？
-										そういえば、もう娘を迎えに行く時間。
-										話に集中していた母も、娘に早く会いたくてそわそわ顔。<br><br>
-										今日の買い物は母と娘、三人で行こうか。
+									<p class="cont-txt">近くに住んでいる母は、何かにつけて私の家にやってきます。<br>
+										今日も午後のほっとする時間帯を見計らうようにチャイムが鳴ります。来るなり「天気がいいから庭でお茶にしましょう」と勝手に段取りをする母。完全に自分の家だと思っています（笑）。<br>
+										今日のお供は、色合いが鮮やかなクルトンを三種類。「やきたてコーン」のしょっぱさ、「むらさきいも」と「はちみつトースト」の甘さ、どれもが紅茶のほんのりとした苦味に合って、なんだかいつもより会話も弾んだような気がします。<br>
+										「そろそろじゃない？」孫娘の通園バスが着く時間を把握している母。ねえ、お迎えから帰ってきたら、一緒におやつにしようか。
+
 									</p>
 								</li>
 							</ul>
@@ -165,13 +158,9 @@ get_header();
 									<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/story_children_2.jpg" alt=""></figure>
 								</li>
 								<li class="text-area col-sm-12" data-aos="fade-left">
-									<p class="cont-txt">遊び盛りの息子が帰ってくると、<br>
-										決まって言うのは「お腹がすいた！」の一言。<br>
-										そんなときには「やきたてコーン」と「おいしいカレー」。
-										それは、仕事から帰ってきた母が決まって留守番のご褒美にくれた昔なつかしい味。<br>
-										喜んでサクサクほおばりながら、学校での出来事を自慢気に話す顔に心が満たされ、母の気持ちを思い起こす。<br>
-										そして、お決まりのセリフを私も伝えるのだ。<br><br>
-										もっとおいしい晩ごはんがあるのをお忘れなく。
+									<p class="cont-txt">遊び盛りの息子が帰ってくると、決まって言うのは「お腹がすいた！」の一言。<br>
+										そんな彼に、今日は「やきたてコーン」と「おいしいカレー」を用意。それは私にとって懐かしい味。一口食べれば、母が留守番のごほうびにと、仕事帰りに買ってきてくれた焼きとうもろこしと、それを頬張りながら一日の出来ごとを話す私や、母の手作りカレーをみんなでうれしそうに食べている食卓が浮かんでくる。<br>
+										息子もクルトンを食べながら、学校での出来事を自慢気に話してくれます。かぞくの絆を感じる、かけがえのないこの時間。母もきっと、こんな気持だったのでしょうね。
 									</p>
 								</li>
 							</ul>
@@ -213,21 +202,21 @@ get_header();
 								<figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_brandconcept.jpg" alt=""></figure>
 								<div class="text-area col-sm-5">
 									<p class="ttl">ブランドコンセプト</p>
-									<p class="more"><span><a href="<?php echo esc_url( home_url('/concept/') ); ?>" class="arrow">LEAN MORE</a></span></p>
+									<p class="more"><span><a href="<?php echo esc_url( home_url('/concept/') ); ?>" class="arrow">LEARN MORE</a></span></p>
 								</div>
 							</li>
 							<li class="col-4 col-sm-12 one-item js-clickArea" data-aos="fade-up" data-aos-delay="300">
 								<figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_secret.jpg" alt=""></figure>
 								<div class="text-area col-sm-5">
 									<p class="ttl">かぞくのクルトンのひみつ</p>
-									<p class="more"><span><a href="<?php echo esc_url( home_url('/secret/') ); ?>" class="arrow">LEAN MORE</a></span></p>
+									<p class="more"><span><a href="<?php echo esc_url( home_url('/secret/') ); ?>" class="arrow">LEARN MORE</a></span></p>
 								</div>
 							</li>
 							<li class="col-4 col-sm-12 one-item js-clickArea" data-aos="fade-up" data-aos-delay="600">
 								<figure class="zoom col-sm-7"><span><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_lineup.jpg" alt=""></span></figure>
 								<div class="text-area col-sm-5 order-sm-first">
 									<p class="ttl">ラインナップ</p>
-									<p class="more"><span><a href="<?php echo esc_url( home_url('/lineup/') ); ?>" class="arrow">LEAN MORE</a></span></p>
+									<p class="more"><span><a href="<?php echo esc_url( home_url('/lineup/') ); ?>" class="arrow">LEARN MORE</a></span></p>
 								</div>
 							</li>						
 						</ul>

@@ -8,7 +8,7 @@
 				<div class="main-visual">
 					<div class="inner">
 						<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/lineup/lineup_potato_mv_pc.jpg" alt="ホクホクポテト" class="js-switch"></figure>
-						<h2><small>ちょっとひとくち</small>ホクホクポテト<span class="eng">TOMATO</span></h2>
+						<h2><small>ちょっとひとくち</small>ホクホクポテト<span class="eng">POTATO</span></h2>
 					</div>
 				</div>
 
@@ -138,7 +138,7 @@
 										<figure class="col-7 col-sm-12 zoom" data-aos="fade-right"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/lineup/idx_giftset.jpg" alt="ギフトセット"></figure>
 										<div class="col-5 col-sm-12 text-area" data-aos="fade-left">
 											<p class="ttl">贈り物に最適な<br>ギフトセットのご案内</p>
-											<p class="more"><span><a href="/gift/" class="arrow">LEAN MORE</a></span></p>
+											<p class="more"><span><a href="/gift/" class="arrow">LEARN MORE</a></span></p>
 										</div>
 									</div>
 								</li>
