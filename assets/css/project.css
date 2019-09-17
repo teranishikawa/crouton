@@ -177,7 +177,7 @@ header #site-navi > ul > li > a:not(.current):before {
 	bottom: 0;
 	right: 0;
 	left: 0;
-	width: 50%;
+	width: 80%;
 	height: 1px;
 	margin: auto;
 	background: #000;
@@ -193,7 +193,7 @@ header #site-navi > ul > li > a.current:before {
 	bottom: 0;
 	right: 0;
 	left: 0;
-	width: 60px;
+	width: 80%;
 	height: 1px;
 	margin: auto;
 	background: #000;
