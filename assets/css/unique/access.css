@@ -47,7 +47,9 @@
     font-weight: 600;
 }
 
-
+#btn_store{
+    display: none;
+}
 
 
 /* responsive */

@@ -34,7 +34,7 @@ get_header();
 						</div>
 
 						<div class="example width-fixed">
-							<h3 class="title" data-aos="fade-right"><span class="eng line">EXAMPLE</span>おいしいお召し上がり方の例</h3>
+							<h3 class="title" data-aos="fade-right"><span class="eng line"></span>おいしいお召し上がり方の例</h3>
 							<ul>
 								<li data-aos="fade-up"><figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/example_01.jpg" alt="ビールのおつまみに"><figcaption>01</figcaption></figure><p>ビールのおつまみに</p></li>
 								<li data-aos="fade-up" data-aos-delay="300"><figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/example_02.jpg" alt="サラダにのせて"><figcaption>02</figcaption></figure><p>サラダにのせて</p></li>
@@ -51,14 +51,14 @@ get_header();
 				 <section class="wide next_link">
                     <div class="inner">
                         <div class="width-fixed">
-                            <h3 class="title" data-aos="fade-left"><span class="eng line"></span></h3>
+                            <h3 class="title" data-aos="fade-left"><span class="eng line"></span>アレンジレシピ</h3>
                             <ul>
                                 <li class=" js-clickArea row no-gutters no-gutters-sm justify-content-between align-items-center flex-sm-column">
                                     <div class="photo" data-aos="fade-right">
                                         <figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/idx_recipe.jpg" alt="アレンジレシピ"></figure>
                                     </div>
                                     <div class="text-area" data-aos="fade-left">
-                                        <p class="catch">アレンジレシピ</p>
+                                        <p class="catch">さらにおいしくお召し上がりいただくために</p>
                                         <p class="cont-txt">かぞくのクルトンをさらにおいしくお召し上がりいただくために、
 															プロのテーブルスタイリストが考案したアレンジレシピをご用意しました。
 															味わいも彩りもさらに豊かになるクルトンレシピをぜひお試しください。</p>
@@ -85,17 +85,17 @@ get_header();
 								</div>
 							</li>
 							<li class="col-4 col-sm-12 one-item js-clickArea active" data-aos="fade-up" data-aos-delay="300">
-                                <figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_recipe.jpg" alt=""></figure>
+                                <figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_delicious.jpg" alt=""></figure>
                                 <div class="text-area col-sm-5">
                                     <p class="ttl">おいしいお召し上がり方</p>
                                     <p class="more"><span><a href="<?php echo esc_url( home_url('/delicious/') ); ?>" class="arrow">LEARN MORE</a></span></p>
                                 </div>
                             </li>
                             <li class="col-4 col-sm-12 one-item js-clickArea" data-aos="fade-up" data-aos-delay="600">
-                                <figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_news.jpg" alt=""></figure>
+                                <figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_recipe.jpg" alt=""></figure>
                                 <div class="text-area col-sm-5">
-                                    <p class="ttl">ニュース・トピックス</p>
-                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/topics/') ); ?>" class="arrow">LEARN MORE</a></span></p>
+                                    <p class="ttl">アレンジレシピ</p>
+                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/recipe/') ); ?>" class="arrow">LEARN MORE</a></span></p>
                                 </div>
                             </li>
 						</ul>

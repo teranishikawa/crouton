@@ -17,10 +17,10 @@ get_header();
                     <div class="inner width-fixed">
                     	<h3 class="title" data-aos="fade-right">2019年10月末オープン予定！</h3>
                         <!--<h3 class="title" data-aos="fade-right">私たちのお店にお越しください</h3>-->
-                        <p class="cont-txt">
-お店には「かぞくのクルトン」すべての種類をご用意しています。<br class="pc">
-もちろんご試食していただくことができます。<br class="pc">
-味と楽しさを実感していただくために、ぜひご来店ください。
+                        <p class="cont-txt" data-aos="fade-up">
+							お店には「かぞくのクルトン」すべての種類をご用意しています。<br class="pc">
+							もちろんご試食していただくことができます。<br class="pc">
+							味と楽しさを実感していただくために、ぜひご来店ください。
                         </p>
                     </div>
                 </section>
@@ -28,25 +28,25 @@ get_header();
 				<section class="wide info-access">
                     <div class="inner">
                         <h3 class="title" data-aos="fade-left"><span class="eng line"></span>店舗案内</h3>
-						<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/access/store_1.jpg" alt="店舗案内" class="js-switch"></figure>
+						<figure data-aos="fade-up"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/access/store_1.jpg" alt="店舗案内" class="js-switch"></figure>
                     </div>
                 </section>
 
 				<section class="wide time-access">
                     <div class="inner">
                         <h3 class="title" data-aos="fade-left"><span class="eng line"></span>営業時間</h3>
-                        <p class="cont-txt">11:00～19：00　水曜定休</p>
+                        <p class="cont-txt" data-aos="fade-left">11:00～19：00　水曜定休</p>
                     </div>
                 </section>
 
 				<section class="wide map-access">
                     <div class="inner">
                         <h3 class="title" data-aos="fade-left"><span class="eng line"></span>アクセスマップ</h3>
-						<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/access/store_map.png" alt="店舗案内" class="js-switch"></figure>
-                        <p class="store-name">かぞくのクルトン　本山本店</p>
-                        <p class="store-address">〒464-0819<br class="sp">名古屋市千種区四谷通1-1<br class="sp">イリヤ本山1F<br>TEL:052-789-1008</p>
-                        <p class="store-access">地下鉄東山線　4番出口より徒歩3分　愛知工業大学すぐ南</p>
-                        <a href="#" class="arrow" target="_blank">MAP</a>
+						<figure data-aos="fade-up"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/access/store_map.png" alt="店舗案内" class="js-switch"></figure>
+                        <p class="store-name" data-aos="fade-left">かぞくのクルトン　本山本店</p>
+                        <p class="store-address" data-aos="fade-up">〒464-0819<br class="sp">名古屋市千種区四谷通1-1<br class="sp">イリヤ本山1F<br>TEL:052-789-1008</p>
+                        <p class="store-access" data-aos="fade-up">地下鉄東山線　4番出口より徒歩3分　愛知工業大学すぐ南</p>
+                        <a href="#" class="arrow" target="_blank" data-aos="fade-up">MAP</a>
                         </p>
                     </div>
                 </section>

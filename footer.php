@@ -13,10 +13,10 @@
 					<li class="col-4 col-sm-12 order-sm-9"><a href="<?php echo esc_url( home_url('/inquiry/') ); ?>" class="arrow only">お問い合わせ</a></li>	
 					<li class="col-4 col-sm-12 order-sm-2"><a href="<?php echo esc_url( home_url('/lineup/') ); ?>" class="arrow only">ラインナップ</a></li>	
 					<li class="col-4 col-sm-12 order-sm-6"><a href="<?php echo esc_url( home_url('/access/') ); ?>" class="arrow only">店舗紹介・アクセス</a></li>
-					<li class="col-4 col-sm-12 order-sm-10"><a href="https://hotey.co.jp/recruit/" class="blank" class="arrow only">採用情報</a></li>
+					<li class="col-4 col-sm-12 order-sm-10"><a href="https://hotey.co.jp/recruit/" class="blank">採用情報</a></li>
 					<li class="col-4 col-sm-12 order-sm-3"><a href="<?php echo esc_url( home_url('/gift/') ); ?>" class="arrow only">ギフトセット</a></li>
 					<li class="col-4 col-sm-12 order-sm-7"><a href="<?php echo esc_url( home_url('/topics/') ); ?>" class="arrow only">ニュース・トピックス</a></li>
-					<li class="col-4 col-sm-12 order-sm-11"><a href="https://hotey.co.jp/company/" class="blank" class="arrow only">会社情報</a></li>
+					<li class="col-4 col-sm-12 order-sm-11"><a href="https://hotey.co.jp/company/" class="blank">会社情報</a></li>
 					
 				</ul>
 			</div>

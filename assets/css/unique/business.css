@@ -59,7 +59,9 @@
     font-weight: 500;
     font-size: 1.8rem;
 }
-
+.lineup-business li {
+    margin-bottom:30px;
+}
 .lineup-business li .text-area .eng {
     color: #fc8d7d;
     display: block;

@@ -79,11 +79,10 @@
 	bottom: 0;
 	right: 20px;
 	height: 900px;
-	padding-top: 140px;
+	padding-top: 110px;
 	margin: auto;
 	text-align: center;
 	z-index: 1;
-	display: flex;
 	flex-wrap: wrap;
 }
 #top .scroll-navi dt {
@@ -232,23 +231,17 @@
 	width: 100%;
 	height: auto;
 	z-index: 0;
-	padding-top:40px;
+	padding-top:60px;
 }
 #top #concept video{
 	background: #fff;
 }
 #top #concept .ttl-area {
 	position: absolute;
-	top:45%;
+	top:0px;
 	left:340px;
-	color: #fff;
 }
-#top #concept .ttl-area .eng {
-	color: #ffffff;
-}
-#top #concept .ttl-area .eng.line::after {
-	background: #ffffff;
-}
+
 #top #concept .inner{
 	padding: 0 0px 0 300px;
 }
@@ -261,8 +254,8 @@
 	top:16%;
 	left:50%;
 	width:540px;
-	height:520px;
-	background: #fc8d7d;
+	height:480px;
+	background: #fff;
 	padding:60px 0px 60px 60px;
 	z-index: 2;
 }
@@ -332,6 +325,11 @@
 	bottom: 25px;
 }
 
+#top #lineup .menu-tbl .arrow.left::after {
+	left: -35px;
+	top: auto;
+	bottom: 25px;
+}
 
 #top #lineup .seasonal {
 	margin-top: 40px;
@@ -502,9 +500,14 @@
 	display: block;
 	background-color: #faf7f2;
 	padding: 30px;
+	-webkit-transition: .3s;
+       -moz-transition: .3s;
+        -ms-transition: .3s;
+         -o-transition: .3s;
+            transition: .3s;
 }
 #top #topics a:hover {
-	opacity: 0.7;
+	opacity: 0.5;
 }
 
 #top #topics .label {

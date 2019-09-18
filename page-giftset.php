@@ -308,10 +308,10 @@ get_header();
                                 </div>
                             </li>
                             <li class="col-4 col-sm-12 one-item js-clickArea" data-aos="fade-up" data-aos-delay="600">
-                                <figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_recipe.jpg" alt=""></figure>
+                                <figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_delicious.jpg" alt=""></figure>
                                 <div class="text-area col-sm-5">
                                     <p class="ttl">おいしいお召し上がり方</p>
-                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/recipe/') ); ?>" class="arrow">LEARN MORE</a></span></p>
+                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/delicious/') ); ?>" class="arrow">LEARN MORE</a></span></p>
                                 </div>
                             </li>
 						</ul>

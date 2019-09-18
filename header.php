@@ -205,7 +205,7 @@
 								</div>
 							</li>
 							<li><a <?php if( is_page('gift') ){ echo 'class="current"'; } ?> href="<?php echo esc_url( home_url('/gift/') ); ?>">ギフトセット</a></li>
-							<li><a <?php if( is_page('deliciuous') ){ echo 'class="current"'; } ?> href="<?php echo esc_url( home_url('/delicious/') ); ?>">おいしいお召し上がり方</a></li>
+							<li><a <?php if( is_page('delicious') ){ echo 'class="current"'; } ?> href="<?php echo esc_url( home_url('/delicious/') ); ?>">おいしいお召し上がり方</a></li>
 							<li><a <?php if( get_post_type() == 'recipe' ){ echo 'class="current"'; } ?> href="<?php echo esc_url( home_url('/recipe/') ); ?>">アレンジレシピ</a></li>
 							<li><a <?php if( is_page('access') ){ echo 'class="current"'; } ?> href="<?php echo esc_url( home_url('/access/') ); ?>">店舗紹介・アクセス</a></li>
 							<li><a <?php if( get_post_type() == 'topics' ){ echo 'class="current"'; } ?> href="<?php echo esc_url( home_url('/topics/') ); ?>">ニュース・トピックス</a></li>
@@ -227,3 +227,9 @@
 			</div>
 		</div>
 	</header>
+
+	<div id="btn_store" data-aos="fade-down" data-aos-delay="1000">
+		<a href="<?php echo esc_url( home_url('/access/') ); ?>">
+			STORE
+		</a>
+	</div>
