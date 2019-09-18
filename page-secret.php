@@ -24,31 +24,31 @@ get_header();
                 <section class="wide anker-secret" data-aos="fade-right">
                     <div class="inner">
                         <ul class="row no-gutters no-gutters-sm justify-content-center align-items-start">
-                            <li>
+                            <li data-aos="fade-up">
                                 <a href="#secret1">
                                     <span class="eng secret-numbering">01</span>
                                     <span class="secret-numbering-title">自然な味わいの<br>ひみつ </span>
                                 </a>
                             </li>
-                            <li>
+                            <li data-aos="fade-up" data-aos-delay="300">
                                 <a href="#secret2">
                                     <span class="eng secret-numbering">02</span>
                                     <span class="secret-numbering-title">素材のひみつ</span>
                                 </a>
                             </li>
-                            <li>
+                            <li data-aos="fade-up" data-aos-delay="500">
                                 <a href="#secret3">
                                     <span class="eng secret-numbering">03</span>
                                     <span class="secret-numbering-title">製法のひみつ</span>
                                 </a>
                             </li>
-                            <li>
+                            <li data-aos="fade-up" data-aos-delay="700">
                                 <a href="#secret4">
                                     <span class="eng secret-numbering">04</span>
                                     <span class="secret-numbering-title">クルトンとは？</span>
                                 </a>
                             </li>
-                            <li>
+                            <li data-aos="fade-up" data-aos-delay="900">
                                 <a href="#secret5">
                                     <span class="eng secret-numbering">05</span>
                                     <span class="secret-numbering-title">かぞくのクルトン<br>誕生のひみつ</span>
@@ -122,25 +122,25 @@ get_header();
                     <div class="inner">
                         <div class="width-fixed">
                             <ul class="row no-gutters no-gutters-sm justify-content-between align-items-stretch flex-sm-column">
-                                <li class="about-crouton js-clickArea" id="secret4" data-aos="fade-right">
+                                <li class="about-crouton js-clickArea" id="secret4">
                                     <a href="<?php echo esc_url( home_url('/secret/about_croutons/') ); ?>">
-                                        <h3 class="title"><span class="eng line">04</span></h3>
-                                        <figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/idx_about.jpg" alt=""></figure>
+                                        <h3 class="title" data-aos="fade-left"><span class="eng line">04</span></h3>
+                                        <figure data-aos="fade-up"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/idx_about.jpg" alt=""></figure>
                                         <div class="text-area">
-                                            <p class="catch">クルトンとは？</p>
-                                            <p class="cont-txt">クルトンといえば、まずシーザーサラダやポタージュスープのトッピングが思い浮かぶことでしょう。また、クルトンレシピもたくさん紹介されており、食事に彩りを添える食材として親しまれています。</p>
-                                            <p class="more"><span><a href="<?php echo esc_url( home_url('/secret/about_croutons/') ); ?>" class="arrow">LEARN MORE</a></span></p>
+                                            <p class="catch" data-aos="fade-right">クルトンとは？</p>
+                                            <p class="cont-txt" data-aos="fade-up">クルトンといえば、まずシーザーサラダやポタージュスープのトッピングが思い浮かぶことでしょう。また、クルトンレシピもたくさん紹介されており、食事に彩りを添える食材として親しまれています。</p>
+                                            <p class="more" data-aos="fade-up"><span><a href="<?php echo esc_url( home_url('/secret/about_croutons/') ); ?>" class="arrow">LEARN MORE</a></span></p>
                                         </div>
                                     </a>
                                 </li>
-                                <li class="crouton-born js-clickArea" id="secret5" data-aos="fade-left">
+                                <li class="crouton-born js-clickArea" id="secret5">
                                     <a href="<?php echo esc_url( home_url('/secret/birth/') ); ?>">
-                                        <h3 class="title"><span class="eng line">05</span></h3>
-                                        <figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/idx_born.jpg" alt=""></figure>
+                                        <h3 class="title" data-aos="fade-left"><span class="eng line">05</span></h3>
+                                        <figure data-aos="fade-up"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/idx_born.jpg" alt=""></figure>
                                         <div class="text-area">
-                                            <p class="catch">かぞくのクルトン誕生のひみつ</p>
-                                            <p class="cont-txt">とても個性的なお菓子である「かぞくのクルトン」が生まれた背景には、半世紀以上に渡る小麦に関わるノウハウと想いが詰まっています。</p>
-                                            <p class="more"><span><a href="<?php echo esc_url( home_url('/secret/birth/') ); ?>" class="arrow">LEARN MORE</a></span></p>
+                                            <p class="catch" data-aos="fade-right">かぞくのクルトン誕生のひみつ</p>
+                                            <p class="cont-txt" data-aos="fade-up">とても個性的なお菓子である「かぞくのクルトン」が生まれた背景には、半世紀以上に渡る小麦に関わるノウハウと想いが詰まっています。</p>
+                                            <p class="more" data-aos="fade-up"><span><a href="<?php echo esc_url( home_url('/secret/birth/') ); ?>" class="arrow">LEARN MORE</a></span></p>
                                         </div>
                                     </a>
                                 </li>

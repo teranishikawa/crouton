@@ -7,45 +7,18 @@
 			<div class="contents">
 				<div class="main-visual">
 					<div class="inner">
-						<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/main_visual_pc.jpg" alt="おいしいお召し上がり方" class="js-switch"></figure>
-						<h2 data-aos="fade-left">おいしいお召し上がり方</h2>
+						<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/main_visual_sec_pc.jpg" alt="アレンジレシピ" class="js-switch"></figure>
+						<h2 data-aos="fade-left">アレンジレシピ</h2>
 					</div>
 				</div>
 
 				<section class="wide recipe-box">
 					<div class="inner">
-						<div class="various width-fixed">
-							<div class="various-box" data-aos="fade-right">
-								<div class="aos-init aos-animate" data-aos="fade-right">
-									<figure class="zoom">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/idx_recipe.jpg" alt="おいしさの組み合わせさまざま">
-									</figure>
-								</div>
-								<div class="text ex-area aos-init aos-animate" data-aos="fade-right">
-									<h3>おいしさの組み合わせさまざま</h3>
-									<p>
-										お菓子としてそのまま食べてもおいしいかぞくのクルトンは、多彩な風味を持つフレーバーの多さが特色です。<br>
-										色々なお飲み物に合うのはもちろん、おつまみや料理にアレンジすることで、見た目も鮮やかなさまざなおいしさを演出することができます。
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="example width-fixed">
-							<h3 class="title" data-aos="fade-right"><span class="eng line">EXAMPLE</span>おいしいお召し上がり方の例</h3>
-							<ul>
-								<li data-aos="fade-up"><figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/example01.png" alt="ビールのおつまみに"><figcaption>01</figcaption></figure><p>ビールのおつまみに</p></li>
-								<li data-aos="fade-up"><figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/example02.png" alt="サラダにのせて"><figcaption>02</figcaption></figure><p>サラダにのせて</p></li>
-								<li data-aos="fade-up"><figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/example03.png" alt="デザートのトッピングに"><figcaption>03</figcaption></figure><p>デザートのトッピングに</p></li>
-								<li data-aos="fade-up"><figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/example04.png" alt="シリアルとして"><figcaption>04</figcaption></figure><p>シリアルとして</p></li>
-							</ul>
-						</div>
-
+						
 						<div class="arrange width-fixed">
-							<h3 class="title" data-aos="fade-right"><span class="eng line">ARRANGE RECIPE</span>アレンジレシピ</h3>
 							<p data-aos="fade-left">かぞくのクルトンをさらにおいしくお召し上がりいただくために、<br>
-プロのテーブルスタイリストが考案したアレンジレシピをご用意しました。<br>
-味わいも彩りもさらに豊かになるクルトンレシピをぜひお試しください。</p>
+								プロのテーブルスタイリストが考案したアレンジレシピをご用意しました。<br>
+								味わいも彩りもさらに豊かになるクルトンレシピをぜひお試しください。</p>
 
 <?php $cat = get_query_var('recipe_cat'); ?>
 						<ul class="year-list width-fixed" data-aos="fade-right">
@@ -110,7 +83,7 @@
 ?><?php echo $img_src ?></figure></dd>
 									<dt><?php the_title(); ?></dt>
 								</dl>
-								<p class="more"><a href="<?php echo get_permalink() ?>" class="arrow">MORE</a></p>
+								<p class="more"><a href="<?php echo get_permalink() ?>" class="arrow">LEARN MORE</a></p>
 								</a>
 								</div>
 							</li>
@@ -135,21 +108,21 @@ if(function_exists('wp_pagenavi')){
 								<figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_gift.jpg" alt=""></figure>
 								<div class="text-area col-sm-5">
 									<p class="ttl">ギフトセット</p>
-									<p class="more"><span><a href="/secret/" class="arrow">MORE</a></span></p>
+									<p class="more"><span><a href="/secret/" class="arrow">LEARN MORE</a></span></p>
 								</div>
 							</li>
 							<li class="col-4 col-sm-12 one-item js-clickArea active" data-aos="fade-up" data-aos-delay="300">
                                 <figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_recipe.jpg" alt=""></figure>
                                 <div class="text-area col-sm-5">
                                     <p class="ttl">おいしいお召し上がり方</p>
-                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/recipe/') ); ?>" class="arrow">MORE</a></span></p>
+                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/delicious/') ); ?>" class="arrow">LEARN MORE</a></span></p>
                                 </div>
                             </li>
                             <li class="col-4 col-sm-12 one-item js-clickArea" data-aos="fade-up" data-aos-delay="600">
                                 <figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_news.jpg" alt=""></figure>
                                 <div class="text-area col-sm-5">
                                     <p class="ttl">ニュース・トピックス</p>
-                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/topics/') ); ?>" class="arrow">MORE</a></span></p>
+                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/topics/') ); ?>" class="arrow">LEARN MORE</a></span></p>
                                 </div>
                             </li>
 						</ul>

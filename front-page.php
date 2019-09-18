@@ -27,7 +27,7 @@
 						</div>
 						<p class="copy" data-aos="fade-left">食卓がつくる、絆をもっと。</p>
 
-						<div class="scroll-navi align-items-center">
+						<div class="scroll-navi align-items-center" data-aos="fade-left" data-aos-delay="1000">
 							<dl>
 								<dt>SCROLL</dt>
 								<dd>

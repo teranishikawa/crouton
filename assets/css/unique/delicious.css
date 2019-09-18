@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/** various **/
+#delicious .various {
+	width:100%;
+	margin-bottom: 4em;
+}
+#delicious .various .various-box {
+	width: 100%;
+	background-color: #F3F4F3;
+	display: flex;
+	align-items: center;
+}
+#delicious .various .various-box div:first-child {
+	flex-basis:60%;
+	max-width:60%;
+}
+#delicious .various img {
+	width:100%;
+	height:auto;
+}
+#delicious .various .text {
+	flex-basis: 40%;
+	max-width: 40%;
+	display: flex;
+	flex-direction: column;
+	padding:2vw;
+}
+#delicious .various .text h3 {
+	font-family: 'Noto Serif Japanese', serif;
+	font-weight: 500;
+	font-size: 2.4rem;
+	margin-bottom: 2vw;
+}
+#delicious .various .text p {
+	line-height:2em;
+}
+
+/** example **/
+#delicious .example {
+	margin-bottom: 4em;
+
+}
+#delicious .example ul {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#delicious .example li {
+	text-align: center;
+	flex-basis:23.5%;
+	max-width:23.5%;
+	margin-right:5%;
+}
+#delicious .example li:nth-child(3n){
+	margin-right:0;
+}
+#delicious .example li figure {
+}
+#delicious .example li figcaption {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	color: #fc8d7d;
+	display: block;
+	font-size: 1.6rem;
+	letter-spacing: 1px;
+	margin-top:1em;
+}
+#delicious .example li figure img {
+	width:100%;
+	height:auto;
+}
+#delicious .example li p {
+	font-family: 'Noto Serif Japanese', serif;
+	font-weight: 500;
+	font-size: 1.6rem;
+	margin-bottom: 1em;
+}
+
+#delicious .next_link .photo {
+    width: 48.632%;
+}
+
+#delicious section.next_link .text-area {
+    position: relative;
+    width: 51.368%;
+    padding-left: 6rem;
+}
+
+#delicious .next_link .catch {
+    font-family: 'Noto Serif Japanese', serif;
+    font-size: 1.8rem;
+}
+
+#delicious .next_link .text-area .more {
+    position: absolute;
+    right: 0!important;
+}
+
+#delicious .next_link .catch + .cont-txt {
+    margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1360px) {
+	#delicious .various .text h3 {
+		font-size: 2.2rem;
+		margin-bottom: 1.5vw;
+	}
+	#delicious .various .text p {
+		line-height:1.5em;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+	#delicious .various .various-box {
+		flex-wrap:wrap
+	}
+	#delicious .various .various-box div:first-child {
+		flex-basis:100%;
+		max-width:100%;
+	}
+	#delicious .various .various-box .text {
+		flex-basis:100%;
+		max-width:100%;
+		padding: 2vw 4vw;
+	}
+
+	#delicious .example li {
+		flex-basis:47.5%;
+		max-width:47.5%;
+		margin-right:5%;
+	}
+	#delicious .example li:nth-child(2n){
+		margin-right:0%;
+	}
+	
+}
+

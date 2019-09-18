@@ -51,6 +51,9 @@
 	<?php elseif( is_page('gift') ): ?>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/unique/gift.css">
 
+	<?php elseif( is_page('delicious') ): ?>
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/unique/delicious.css">
+
 	<?php elseif( is_page('access') ): ?>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/unique/access.css">
 
@@ -99,8 +102,8 @@
 			<label id="menu-background" for="menu-cb"></label>
 			<ul class="shareList forSP">
 				<!--<li><a class="insta_btn" href="<?php echo esc_url( home_url('/dummy/') ); ?>" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a></li>-->
-				<li><a class="insta_btn" href="<?php echo esc_url( home_url('http://www.facebook.com/share.php?u=https://kazokuno-crouton.jp') ); ?>" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-				<li><a class="insta_btn" href="<?php echo esc_url( home_url('https://twiter.com/share?url=https://kazokuno-crouton.jp') ); ?>" target="_blank" title="LINE"><i class="fab fa-twitter"></i></a></li>
+				<li><a class="insta_btn" href="<?php echo esc_url( home_url('http://www.facebook.com/share.php?u=https://kazokunocrouton.com') ); ?>" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+				<li><a class="insta_btn" href="<?php echo esc_url( home_url('https://twiter.com/share?url=https://kazokunocrouton.com') ); ?>" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
 			</ul>
 			
 			<div id="menu-navi">
@@ -202,7 +205,8 @@
 								</div>
 							</li>
 							<li><a <?php if( is_page('gift') ){ echo 'class="current"'; } ?> href="<?php echo esc_url( home_url('/gift/') ); ?>">ギフトセット</a></li>
-							<li><a <?php if( get_post_type() == 'recipe' ){ echo 'class="current"'; } ?> href="<?php echo esc_url( home_url('/recipe/') ); ?>">おいしいお召し上がり方</a></li>
+							<li><a <?php if( is_page('deliciuous') ){ echo 'class="current"'; } ?> href="<?php echo esc_url( home_url('/delicious/') ); ?>">おいしいお召し上がり方</a></li>
+							<li><a <?php if( get_post_type() == 'recipe' ){ echo 'class="current"'; } ?> href="<?php echo esc_url( home_url('/recipe/') ); ?>">アレンジレシピ</a></li>
 							<li><a <?php if( is_page('access') ){ echo 'class="current"'; } ?> href="<?php echo esc_url( home_url('/access/') ); ?>">店舗紹介・アクセス</a></li>
 							<li><a <?php if( get_post_type() == 'topics' ){ echo 'class="current"'; } ?> href="<?php echo esc_url( home_url('/topics/') ); ?>">ニュース・トピックス</a></li>
 						</ul>
@@ -216,8 +220,8 @@
 					
 					<ul class="shareList forPC">
 					<!--<li><a class="insta_btn" href="<?php echo esc_url( home_url('/dummy/') ); ?>" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a></li>-->
-					<li><a class="insta_btn" href="<?php echo esc_url( home_url('http://www.facebook.com/share.php?u=https://kazokuno-crouton.jp') ); ?>" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-					<li><a class="insta_btn" href="<?php echo esc_url( home_url('https://twiter.com/share?url=https://kazokuno-crouton.jp') ); ?>" target="_blank" title="LINE"><i class="fab fa-twitter"></i></a></li>
+					<li><a class="insta_btn" href="<?php echo esc_url( home_url('http://www.facebook.com/share.php?u=https://kazokunocrouton.com') ); ?>" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+					<li><a class="insta_btn" href="<?php echo esc_url( home_url('https://twiter.com/share?url=https://kazokunocrouton.com') ); ?>" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
 					</ul>
 				</div>
 			</div>

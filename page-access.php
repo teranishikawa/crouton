@@ -15,7 +15,8 @@ get_header();
 
 				<section class="wide lead-access">
                     <div class="inner width-fixed">
-                        <h3 class="title" data-aos="fade-right">私たちのお店にお越しください</h3>
+                    	<h3 class="title" data-aos="fade-right">2019年10月末オープン予定！</h3>
+                        <!--<h3 class="title" data-aos="fade-right">私たちのお店にお越しください</h3>-->
                         <p class="cont-txt">
 お店には「かぞくのクルトン」すべての種類をご用意しています。<br class="pc">
 もちろんご試食していただくことができます。<br class="pc">
@@ -54,30 +55,27 @@ get_header();
 				<section class="pagelink-area">
 					<div class="width-fixed">
 						<ul class="row">
-							<li class="col-4 col-sm-12 one-item js-clickArea" data-aos="fade-up">
-								<figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_secret.jpg" alt=""></figure>
-								<div class="text-area col-sm-5">
-									<p class="ttl">かぞくのクルトンのひみつ</p>
-									<p class="eng">SECRET OF CROUTON</p>
-									<p class="more"><span><a href="/secret/" class="arrow">LEARN MORE</a></span></p>
-								</div>
-							</li>
-							<li class="col-4 col-sm-12 one-item js-clickArea active" data-aos="fade-up" data-aos-delay="300">
+							<li class="col-4 col-sm-12 one-item js-clickArea" data-aos="fade-up" data-aos-delay="300">
 								<figure class="zoom col-sm-7"><span><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_lineup.jpg" alt=""></span></figure>
 								<div class="text-area col-sm-5 order-sm-first">
 									<p class="ttl">ラインナップ</p>
-									<p class="eng">LINE UP</p>
 									<p class="more"><span><a href="/lineup/" class="arrow">LEARN MORE</a></span></p>
 								</div>
 							</li>
 							<li class="col-4 col-sm-12 one-item js-clickArea" data-aos="fade-up" data-aos-delay="600">
-								<figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_gift.jpg" alt=""></figure>
+								<figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_gift2.jpg" alt=""></figure>
 								<div class="text-area col-sm-5">
 									<p class="ttl">ギフトセット</p>
-									<p class="eng">GIFT SET</p>
 									<p class="more"><span><a href="/secret/" class="arrow">LEARN MORE</a></span></p>
 								</div>
 							</li>
+							<li class="col-4 col-sm-12 one-item js-clickArea" data-aos="fade-up" data-aos-delay="300">
+                                <figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_news.jpg" alt=""></figure>
+                                <div class="text-area col-sm-5">
+                                    <p class="ttl">ニュース・トピックス</p>
+                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/topics/') ); ?>" class="arrow">LEARN MORE</a></span></p>
+                                </div>
+                            </li>
 						</ul>
 					</div>
 				</section>

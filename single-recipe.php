@@ -155,7 +155,7 @@ LIMIT 0, 1";
 	<div class="text">
 		<h4><span><?php echo $val['lineup_catch'] ?></span><?php echo $val['lineup_title'] ?></h4>
 		<p class="lineup_body"><?php echo $val['lineup_body'] ?></p>
-		<p class="more"><a href="<?php echo $val['lineup_url'] ?>" class="arrow">MORE</a></p>
+		<p class="more"><a href="<?php echo $val['lineup_url'] ?>" class="arrow">LEARN MORE</a></p>
 	</div>
 	<figure class="zoom"><?php
 		$img_src = wp_get_attachment_image_src($val['lineup_thumb'],'recipe_lineup');
@@ -185,7 +185,7 @@ LIMIT 0, 1";
 
 <ul class="detail_navi">
 <li><?php if($prevId){ ?><a class="prev" href="<?php echo get_permalink($prevId); ?>">PREVIOUS</a><?php } ?></li>
-<li><a href="<?php echo get_bloginfo("siteurl"); ?>/recipe/">RETURN TO TOP</a></li>
+<li><a href="<?php echo get_bloginfo("siteurl"); ?>/recipe/">ARRANGE RECIPE TOP</a></li>
 <li><?php if($nextId){ ?><a class="next" href="<?php echo get_permalink($nextId); ?>">NEXT</a><?php } ?></li>
 </ul>
 
@@ -204,21 +204,21 @@ LIMIT 0, 1";
 								<figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_gift.jpg" alt=""></figure>
 								<div class="text-area col-sm-5">
 									<p class="ttl">ギフトセット</p>
-									<p class="more"><span><a href="/secret/" class="arrow">MORE</a></span></p>
+									<p class="more"><span><a href="/secret/" class="arrow">LEARN MORE</a></span></p>
 								</div>
 							</li>
 							<li class="col-4 col-sm-12 one-item js-clickArea active" data-aos="fade-up" data-aos-delay="300">
                                 <figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_recipe.jpg" alt=""></figure>
                                 <div class="text-area col-sm-5">
                                     <p class="ttl">おいしいお召し上がり方</p>
-                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/recipe/') ); ?>" class="arrow">MORE</a></span></p>
+                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/delicious/') ); ?>" class="arrow">LEARN MORE</a></span></p>
                                 </div>
                             </li>
                             <li class="col-4 col-sm-12 one-item js-clickArea active" data-aos="fade-up" data-aos-delay="600">
                                 <figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_news.jpg" alt=""></figure>
                                 <div class="text-area col-sm-5">
                                     <p class="ttl">ニュース・トピックス</p>
-                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/topics/') ); ?>" class="arrow">MORE</a></span></p>
+                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/topics/') ); ?>" class="arrow">LEARN MORE</a></span></p>
                                 </div>
                             </li>
 						</ul>
