@@ -190,7 +190,7 @@ LIMIT 0, 1";
 </ul>
 
 						<?php endwhile;else: ?>
-							<p>記事が投稿されていません。</p>
+							<p>アレンジレシピは、現在投稿されていません。</p>
 						<?php endif; ?>
 						</div>
 						

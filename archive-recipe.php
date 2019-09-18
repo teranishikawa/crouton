@@ -89,7 +89,7 @@
 							</li>
 						<?php endwhile;wp_reset_postdata(); ?>
 						<?php else: ?>
-							<p>記事が投稿されていません。</p>
+							<p>アレンジレシピは、現在投稿されていません。</p>
 						<?php endif; ?>
 						</ul>
 <?php
