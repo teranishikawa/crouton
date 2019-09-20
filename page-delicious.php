@@ -40,7 +40,7 @@ get_header();
 								<li data-aos="fade-up" data-aos-delay="300"><figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/example_02.jpg" alt="サラダにのせて"><figcaption>02</figcaption></figure><p>サラダにのせて</p></li>
 								<li data-aos="fade-up" data-aos-delay="600"><figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/example_03.jpg" alt="デザートのトッピングに"><figcaption>03</figcaption></figure><p>デザートのトッピングに</p></li>
 								<li data-aos="fade-up"><figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/example_04.jpg" alt="スープに入れて"><figcaption>04</figcaption></figure><p>スープに入れて</p></li>
-								<li data-aos="fade-up" data-aos-delay="300"><figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/example_04.jpg" alt="シリアルとして"><figcaption>05</figcaption></figure><p>シリアルとして</p></li>
+								<li data-aos="fade-up" data-aos-delay="300"><figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/example_05.jpg" alt="シリアルとして"><figcaption>05</figcaption></figure><p>シリアルとして</p></li>
 							</ul>
 						</div>
 						
@@ -60,7 +60,7 @@ get_header();
                                     <div class="text-area" data-aos="fade-left">
                                         <p class="catch">さらにおいしくお召し上がりいただくために</p>
                                         <p class="cont-txt">かぞくのクルトンをさらにおいしくお召し上がりいただくために、
-															プロのテーブルスタイリストが考案したアレンジレシピをご用意しました。
+															プロのフードコーディネーターが考案したアレンジレシピをご用意しました。
 															味わいも彩りもさらに豊かになるクルトンレシピをぜひお試しください。</p>
                                         <p class="more"><span><a href="<?php echo esc_url( home_url('/recipe/') ); ?>"    class="arrow">LEARN MORE</a></span></p>
                                     </div>

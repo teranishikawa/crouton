@@ -32,9 +32,6 @@
 								<dt>SCROLL</dt>
 								<dd>
 									<ul>
-										<li><a href="<?php echo esc_url( home_url('/#pickup') ); ?>"><span class="scroll-bullet"></span>
-												<p class="description">ピックアップニュース</p>
-											</a></li>
 										<li><a href="<?php echo esc_url( home_url('/#concept') ); ?>"><span class="scroll-bullet"></span>
 												<p class="description">ブランドコンセプト</p>
 											</a></li>
@@ -420,13 +417,13 @@
 							<div class="row no-gutters no-gutters-sm js-clickArea">
 								<div class="col-6 col-sm-12 text-area order-last order-sm-first" data-aos="fade-left">
 									<h2><span class="eng line"></span>おいしいお召し上がり方</h2>
-									<p class="more forPC"><a href="<?php echo esc_url( home_url('/recipe/') ); ?>" class="arrow">LEARN MORE</a></p>
+									<p class="more forPC"><a href="<?php echo esc_url( home_url('/delicious/') ); ?>" class="arrow">LEARN MORE</a></p>
 								</div>
 								<figure class="col-6 col-sm-12" data-aos="fade-right">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/idx_recipe.jpg" alt="">
 								</figure>
 							</div>
-							<p class="more forSP"><a href="<?php echo esc_url( home_url('/recipe/') ); ?>" class="arrow">LEARN MORE</a></p>
+							<p class="more forSP"><a href="<?php echo esc_url( home_url('/delicious/') ); ?>" class="arrow">LEARN MORE</a></p>
 						</li>
 						<li id="gift">
 							<div class="row no-gutters no-gutters-sm js-clickArea">

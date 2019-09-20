@@ -10,7 +10,7 @@ get_header();
 				<div class="main-visual">
 					<div class="inner">
 						<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/giftset/main_visual_pc.jpg" alt="ギフトセット" class="js-switch"></figure>
-						<h2 data-aos="fade-left">ギフトセット<span class="eng">GIFT SET</span></h2>
+						<h2 data-aos="fade-left">ギフトセット</h2>
 					</div>
                 </div>
                 

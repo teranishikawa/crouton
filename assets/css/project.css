@@ -199,12 +199,11 @@ header #site-navi > ul > li > a.current:before {
 	background: #000;
 }
 header #site-navi > ul > #slide-navi .site-subnavi {
-	overflow: hidden;
+	display: none;
 	position: absolute;
-	opacity: 0;
 	z-index: -1;
 	left: 100%;
-	top: -100%;
+	top: 0px;
 	width: 300px;
 	height: 100vh;
 	padding: 35px 35px 0 35px;
@@ -214,10 +213,7 @@ header #site-navi > ul > #slide-navi .site-subnavi {
 	transition: 0.8s;
 }
 header #site-navi > ul > #slide-navi:hover  .site-subnavi {
-	overflow: visible;
-	opacity: 1;
-	top:0;
-
+	display: block;
 }
 header #site-navi > ul > li .site-subnavi dt {
 	font-size: 1.4rem;

@@ -160,17 +160,17 @@ get_header();
                             <div class="col-4 col-sm-12" data-aos="fade-up">
                                 <figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/business/business_gift_01.jpg" alt="3個セット"></figure>
                                 <p class="product-name">3個セット</p>
-                                <p class="product-price">税込2,541円（税抜2,310円）</p>
+                                <p class="product-price">税込2,494円（税抜2,310円）</p>
                             </div>
                             <div class="col-4 col-sm-12" data-aos="fade-up" data-aos-delay="300">
                                 <figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/business/business_gift_02.jpg" alt="6個セット"></figure>
                                 <p class="product-name">3個セット</p>
-                                <p class="product-price">税込3,828円（税抜3,480円）</p>
+                                <p class="product-price">税込3,758円（税抜3,480円）</p>
                             </div>
                             <div class="col-4 col-sm-12" data-aos="fade-up" data-aos-delay="600">
                                 <figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/business/business_gift_03.jpg" alt="3・6個セット"></figure>
                                 <p class="product-name">3個・6個セット</p>
-                                <p class="product-price">税込5,742円（税抜5,220円）</p>
+                                <p class="product-price">税込5,637円（税抜5,220円）</p>
                             </div>
                         </div>
                     </div>

@@ -79,7 +79,7 @@
 	bottom: 0;
 	right: 20px;
 	height: 900px;
-	padding-top: 110px;
+	padding-top: 200px;
 	margin: auto;
 	text-align: center;
 	z-index: 1;
@@ -238,7 +238,7 @@
 }
 #top #concept .ttl-area {
 	position: absolute;
-	top:0px;
+	top:45%;
 	left:340px;
 }
 
