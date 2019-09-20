@@ -109,8 +109,15 @@
 .lineup.detail .contents .lineupbox li:nth-child(-n + 4) {
 	margin-top: 0;
 }
-
-
+.specific li {
+	white-space: nowrap;
+}
+.specific img {
+	max-width:32px;
+	height:auto;
+	display:inline-block;
+	margin-right:0.5em;
+}
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
 	.lineup.idx .contents .lineup > figure {

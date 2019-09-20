@@ -29,7 +29,10 @@
 	if ( is_home() || is_front_page() ) : //TOPページの場合?>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/unique/top.css">
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-	<?php elseif( is_page('lineup') || is_page_ancestor('lineup') ): //advantageページ、advantageの下層ページの場合?>
+	<?php elseif( is_page('lineups') || is_page_ancestor('lineups') ): //advantageページ、advantageの下層ページの場合?>
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/unique/lineup.css">
+
+	<?php elseif( is_post_type_archive('lineup') || is_singular('lineup') ): ?>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/unique/lineup.css">
 
 	<?php elseif( is_post_type_archive('topics') || is_tax('topics_cat') || is_singular('topics') ): ?>
@@ -127,78 +130,76 @@
 										</dt>
 										<dd>
 											<ul class="menu-area row">
+<?php
+	$args = array(
+		'post_type' => 'lineup',
+		'post_status' => 'publish',
+		'orderby' => 'date',
+		'order' => 'ASC',
+		'posts_per_page' => -1,
+		'tax_query' => array(
+			'relation' => 'OR',
+			array(
+				'taxonomy' => 'lineup_cat',
+				'field' => 'slug',
+				'terms' => 'season',
+			),
+		),
+	);
+	$the_query = new WP_Query($args);
+	if($the_query->have_posts()){
+		while($the_query->have_posts()){
+			$the_query->the_post();
+			$img_src = "";
+			$img_src = wp_get_attachment_image_src(CFS()->get('subnav_img'),'lineup_subnav_thumb');
+			if($img_src) $img_src = '<img src="'.$img_src[0].'" alt="'.get_the_title().'">';
+?>
 												<li class="col-4 col-sm-3">
-													<a href="<?php echo esc_url( home_url('/lineup/salt-dark-chocolate/') ); ?>">
-														<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/subnavi_salt-darkchocolate.jpg" alt=""></figure>
-														塩チョコレート
+													<a href="<?php echo get_permalink() ?>">
+														<figure><?php echo $img_src ?></figure>
+														<?php echo CFS()->get('subnav_title'); ?>
 													</a>
 												</li>
+<?php
+		}
+		wp_reset_postdata();
+	}
+?>
+<?php
+	$args = array(
+		'post_type' => 'lineup',
+		'post_status' => 'publish',
+		'orderby' => 'date',
+		'order' => 'ASC',
+		'posts_per_page' => -1,
+		'tax_query' => array(
+			'relation' => 'OR',
+			array(
+				'taxonomy' => 'lineup_cat',
+				'field' => 'slug',
+				'terms' => 'std_flavor',
+			),
+		),
+	);
+	$the_query = new WP_Query($args);
+	if($the_query->have_posts()){
+		while($the_query->have_posts()){
+			$the_query->the_post();
+			$img_src = "";
+			$img_src = wp_get_attachment_image_src(CFS()->get('subnav_img'),'lineup_subnav_thumb');
+			if($img_src) $img_src = '<img src="'.$img_src[0].'" alt="'.get_the_title().'">';
+?>
 												<li class="col-4 col-sm-3">
-													<a href="<?php echo esc_url( home_url('/lineup/salt-caramel_blonde-chocolate/') ); ?>">
-														<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/subnavi_salt-caramel.jpg" alt=""></figure>
-														塩キャラメル<br>チョコレート
+													<a href="<?php echo get_permalink() ?>">
+														<figure><?php echo $img_src ?></figure>
+														<?php echo CFS()->get('subnav_title'); ?>
 													</a>
 												</li>
-												<li class="col-4 col-sm-3">
-													<a href="<?php echo esc_url( home_url('/lineup/macha-white-chocolate/') ); ?>">
-														<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/subnavi_matcha.jpg" alt=""></figure>
-														抹茶<br>チョコレート
-													</a>
-												</li>
-												<li class="col-4 col-sm-3">
-													<a href="<?php echo esc_url( home_url('/lineup/tomato/') ); ?>">
-														<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/subnavi_tomato.jpg" alt=""></figure>
-														もぎたてトマト
-													</a>
-												</li>
-												<li class="col-4 col-sm-3">
-													<a href="<?php echo esc_url( home_url('/lineup/potato/') ); ?>">
-														<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/subnavi_potato.jpg" alt=""></figure>
-														ホクホクポテト
-													</a>
-												</li>
-												<li class="col-4 col-sm-3">
-													<a href="<?php echo esc_url( home_url('/lineup/toast/') ); ?>">
-														<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/subnavi_toast.jpg" alt=""></figure>
-														はちみつ<br>トースト
-													</a>
-												</li>
-												<li class="col-4 col-sm-3">
-													<a href="<?php echo esc_url( home_url('/lineup/cheese/') ); ?>">
-														<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/subnavi_cheese.jpg" alt=""></figure>
-														コクうまチーズ
-													</a>
-												</li>
-												<li class="col-4 col-sm-3">
-													<a href="<?php echo esc_url( home_url('/lineup/corn/') ); ?>">
-														<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/subnavi_corn.jpg" alt=""></figure>
-														やきたてコーン
-													</a>
-												</li>
-												<li class="col-4 col-sm-3">
-													<a href="<?php echo esc_url( home_url('/lineup/curry/') ); ?>">
-														<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/subnavi_curry.jpg" alt=""></figure>
-														おいしいカレー
-													</a>
-												</li>
-												<li class="col-4 col-sm-3">
-													<a href="<?php echo esc_url( home_url('/lineup/brownsugar-soybeanflour/') ); ?>">
-														<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/subnavi_brownsugar.jpg" alt=""></figure>
-														こくとうと<br>きなこ
-													</a>
-												</li>
-												<li class="col-4 col-sm-3">
-													<a href="<?php echo esc_url( home_url('/lineup/purplesweetpotato/') ); ?>">
-														<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/subnavi_sweetpotato.jpg" alt=""></figure>
-														むらさきいも
-													</a>
-												</li>
-												<li class="col-4 col-sm-3">
-													<a href="<?php echo esc_url( home_url('/lineup/soysauce/') ); ?>">
-														<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/subnavi_soysause.jpg" alt=""></figure>
-														みたらし醤油
-													</a>
-												</li>
+<?php
+		}
+		wp_reset_postdata();
+	}
+?>
 											</ul>
 										</dd>
 									</dl>
