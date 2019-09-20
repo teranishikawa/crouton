@@ -138,11 +138,17 @@
 							<video src="<?php echo get_template_directory_uri(); ?>/assets/images/top/concept_video.mp4" autoplay loop muted></video>
 						</div>
 						<div class="text-area" data-aos="fade-left">							
-							<p class="copy" data-aos="fade-up" data-aos-delay="600">食卓がつくる、絆をもっと。</p>			
-							<p class="tx-concept" data-aos="fade-left" data-aos-delay="900">
-								<p data-aos="zoom-in-left" data-aos-delay="100">食卓は、心をつくる。</p><p data-aos="zoom-in-left" data-aos-delay="300">心を寄せあう、分けあう、重ねあう場所だから。</p><p data-aos="zoom-in-left" data-aos-delay="500">かぞくとは、大切な人との絆。</p><p data-aos="zoom-in-left" data-aos-delay="600">かぞくの心の温もりが届いたら、</p><p data-aos="zoom-in-left" data-aos-delay="800">心の食卓はつながって、かぞくの絆がつくられる。</p><p data-aos="zoom-in-left" data-aos-delay="1000">離れていたって、心はひとりにならない。</p>
-							<p data-aos="zoom-in-left" data-aos-delay="1200">食卓がつくる、絆をもっと。</p><p data-aos="zoom-in-left" data-aos-delay="1400">かぞくのクルトン</p>
-							<p class="more" data-aos="fade-right" data-aos-delay="1600"><a href="<?php echo esc_url( home_url('/concept/') ); ?>" class="arrow">LEARN MORE</a></p>
+							<p class="copy" data-aos="twist-left" data-aos-delay="600">食卓がつくる、絆をもっと。</p>
+							<p class="tx-concept" data-aos-delay="900"><p>
+							<p data-aos="twist-left" data-aos-delay="100">食卓は、心をつくる。</p>
+							<p data-aos="twist-left" data-aos-delay="300">心を寄せあう、分けあう、重ねあう場所だから。</p>
+							<p data-aos="twist-left" data-aos-delay="500">かぞくとは、大切な人との絆。</p>
+							<p data-aos="twist-left" data-aos-delay="600">かぞくの心の温もりが届いたら、</p>
+							<p data-aos="twist-left" data-aos-delay="800">心の食卓はつながって、かぞくの絆がつくられる。</p>
+							<p data-aos="twist-left" data-aos-delay="1000">離れていたって、心はひとりにならない。</p>
+							<p data-aos="twist-left" data-aos-delay="1200">食卓がつくる、絆をもっと。</p>
+							<p data-aos="twist-left" data-aos-delay="1400">かぞくのクルトン</p>
+							<p class="more" data-aos="twist-right" data-aos-delay="1600"><a href="<?php echo esc_url( home_url('/concept/') ); ?>" class="arrow">LEARN MORE</a></p>
 						</div>
 						<!--
 						<div class="row no-gutters no-gutters-sm justify-content-between">
