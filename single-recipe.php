@@ -142,24 +142,24 @@ LIMIT 0, 1";
 <?php } ?>
 
 <?php
-	$lineup = $cfs->get('lineup');
-	if(count($lineup)){
+	$lineups = $cfs->get('lineups');
+	if(count($lineups[0]['lineup'])){
 ?>
 <div class="lineup">
 <h3>今回使用したかぞくのクルトン・フレーバー</h3>
 <ul>
 <?php
-	foreach($lineup as $val){
+	foreach($lineups[0]['lineup'] as $lineup_id){
 ?>
 <li class="js-clickArea one-item" data-aos="fade-up">
 	<div class="text">
-		<h4><span><?php echo $val['lineup_catch'] ?></span><?php echo $val['lineup_title'] ?></h4>
-		<p class="lineup_body"><?php echo $val['lineup_body'] ?></p>
-		<p class="more"><a href="<?php echo $val['lineup_url'] ?>" class="arrow">LEARN MORE</a></p>
+		<h4><span><?php echo CFS()->get('catch_copy', $lineup_id) ?></span><?php echo get_the_title($lineup_id); ?></h4>
+		<p class="lineup_body"><?php echo CFS()->get('feature1_body', $lineup_id) ?></p>
+		<p class="more"><a href="<?php echo get_permalink($lineup_id) ?>" class="arrow">LEARN MORE</a></p>
 	</div>
 	<figure class="zoom"><?php
-		$img_src = wp_get_attachment_image_src($val['lineup_thumb'],'recipe_lineup');
-		if($img_src) $img_src = '<img src="'.$img_src[0].'" alt="'.$val['lineup_title'].'">';
+		$img_src = wp_get_attachment_image_src(CFS()->get('package1_img', $lineup_id),'lineup_package');
+		if($img_src) $img_src = '<img src="'.$img_src[0].'" alt="'.get_the_title($lineup_id).'">';
 ?><?php echo $img_src ?></figure>
 </li>
 <?php
