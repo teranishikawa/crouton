@@ -96,7 +96,7 @@
 						</div>
 
 						<?php
-						$ingredients = $cfs->get('ingredients');
+						$ingredients = array_values($cfs->get('ingredients'));
 						$cnt = count($ingredients);
 						?>
 						<div class="ingredients" data-aos="fade-right">
