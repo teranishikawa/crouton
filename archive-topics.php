@@ -7,7 +7,7 @@
 	<div class="contents">
 		<div class="main-visual">
 			<div class="inner">
-				<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/news/main_visual_sec_pc.jpg" alt="ニュース・トピックス" class="js-switch"></figure>
+				<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/topics/main_visual_sec_pc.jpg" alt="ニュース・トピックス" class="js-switch"></figure>
 				<h2 data-aos="fade-left">ニュース・トピックス</h2>
 			</div>
 		</div>

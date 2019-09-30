@@ -5,19 +5,25 @@
 			</div>
 			<div class="category-list">
 				<ul class="row no-gutters no-gutters-sm">
-					<li class="col-4 col-sm-12 order-sm-0"><a href="<?php echo esc_url( home_url('/concept/') ); ?>" class="arrow only">ブランドコンセプト</a></li>
-					<li class="col-4 col-sm-12 order-sm-4"><a href="<?php echo esc_url( home_url('/delicious/') ); ?>" class="arrow only">おいしいお召し上がり方</a></li>
-					<li class="col-4 col-sm-12 order-sm-8"><a href="<?php echo esc_url( home_url('/business/') ); ?>" class="arrow only">法人のお客様（出展・催事）</a></li>
-					<li class="col-4 col-sm-12 order-sm-1"><a href="<?php echo esc_url( home_url('/secret/') ); ?>" class="arrow only">かぞくのクルトンのひみつ</a></li>
-					<li class="col-4 col-sm-12 order-sm-5"><a href="<?php echo esc_url( home_url('/recipe/') ); ?>" class="arrow only">アレンジレシピ</a></li>
-					<li class="col-4 col-sm-12 order-sm-9"><a href="<?php echo esc_url( home_url('/inquiry/') ); ?>" class="arrow only">お問い合わせ</a></li>	
-					<li class="col-4 col-sm-12 order-sm-2"><a href="<?php echo esc_url( home_url('/lineup/') ); ?>" class="arrow only">ラインナップ</a></li>	
-					<li class="col-4 col-sm-12 order-sm-6"><a href="<?php echo esc_url( home_url('/access/') ); ?>" class="arrow only">店舗紹介・アクセス</a></li>
-					<li class="col-4 col-sm-12 order-sm-10"><a href="https://hotey.co.jp/recruit/" target="_blank" class="blank">採用情報</a></li>
-					<li class="col-4 col-sm-12 order-sm-3"><a href="<?php echo esc_url( home_url('/gift/') ); ?>" class="arrow only">ギフトセット</a></li>
-					<li class="col-4 col-sm-12 order-sm-7"><a href="<?php echo esc_url( home_url('/topics/') ); ?>" class="arrow only">ニュース・トピックス</a></li>
-					<li class="col-4 col-sm-12 order-sm-11"><a href="https://hotey.co.jp/company/" target="_blank" class="blank">会社情報</a></li>
+					<li class="col-4 col-sm-12"><a href="<?php echo esc_url( home_url('/') ); ?>" class="arrow only">かぞくのクルトン ホーム</a></li>
+					<li class="col-4 col-sm-12"><a href="<?php echo esc_url( home_url('/concept/') ); ?>" class="arrow only">ブランドコンセプト</a></li>
+					<li class="col-4 col-sm-12"><a href="<?php echo esc_url( home_url('/secret/') ); ?>" class="arrow only">かぞくのクルトンのひみつ</a></li>
+
+					<li class="col-4 col-sm-12"><a href="<?php echo esc_url( home_url('/about_crouton/') ); ?>" class="arrow only">クルトンとは？</a></li>
+					<li class="col-4 col-sm-12"><a href="<?php echo esc_url( home_url('/birth/') ); ?>" class="arrow only">かぞくのクルトン誕生のひみつ</a></li>
+					<li class="col-4 col-sm-12"><a href="<?php echo esc_url( home_url('/lineup/') ); ?>" class="arrow only">ラインナップ</a></li>	
 					
+					<li class="col-4 col-sm-12"><a href="<?php echo esc_url( home_url('/gift/') ); ?>" class="arrow only">ギフトセット</a></li>
+					<li class="col-4 col-sm-12"><a href="<?php echo esc_url( home_url('/delicious/') ); ?>" class="arrow only">おいしいお召し上がり方</a></li>
+					<li class="col-4 col-sm-12"><a href="<?php echo esc_url( home_url('/recipe/') ); ?>" class="arrow only">アレンジレシピ</a></li>
+
+					<li class="col-4 col-sm-12"><a href="<?php echo esc_url( home_url('/access/') ); ?>" class="arrow only">店舗紹介・アクセス</a></li>
+					<li class="col-4 col-sm-12"><a href="<?php echo esc_url( home_url('/topics/') ); ?>" class="arrow only">ニュース・トピックス</a></li>
+					<li class="col-4 col-sm-12"><a href="<?php echo esc_url( home_url('/business/') ); ?>" class="arrow only">法人のお客様（出展・催事）</a></li>
+
+					<li class="col-4 col-sm-12"><a href="<?php echo esc_url( home_url('/inquiry/') ); ?>" class="arrow only">お問い合わせ</a></li>						
+					<li class="col-4 col-sm-12"><a href="https://hotey.co.jp/recruit/" target="_blank" class="blank">採用情報</a></li>
+					<li class="col-4 col-sm-12"><a href="https://hotey.co.jp/company/" target="_blank" class="blank">会社情報</a></li>			
 				</ul>
 			</div>
 

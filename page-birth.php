@@ -92,11 +92,12 @@ get_header();
 
                 <section class="wide safty-reassurance" id="safety">
                     <div class="inner">
-                        <h3 class="title" data-aos="fade-right"><span class="eng line"></span>品質に対して高い意識を持つこと</h3>
+                        <h3 class="title" data-aos="fade-right"><span class="eng line"></span>安全・安心なクルトンづくり</h3>
+                        <p class="safety-title" data-aos="fade-right">品質に対して高い意識を持つこと</p>
                         <p class="cont-txt" data-aos="fade-up">原材料の受け入れ管理から生産工程、製品をお届けするまでのプロセスについて、チェック項目やルールを設け厳しい品質の管理を行っています。</p>
 
                         <div class="width-fixed">
-                            <p class="safety-title" data-aos="fade-right">一人ひとりが<br class="forSP">細心の注意を払って作ります</p>
+                            <p class="safety-title" data-aos="fade-right">一人ひとりが細心の注意を払って</p>
                             <div class="row no-gutters no-gutters-sm justify-content-between align-items-center">
                                 <div class="photo col-sm-12 col-7" data-aos="layer-fade-right">
                                     <figure class="layer-fade-child"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/ph_birth04.jpg" alt=""></figure>
@@ -108,7 +109,7 @@ get_header();
                         </div>
 
                         <div class="width-fixed">
-                            <p class="safety-title" data-aos="fade-right">一人ひとりが細心の注意を払って</p>
+                            <p class="safety-title" data-aos="fade-right">素材の安全にも万全を期しています</p>
                             <div class="row no-gutters no-gutters-sm justify-content-between align-items-center flex-sm-column-reverse">
                                 <div class="photo col-sm-12 col-7" data-aos="layer-fade-right">
                                     <figure class="layer-fade-child"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/ph_birth05.jpg" alt=""></figure>
