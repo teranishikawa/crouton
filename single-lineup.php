@@ -51,22 +51,22 @@ $(function(){
 			if($img2) $img2 = '<img src="'.$img2[0].'" alt="'.get_the_title().'">';
 ?>
 									<li class="row no-gutters no-gutters-sm justify-content-between align-items-center">
-										<div class="photo col-sm-12" data-aos="fade-right">
-											<figure><?php echo $img1 ?></figure>
+										<div class="photo col-sm-12" data-aos="layer-fade-right">
+											<figure class="layer-fade-child"><?php echo $img1 ?></figure>
 										</div>
-										<div class="text-area col-sm-12" data-aos="fade-left">
-											<p class="catch"><?php echo CFS()->get('feature1_title') ?></p>
-											<p class="cont-txt"><?php echo CFS()->get('feature1_body') ?></p>
+										<div class="text-area col-sm-12">
+											<p class="catch" data-aos="twist-right"><?php echo CFS()->get('feature1_title') ?></p>
+											<p class="cont-txt" data-aos="twist-left"><?php echo CFS()->get('feature1_body') ?></p>
 										</div>
 									</li>
 <?php if(CFS()->get('feature2_title') != ""){ ?>
 									<li class="row no-gutters no-gutters-sm justify-content-between align-items-center flex-sm-column-reverse">
-										<div class="photo col-sm-12" data-aos="fade-left">
-											<figure><?php echo $img2 ?></figure>
+										<div class="photo col-sm-12" data-aos="layer-fade-right">
+											<figure class="layer-fade-child"><?php echo $img2 ?></figure>
 										</div>
-										<div class="text-area col-sm-12 order-first" data-aos="fade-right">
-											<p class="catch"><?php echo CFS()->get('feature2_title') ?></p>
-											<p class="cont-txt"><?php echo CFS()->get('feature2_body') ?></p>
+										<div class="text-area col-sm-12 order-first">
+											<p class="catch" data-aos="twist-right"><?php echo CFS()->get('feature2_title') ?></p>
+											<p class="cont-txt" data-aos="twist-left"><?php echo CFS()->get('feature2_body') ?></p>
 										</div>
 									</li>
 <?php } ?>
@@ -88,8 +88,8 @@ $(function(){
 		if($img1) $img1 = '<img src="'.$img1[0].'" alt="'.CFS()->get('package1_title').'">';
 ?>
 								<ul class="row align-items-center">
-									<li class="col-6 col-sm-12 one-item" data-aos="fade-right">
-										<figure><?php echo $img1 ?></figure>
+									<li class="col-6 col-sm-12 one-item" data-aos="layer-fade-right">
+										<figure class="layer-fade-child"><?php echo $img1 ?></figure>
 									</li>
 									<li class="col-6 col-sm-12 one-item" data-aos="fade-left">
 										<div class="text-area">
@@ -120,8 +120,8 @@ $(function(){
 		if($img2) $img2 = '<img src="'.$img2[0].'" alt="'.CFS()->get('package2_title').'">';
 ?>
 								<ul class="row">
-									<li class="col-6 col-sm-12 one-item" data-aos="fade-up">
-										<figure><?php echo $img1 ?></figure>
+									<li class="col-6 col-sm-12 one-item" data-aos="layer-fade-right">
+										<figure class="layer-fade-child"><?php echo $img1 ?></figure>
 										<div class="text-area">
 											<p class="ttl"><?php echo CFS()->get('package1_title') ?></p>
 											<p class="cont-txt"><?php echo CFS()->get('package1_body') ?></p>
@@ -139,8 +139,8 @@ $(function(){
 											</table>
 										</div>
 									</li>
-									<li class="col-6 col-sm-12 one-item" data-aos="fade-up" data-aos-delay="300">
-										<figure><?php echo $img2 ?></figure>
+									<li class="col-6 col-sm-12 one-item" data-aos="layer-fade-right" data-aos-delay="300">
+										<figure class="layer-fade-child"><?php echo $img2 ?></figure>
 										<div class="text-area">
 											<p class="ttl"><?php echo CFS()->get('package2_title') ?></p>
 											<p class="cont-txt"><?php echo CFS()->get('package2_body') ?></p>

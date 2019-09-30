@@ -5,6 +5,8 @@ Template Name: ブランドコンセプト
 get_header();
 ?>
 
+<?php get_template_part('assets/parts/loading'); ?>
+
 		<main>
 			<div class="contents">
 				<div class="main-visual">
@@ -14,82 +16,57 @@ get_header();
 					</div>
 				</div>
 
-				<section class="wide introduction">
-					<div class="inner">
-						<h3 class="title" data-aos="fade-left">食卓がつくる、絆をもっと。</h3>
-						<div class="main-concept">
-							<div class="width-fixed">
-
-								<figure data-aos="fade-up"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/ph_brand01.jpg" alt=""></figure>
-								<div class="floating-txt" data-aos="fade-left">
-									<p class="cont-txt">食卓は、心をつくる。<br>心を寄せあう、分けあう、重ねあう場所だから。<br>かぞくとは、大切な人との絆。<br>かぞくの心の温もりが届いたら、<br>心の食卓はつながって、かぞくの絆がつくられる。<br>離れていたって、心はひとりにならない。<br><br>食卓は、大切な人との「かぞくの絆」</p>
-								</div>
-
-								<div class="swiper-container" id="js-brandconcept-swiper-container">
-									<div class="swiper-wrapper">
-										<div class="swiper-slide">
-											<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/ph_brand01_1.jpg" alt=""></figure>
-										</div>
-										<div class="swiper-slide">
-											<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/ph_brand01_2.jpg" alt=""></figure>
-										</div>
-										<div class="swiper-slide">
-											<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/ph_brand01_3.jpg" alt=""></figure>
-										</div>
-										<div class="swiper-slide">
-											<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/ph_brand01_4.jpg" alt=""></figure>
-										</div>
-										<div class="swiper-slide">
-											<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/ph_brand01_5.jpg" alt=""></figure>
-										</div>
-										<div class="swiper-slide">
-											<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/ph_brand01_6.jpg" alt=""></figure>
-										</div>
-									</div>
-								</div>
-
-								<ul class="row no-gutters no-gutters-sm justify-content-between align-items-center flex-sm-column-reverse">
-									<li class="photo col-sm-12" data-aos="fade-left">
-										<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/ph_brand02.jpg" alt=""></figure>
-									</li>
-									<li class="text-area col-sm-12 order-first" data-aos="fade-right">
-										<p class="cont-txt">「おいしいね」の声がうれしい。大切な人が食べる料理をつくるとき、そんな笑顔を思い浮かべながら、素材を選び、工夫を重ねて。<br><br>大切な人との心の絆がもっと深く重なるように。<br>かぞくのクルトンは、そんな想いから生まれたお菓子です。</p>
-									</li>
-								</ul>
-							</div>
+				
+				<section class="concept wide">
+					<div class="inner" data-aos="fade-up">
+						
+						<video src="<?php echo get_template_directory_uri(); ?>/assets/images/top/concept_video.mp4" playsinline autoplay loop muted></video>
+						
+						<div class="text-area">							
+							<p class="copy" data-aos="twist-left">食卓がつくる、絆をもっと。</p>
+							<p class="tx-concept">
+								<p data-aos="twist-left" data-aos-delay="100">食卓は、心をつくる。</p>
+								<p data-aos="twist-left" data-aos-delay="300">心を寄せあう、分けあう、重ねあう場所だから。</p>
+								<p data-aos="twist-left" data-aos-delay="500">かぞくとは、大切な人との絆。</p>
+								<p data-aos="twist-left" data-aos-delay="600">かぞくの心の温もりが届いたら、</p>
+								<p data-aos="twist-left" data-aos-delay="800">心の食卓はつながって、かぞくの絆がつくられる。</p>
+								<p data-aos="twist-left" data-aos-delay="1000">離れていたって、心はひとりにならない。</p>
+								<p data-aos="twist-left" data-aos-delay="1200">食卓がつくる、絆をもっと。</p>
+								<p data-aos="twist-left" data-aos-delay="1400">かぞくのクルトン</p>
+							</p>
 						</div>
 					</div>
 				</section>
 
 				<section class="wide make-story">
 					<div class="inner">
-						<h3 class="title" data-aos="fade-left">かぞくのクルトンがつくる、<br class="sp">絆のストーリー</h3>
+						<h3 class="title" data-aos="fade-left">かぞくのクルトンがつくる、<br class="forSP">絆のストーリー</h3>
 					</div>
 				</section>
 
-				<section class="wide make-story">
+				<section class="wide make-story pt-0">
 					<div class="inner">
-						<h3 class="title"><span class="eng line" data-aos="fade-left"></span></h3>
-						<figure data-aos="fade-up"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/story_morning_1.jpg" alt=""></figure>
-						
-					</div>
-				</section>
-
-				<section class="wide make-story">
-					<div class="inner">
+						<div data-aos="layer-fade-right">
+							<figure class="layer-fade-child">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/story_morning_1.jpg" alt="">
+							</figure>
+						</div>
 						<div class="width-fixed">
-
 							<ul class="row no-gutters no-gutters-sm jutify-content-between align-items-center">
 								<li class="photo col-sm-12" data-aos="fade-right">
-									<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/story_morning_2.jpg" alt=""></figure>
+									<div class="mt-4" data-aos="layer-fade-right">
+										<figure class="layer-fade-child">
+											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/story_morning_2.jpg" alt="">
+										</figure>
+									</div>
 								</li>
 								<li class="text-area col-sm-12" data-aos="fade-left">
 									<p class="cont-txt">
-										ここのところ毎朝食べているのは、母から届いた「かぞくのクルトン」。<br>
-										「珍しいお菓子を発見したから送ったよ！」と言っているけれど、きっと私が朝食を食べず、コーヒーだけで済ませることを知って、気遣ってくれたのだろう。<br>
-										眠気覚ましのブラックコーヒーと「はちみつトースト」の甘さがマッチして、食欲のない朝でもついつい手が伸びてしまう。<br>
-										口にするたびに、「ちゃんと食べてる？」と母の声が聞こえるようで、何だかうれしい。お母さん、ありがとう。<br>
-										誕生日に、今度は私から送ってみようかな。
+										<p data-aos="twist-left" data-aos-delay="0">朝食をとり、家事を終えて、ちょっとひと休み。</p>
+										<p data-aos="twist-left" data-aos-delay="200">この頃のお気に入りは、「おすすめのお菓子を送ったよ！」と母から届いたクルトンのお菓子でティータイム。</p>
+										<p data-aos="twist-left" data-aos-delay="400">コーヒーと「はちみつトースト」の甘さがマッチして、朝でもついつい手が伸びてしまう。</p>
+										<p data-aos="twist-left" data-aos-delay="600">口にするたびに、「美味しいでしょ？」と母の声が聞こえるようで、何だかうれしい。お母さん、ありがとう。</p>
+										<p class="mt-2" data-aos="twist-left" data-aos-delay="800">気づけば、しばらく顔を見ていない気がする。次の休みは実家に帰って、母と一緒に食べたいな。</p>
 									</p>
 								</li>
 							</ul>
@@ -99,22 +76,27 @@ get_header();
 
 				<section class="wide make-story">
 					<div class="inner">
-						<h3 class="title"><span class="eng line" data-aos="fade-left"></span></h3>
-
-						<figure data-aos="fade-up"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/story_lunch_1.jpg" alt=""></figure>
+						<div data-aos="layer-fade-right">
+							<figure class="layer-fade-child">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/story_lunch_1.jpg" alt="">
+							</figure>
+						</div>
 						<div class="width-fixed">
-
 							<ul class="row no-gutters no-gutters-sm justify-content-between align-items-center flex-sm-column-reverse">
 								<li class="photo col-sm-12" data-aos="fade-right">
-									<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/story_lunch_2.jpg" alt=""></figure>
+									<div class="mt-4" data-aos="layer-fade-right">
+										<figure class="layer-fade-child">
+											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/story_lunch_2.jpg" alt="">
+										</figure>
+									</div>
 								</li>
 								<li class="text-area col-sm-12 order-first" data-aos="fade-left">
-									<p class="cont-txt">久しぶりに息子夫婦がやってきました。<br>
-										かぞくなんだから特別なことはしなくてもいいはずなのに、お菓子や果物をテーブルに並べてしまいます。<br>
-										いつまで経っても「子どもは子ども」ということでしょうね。<br>
-										お嫁さんは用意したチョコレートのクルトンを「これ美味しい」と言って、たくさん食べてくれます。<br>
-										そんな彼女を見て笑みがこぼれる私たち両親に、「もうすぐかぞくが増えるんだ」と息子がひと言。えっ、私、おばあちゃんになるの？<br>
-										新しいかぞくがクルトンを食べられる日はまだ先だけど、そのころにはこんな食卓を囲めるといいですね。
+									<p class="cont-txt">
+										<p data-aos="twist-left" data-aos-delay="0">久しぶりに息子夫婦がやってきた。</p>
+										<p data-aos="twist-left" data-aos-delay="200">「何もいらないよ」と言われているのに、いくつになっても子どもは可愛いもので、お菓子や果物をワクワクしながらテーブルに並べてしまう。</p>
+										<p data-aos="twist-left" data-aos-delay="600">お嫁さんは用意したクルトンのお菓子を「これ美味しい」と言って、たくさん食べてくれる。</p>
+										<p data-aos="twist-left" data-aos-delay="800">そんな彼女を見て笑みがこぼれる私に、「もうすぐかぞくが増えるんだ」と息子がひと言。えっ、私、おばあちゃんになるの？</p>
+										<p class="mt-2" data-aos="twist-left" data-aos-delay="1000">また、賑やかにこんな食卓を囲めるといいな。</p>
 									</p>
 								</li>
 							</ul>
@@ -124,21 +106,26 @@ get_header();
 
 				<section class="wide make-story">
 					<div class="inner">
-						<h3 class="title"><span class="eng line" data-aos="fade-left"></span></h3>
-
-						<figure data-aos="fade-up"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/story_afternoon_1.jpg" alt=""></figure>
+						<div data-aos="layer-fade-right">
+							<figure class="layer-fade-child">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/story_afternoon_1.jpg" alt="">
+							</figure>
+						</div>
 						<div class="width-fixed">
-
 							<ul class="row no-gutters no-gutters-sm jutify-content-between align-items-center">
 								<li class="photo col-sm-12" data-aos="fade-right">
-									<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/story_afternoon_2.jpg" alt=""></figure>
+									<div class="mt-4" data-aos="layer-fade-right">
+										<figure class="layer-fade-child">
+											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/story_afternoon_2.jpg" alt="">
+										</figure>
+									</div>
 								</li>
-								<li class="text-area col-sm-12 order-first" data-aos="fade-left">
-									<p class="cont-txt">近くに住んでいる母は、何かにつけて私の家にやってくる。<br>
-										今日も午後のほっとする時間帯を見計らうようにチャイムが。来るなり「天気がいいから庭でお茶にしましょう」と勝手に段取りをする母。完全に自分の家だと思っているようだ。<br>
-										今日のお供は、色合いが鮮やかなクルトンを三種類。「やきたてコーン」のしょっぱさ、「むらさきいも」と「はちみつトースト」の甘さ、どれもが紅茶のほんのりとした苦味に合って、なんだかいつもより会話も弾んだような気がしてくる。<br>
-										「そろそろじゃない？」孫娘の通園バスが着く時間を把握している母。ねえ、お迎えから帰ってきたら、一緒におやつにしようか。
-
+								<li class="text-area col-sm-12" data-aos="fade-left">
+									<p class="cont-txt">
+										<p data-aos="twist-left" data-aos-delay="0">近くに住んでいる母は、何かにつけて私の家にやってくる。</p>
+										<p data-aos="twist-left" data-aos-delay="200">今日も午後のほっとする時間帯を見計らうようにチャイムが。来るなり「天気が良いから庭でお茶にしましょう」と勝手に段取りをする母。完全に自分の家だと思っているようだ。</p>
+										<p data-aos="twist-left" data-aos-delay="400">今日のお供は、クルトンのお菓子。一口サイズでどんどん食べていくうちになんだかいつもより会話も弾んで楽しい気持ちに。</p>
+										<p data-aos="twist-left" data-aos-delay="600">「そろそろじゃない？」孫娘の通園バスが着く時間を把握している母。ねえ、お迎えから帰ってきたら、一緒におやつにしようか。</p>
 									</p>
 								</li>
 							</ul>
@@ -148,19 +135,27 @@ get_header();
 
 				<section class="wide make-story">
 					<div class="inner">
-						<h3 class="title"><span class="eng line" data-aos="fade-left"></span></h3>
-
-						<figure data-aos="fade-up"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/story_children_1.jpg" alt=""></figure>
+						<div data-aos="layer-fade-right">
+							<figure class="layer-fade-child">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/story_children_1.jpg" alt="">
+							</figure>
+						</div>
 						<div class="width-fixed">
-
 							<ul class="row no-gutters no-gutters-sm jutify-content-between align-items-center flex-sm-column-reverse">
 								<li class="photo col-sm-12" data-aos="fade-right">
-									<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/story_children_2.jpg" alt=""></figure>
+									<div class="mt-4" data-aos="layer-fade-right">
+										<figure class="layer-fade-child">
+											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/story_children_2.jpg" alt="">
+										</figure>
+									</div>
 								</li>
-								<li class="text-area col-sm-12" data-aos="fade-left">
-									<p class="cont-txt">遊び盛りの息子が帰ってくると、決まって言うのは「お腹がすいた！」の一言。<br>
-										そんな彼に、今日は「やきたてコーン」と「おいしいカレー」を用意。それは私にとって懐かしい味。一口食べれば、母が留守番のごほうびにと、仕事帰りに買ってきてくれた焼きとうもろこしと、それを頬張りながら一日の出来ごとを話す私や、母の手作りカレーをみんなでうれしそうに食べている食卓が浮かんでくる。<br>
-										息子もかぞくのクルトンを食べながら、学校での出来事を自慢気に話してくれる。かぞくの絆を感じる、かけがえのないこの時間。母もきっと、こんな気持だったのでしょうね。
+								<li class="text-area col-sm-12 order-first" data-aos="fade-left">
+									<p class="cont-txt">
+										<p data-aos="twist-left" data-aos-delay="0">遊び盛りの子どもが帰ってくると、決まって言うのは「お腹がすいた！」の一言。</p>
+										<p data-aos="twist-left" data-aos-delay="200">用意したクルトンのお菓子をパクパク美味しそうに食べている姿を見ていると、自分の子どもの頃を思い出す。</p>
+										<p data-aos="twist-left" data-aos-delay="400">そういえば、お腹を空かして帰ってくると、いつも母が美味しいお菓子を用意してくれていて、それを食べながら一日の出来事を話す時間が楽しかった。</p>
+										<p data-aos="twist-left" data-aos-delay="600">今になってわかる。母になった私も子どもと過ごす、このひと時がかけがえのない時間に感じる。</p>
+										<p class="mt-2" data-aos="twist-left" data-aos-delay="800">私の母も同じ気持ちだったのかな。</p>
 									</p>
 								</li>
 							</ul>
@@ -170,25 +165,54 @@ get_header();
 
 				<section class="wide make-story">
 					<div class="inner">
-						<h3 class="title"><span class="eng line" data-aos="fade-left"></span></h3>
-
-						<figure data-aos="fade-up"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/story_night_1.jpg" alt=""></figure>
+						<div data-aos="layer-fade-right">
+							<figure class="layer-fade-child">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/story_night_1.jpg" alt="">
+							</figure>
+						</div>
 						<div class="width-fixed">
 							<ul class="row no-gutters no-gutters-sm jutify-content-between align-items-center">
 								<li class="photo col-sm-12" data-aos="fade-right">
-									<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/story_night_2.jpg" alt=""></figure>
+									<div class="mt-4" data-aos="layer-fade-right">
+										<figure class="layer-fade-child">
+											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/brandconcept/story_night_2.jpg" alt="">
+										</figure>
+									</div>
 								</li>
 								<li class="text-area col-sm-12" data-aos="fade-left">
-									<p class="cont-txt">週末の夜は映画を見たり、ゲームをしたり、他愛もないおしゃべりをして夜を過ごします。そんなときは、お酒があるといっそうリラックスできますよね。<br>
-そこで大切なのはおつまみ。最近は「かぞくのクルトン」から選ぶことが多いのですが、今日のようなワインには「コクうまチーズ」がよく合います。お酒が強いわけではないので、クルトンのほうがどんどん減っていきます。
-子どもが独り立ちしてからの時間は、ずっと濃密になったように思います。今は自由な二人。遠くにいるかぞくに思いを馳せながらワイングラスを傾けて、みんなの未来を語り合っているんです。
-
+									<p class="cont-txt">
+										<p data-aos="twist-left" data-aos-delay="0">“息子と酒を飲み交わす”</p>
+										<p data-aos="twist-left" data-aos-delay="200">この日のために用意しておいた、お気に入りの銘柄のビールと、それにぴったりのつまみとクルトンのお菓子を並べる。</p>
+										<p data-aos="twist-left" data-aos-delay="400">乾杯の音とともに、一気にグラスをあおる。
+										苦さに顔をしかめる息子に、なかなか聞けなかったガールフレンドの話を持ち掛けた。</p>
+										<p data-aos="twist-left" data-aos-delay="800">いつの間にかお互いの距離感を掴み損ねていた、そんなもどかしさや気恥ずかしさも、ビールの苦味とクルトンの味わいが見事に吹き飛ばしてくれたようだ。</p>
+										<p data-aos="twist-left" data-aos-delay="1000">「私も仲間に入れてよ！」気になる話に洗い物もそこそこ、グラス片手に、妻も即座に加わった。</p>
+										<p class="mt-2" data-aos="twist-left" data-aos-delay="1200">今日という日を、私は一生忘れないだろう。</p>
+										<p data-aos="twist-left" data-aos-delay="1200">何故なら、20年間待ち望んだ、私の密かな夢が叶った日だからだ。</p>
 									</p>
 								</li>
 							</ul>
 						</div>
 					</div>
 				</section>
+
+				<section class="wide package">
+                    <div class="inner">
+                        <div class="width-fixed">
+                            <ul class="row justify-content-between">
+                                <li class="col-12 col-sm-12 one-item">
+                                    <div class="row no-gutters no-gutters-sm  js-clickArea">
+                                        <figure class="col-7 col-sm-12 zoom" data-aos="fade-right"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/idx_lineup.jpg" alt="ラインナップ"></figure>
+                                        <div class="col-5 col-sm-12 text-area row justify-content-start align-items-center" data-aos="fade-left">
+                                            <p class="ttl">豊富なフレーバー12種類<br>ラインナップのご案内</p>
+                                            <p class="more"><span><a href="/lineup/" class="arrow">LEARN MORE</a></span></p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
 
 				<section class="pagelink-area">
 					<div class="width-fixed">
@@ -209,7 +233,7 @@ get_header();
 							</li>
 							<li class="col-4 col-sm-12 one-item js-clickArea" data-aos="fade-up" data-aos-delay="600">
 								<figure class="zoom col-sm-7"><span><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_lineup.jpg" alt=""></span></figure>
-								<div class="text-area col-sm-5 order-sm-first">
+								<div class="text-area col-sm-5">
 									<p class="ttl">ラインナップ</p>
 									<p class="more"><span><a href="<?php echo esc_url( home_url('/lineup/') ); ?>" class="arrow">LEARN MORE</a></span></p>
 								</div>

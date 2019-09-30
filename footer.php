@@ -37,10 +37,10 @@
 <script>
 	// aosの初期化
 	AOS.init({
-		disable: 'mobile',
-		duration: 1500,
-		delay:500
+		duration: 1000,
+		once: true
 	});
-
 </script>
-	<?php wp_footer(); ?>
+
+
+<?php wp_footer(); ?>

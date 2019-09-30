@@ -32,6 +32,10 @@
     font-size:;
 }
 
+.map-access #gmap {
+    min-height: 600px;
+}
+
 .map-access .store-name {
     font-weight:bold;
     margin-top:40px;
@@ -53,7 +57,7 @@
 
 
 /* responsive */
-@media screen and (min-width: 0px) and (max-width: 767px) {
+@media screen and (min-width: 0px) and (max-width: 895px) {
     figure img {
         width:100%;
     }

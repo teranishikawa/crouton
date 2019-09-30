@@ -164,7 +164,7 @@
 	display: block;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1360px) {
+@media screen and (min-width: 896px) and (max-width: 1360px) {
 	#recipe .recipe-box .various .text h3 {
 		font-size: 2.2rem;
 		margin-bottom: 1.5vw;
@@ -174,7 +174,7 @@
 	}
 }
 
-@media screen and (min-width: 0px) and (max-width: 767px) {
+@media screen and (min-width: 0px) and (max-width: 895px) {
 	#recipe .recipe-box .various .various-box {
 		flex-wrap:wrap
 	}
@@ -448,6 +448,9 @@
 	display:block;
 	font-size:1.6rem;
 }
+#recipe .recipe-box .recipe-detail .profile .text h4 span.eng_name {
+	font-size:1.2rem;
+}
 #recipe .recipe-box .recipe-detail .profile .text p {
 }
 
@@ -512,7 +515,7 @@
 	border-color: #f1785d !important;
 }
 
-@media screen and (min-width: 0px) and (max-width: 767px) {
+@media screen and (min-width: 0px) and (max-width: 895px) {
 	#recipe .recipe-box .recipe-detail .ingredients {
 		display:block;
 		padding-bottom:1.5em;

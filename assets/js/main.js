@@ -17,6 +17,9 @@ $(function () {
 	SpAccordion();
 	FixedSideBar();
 	linupAction();
+	setTimeout(function () {
+		initGmap();
+	}, 500);
 });
 
 
@@ -69,7 +72,7 @@ function pageInnerLink() {
 
 	function scrollToAnker(hash) {
 		var target = $(hash);
-		var minusHight = 0;
+		var minusHight = 80;
 		if ($('.logo-area').hasClass('js-fixed-header')) {
 			minusHight = $('.logo-area').outerHeight();
 		}
@@ -248,6 +251,90 @@ function SwiperControl() {
 			swiper: galleryThumbs3
 		}
 	});
+
+	var galleryThumbs4 = new Swiper('.gallery-thumbs4', {
+		spaceBetween: 10,
+		slidesPerView: 3,
+		freeMode: true,
+		watchSlidesVisibility: true,
+		watchSlidesProgress: true,
+	});
+	var galleryTop4 = new Swiper('.gallery-main4', {
+		spaceBetween: 10,
+		thumbs: {
+			swiper: galleryThumbs4
+		}
+	});
+
+	var galleryThumbs5 = new Swiper('.gallery-thumbs5', {
+		spaceBetween: 10,
+		slidesPerView: 3,
+		freeMode: true,
+		watchSlidesVisibility: true,
+		watchSlidesProgress: true,
+	});
+	var galleryTop5 = new Swiper('.gallery-main5', {
+		spaceBetween: 10,
+		thumbs: {
+			swiper: galleryThumbs5
+		}
+	});
+
+	var galleryThumbs6 = new Swiper('.gallery-thumbs6', {
+		spaceBetween: 10,
+		slidesPerView: 3,
+		freeMode: true,
+		watchSlidesVisibility: true,
+		watchSlidesProgress: true,
+	});
+	var galleryTop6 = new Swiper('.gallery-main6', {
+		spaceBetween: 10,
+		thumbs: {
+			swiper: galleryThumbs6
+		}
+	});
+
+	var galleryThumbs7 = new Swiper('.gallery-thumbs7', {
+		spaceBetween: 10,
+		slidesPerView: 3,
+		freeMode: true,
+		watchSlidesVisibility: true,
+		watchSlidesProgress: true,
+	});
+	var galleryTop7 = new Swiper('.gallery-main7', {
+		spaceBetween: 10,
+		thumbs: {
+			swiper: galleryThumbs7
+		}
+	});
+
+	var galleryThumbs8 = new Swiper('.gallery-thumbs8', {
+		spaceBetween: 10,
+		slidesPerView: 3,
+		freeMode: true,
+		watchSlidesVisibility: true,
+		watchSlidesProgress: true,
+	});
+	var galleryTop8 = new Swiper('.gallery-main8', {
+		spaceBetween: 10,
+		thumbs: {
+			swiper: galleryThumbs8
+		}
+	});
+
+	var galleryThumbs9 = new Swiper('.gallery-thumbs9', {
+		spaceBetween: 10,
+		slidesPerView: 3,
+		freeMode: true,
+		watchSlidesVisibility: true,
+		watchSlidesProgress: true,
+	});
+	var galleryTop9 = new Swiper('.gallery-main9', {
+		spaceBetween: 10,
+		thumbs: {
+			swiper: galleryThumbs9
+		}
+	});
 	//動作が不安定だったのでroll部分だけslickを使用
 	$('#js-roll-slick-container').slick({
 		vertical: true,
@@ -404,7 +491,8 @@ function SpAccordion(no_class) {
 	if (isSP()) {
 		$('a.sp-aco').on('click', function () { //aタグの無効化
 			return false;
-		})
+		});
+
 		var SLIDE_SPEED = 300; //スライドが完了するまでのミリ秒
 		$('.sp-aco').not(no_class).next('.open-aco').hide();
 		$('.sp-aco').not(no_class).on('click', function () {
@@ -458,4 +546,46 @@ function isSP(){
 		return false;
 	}
 	
+}
+
+/******************************************************************************/
+// googlem api customize
+/******************************************************************************/
+function initGmap() {
+	if (document.getElementById('gmap')) {
+		if( google == undefined ){
+			return;
+		}
+		var MyLatLng = new google.maps.LatLng(35.163266, 136.963369);
+
+		// マップスタイル
+		var map = new google.maps.Map(document.getElementById('gmap'), {
+			zoom: 17,      //地図の縮尺値
+			center: MyLatLng,    //地図の中心座標
+			mapTypeId: google.maps.MapTypeId.ROADMAP,   //地図の種類
+			styles: [
+				{
+					stylers: [
+						{ hue: '#967c72' /*色相*/ },
+						{ saturation: -60 /* 彩度 */ },
+						{ lightness: 0 /* 明度 */ }]
+				},
+				{
+					featureType: 'water',
+					elementType: 'all',
+					stylers: [
+						{ saturation: -25 }
+					],
+				},
+			]
+		});
+
+		var PINLATLNG = new google.maps.LatLng(35.163266, 136.963369);
+
+		var marker = new google.maps.Marker({
+			position: PINLATLNG,
+			map: map,
+			icon: '/wp-content/themes/crouton/assets/images/map_pin.png',
+		});
+	}
 }

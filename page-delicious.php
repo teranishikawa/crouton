@@ -18,14 +18,14 @@ get_header();
 					<div class="inner">
 						<div class="various width-fixed">
 							<div class="various-box" data-aos="fade-right">
-								<div class="aos-init aos-animate" data-aos="fade-right">
-									<figure class="zoom">
+								<div class="aos-init aos-animate" data-aos="layer-fade-right">
+									<figure class="layer-fade-child">
 										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/ph_recipe.jpg" alt="おいしさの組み合わせさまざま">
 									</figure>
 								</div>
 								<div class="text ex-area aos-init aos-animate" data-aos="fade-right">
-									<h3>おいしさの組み合わせさまざま</h3>
-									<p>
+									<h3 data-aos="twist-right" data-aos-delay="1000">おいしさの組み合わせ<br class="forSP">さまざま</h3>
+									<p data-aos="twist-left" data-aos-delay="1200">
 										お菓子としてそのまま食べてもおいしいかぞくのクルトンは、多彩な風味を持つフレーバーの多さが特色です。<br>
 										色々なお飲み物に合うのはもちろん、おつまみや料理にアレンジすることで、見た目も鮮やかなさまざなおいしさを演出することができます。
 									</p>
@@ -36,11 +36,12 @@ get_header();
 						<div class="example width-fixed">
 							<h3 class="title" data-aos="fade-right"><span class="eng line"></span>おいしいお召し上がり方の例</h3>
 							<ul>
-								<li data-aos="fade-up"><figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/example_01.jpg" alt="ビールのおつまみに"><figcaption>01</figcaption></figure><p>ビールのおつまみに</p></li>
-								<li data-aos="fade-up" data-aos-delay="300"><figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/example_02.jpg" alt="サラダにのせて"><figcaption>02</figcaption></figure><p>サラダにのせて</p></li>
-								<li data-aos="fade-up" data-aos-delay="600"><figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/example_03.jpg" alt="デザートのトッピングに"><figcaption>03</figcaption></figure><p>デザートのトッピングに</p></li>
-								<li data-aos="fade-up"><figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/example_04.jpg" alt="スープに入れて"><figcaption>04</figcaption></figure><p>スープに入れて</p></li>
-								<li data-aos="fade-up" data-aos-delay="300"><figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/example_05.jpg" alt="シリアルとして"><figcaption>05</figcaption></figure><p>シリアルとして</p></li>
+								<li data-aos="twist-left"><figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/example_01.jpg" alt="おやつとして"><figcaption>01</figcaption></figure><p>おやつとして</p></li>
+								<li data-aos="twist-left" data-aos-delay="500"><figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/example_02.jpg" alt="サラダにのせて"><figcaption>02</figcaption></figure><p>サラダにのせて</p></li>
+								<li data-aos="twist-left" data-aos-delay="1000"><figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/example_03.jpg" alt="デザートのトッピングに"><figcaption>03</figcaption></figure><p>デザートのトッピングに</p></li>
+								<li data-aos="twist-left"><figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/example_04.jpg" alt="スープに入れて"><figcaption>04</figcaption></figure><p>スープに入れて</p></li>
+								<li data-aos="twist-left" data-aos-delay="500"><figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/example_05.jpg" alt="シリアルとして"><figcaption>05</figcaption></figure><p>シリアルとして</p></li>
+								<li data-aos="twist-left" data-aos-delay="1000"><figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/example_01.jpg" alt="ビールのおつまみに"><figcaption>06</figcaption></figure><p>ビールのおつまみに</p></li>
 							</ul>
 						</div>
 						
@@ -53,16 +54,16 @@ get_header();
                         <div class="width-fixed">
                             <h3 class="title" data-aos="fade-left"><span class="eng line"></span>アレンジレシピ</h3>
                             <ul>
-                                <li class=" js-clickArea row no-gutters no-gutters-sm justify-content-between align-items-center flex-sm-column">
+                                <li class=" js-clickArea row no-gutters no-gutters-sm justify-content-between align-items-center flex-sm-column one-item">
                                     <div class="photo" data-aos="fade-right">
-                                        <figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/idx_recipe.jpg" alt="アレンジレシピ"></figure>
+                                        <figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/idx_recipe.jpg" alt="アレンジレシピ"></figure>
                                     </div>
                                     <div class="text-area" data-aos="fade-left">
-                                        <p class="catch">さらにおいしくお召し上がりいただくために</p>
+                                        <p class="catch">さらにおいしく<br class="forSP">お召し上がりいただくために</p>
                                         <p class="cont-txt">かぞくのクルトンをさらにおいしくお召し上がりいただくために、
 															プロのフードコーディネーターが考案したアレンジレシピをご用意しました。
 															味わいも彩りもさらに豊かになるクルトンレシピをぜひお試しください。</p>
-                                        <p class="more"><span><a href="<?php echo esc_url( home_url('/recipe/') ); ?>"    class="arrow">LEARN MORE</a></span></p>
+                                        <p class="more"><span><a href="<?php echo esc_url( home_url('/recipe/') ); ?>" class="arrow">LEARN MORE</a></span></p>
                                     </div>
                                 </li>
                             </ul>
@@ -81,7 +82,7 @@ get_header();
 								<figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_gift.jpg" alt=""></figure>
 								<div class="text-area col-sm-5">
 									<p class="ttl">ギフトセット</p>
-									<p class="more"><span><a href="/secret/" class="arrow">LEARN MORE</a></span></p>
+									<p class="more"><span><a href="/gift/" class="arrow">LEARN MORE</a></span></p>
 								</div>
 							</li>
 							<li class="col-4 col-sm-12 one-item js-clickArea active" data-aos="fade-up" data-aos-delay="300">

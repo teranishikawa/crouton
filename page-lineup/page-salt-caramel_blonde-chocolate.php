@@ -58,7 +58,7 @@
 									<li class="col-6 col-sm-12 one-item" data-aos="fade-left">
 										<div class="text-area">
 											<p class="ttl">かぞくのキューブ</p>
-											<p class="cont-txt">15g入りの小分け包装が2個入った<br class="pc">お手軽パッケージです。</p>
+											<p class="cont-txt">15g入りの小分け包装が2個入った<br class="forPC">お手軽パッケージです。</p>
 											<table class="cmn-table mt-4">
 												<tbody>
 													<tr>

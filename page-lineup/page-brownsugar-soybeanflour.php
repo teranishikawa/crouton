@@ -35,7 +35,7 @@
 											<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/lineup/lineup_kinako_02.jpg" alt=""></figure>
 										</div>
 										<div class="text-area col-sm-12 order-first" data-aos="fade-right">
-											<p class="catch">やさしい甘さと風味が<br class="pc">どこか懐かしい</p>
+											<p class="catch">やさしい甘さと風味が<br class="forPC">どこか懐かしい</p>
 											<p class="cont-txt">きな粉のさらっとした食感とやさしい甘さ、香ばしい風味をそのまま生かし、どこか懐かしいお菓子に仕上がっています。香ばしいクルトンとの相性はぴったり。</p>
 										</div>
 									</li>
@@ -55,7 +55,7 @@
 										<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/lineup/lineup_kinako_cubebara.jpg" alt="こくとうときなこ"></figure>
 										<div class="text-area">
 											<p class="ttl">かぞくのキューブ</p>
-											<p class="cont-txt">15g入りの小分け包装が2個入った<br class="pc">お手軽パッケージです。</p>
+											<p class="cont-txt">15g入りの小分け包装が2個入った<br class="forPC">お手軽パッケージです。</p>
 											<table class="cmn-table mt-4">
 												<tbody>
 													<tr>
@@ -74,7 +74,7 @@
 										<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/lineup/lineup_kinako_longcase.jpg" alt="かぞくのロングケース"></figure>
 										<div class="text-area">
 											<p class="ttl">かぞくのロングケース</p>
-											<p class="cont-txt">たくさんの方でお召し上がりいただきたい増量パッケージです。<br class="pc">ご自宅のストックやカジュアルな贈り物におすすめです。</p>
+											<p class="cont-txt">たくさんの方でお召し上がりいただきたい増量パッケージです。<br class="forPC">ご自宅のストックやカジュアルな贈り物におすすめです。</p>
 											<table class="cmn-table mt-4">
 												<tbody>
 													<tr>

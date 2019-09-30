@@ -38,6 +38,9 @@
 .anker-business .business-numbering-title:before {
     left: 0;
 }
+.anker-business ul {
+    padding-right: 0;
+}
 .anker-business li:last-child .business-numbering-title:after {
     right: 0;
 }
@@ -45,6 +48,9 @@
     width: calc( 100% / 7 );
 }
 
+.anker-business ul > li a {
+    font-size: 1.3rem;
+}
 
 /* linup section */
 .lineup-business .text-area {
@@ -159,7 +165,7 @@
 
 
 /* responsive */
-@media screen and (min-width: 0px) and (max-width: 767px) {
+@media screen and (min-width: 0px) and (max-width: 895px) {
     figure img {
         width:100%;
     }

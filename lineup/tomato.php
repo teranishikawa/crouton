@@ -92,7 +92,7 @@
 										<figure><img src="/assets/images/lineup/lineup_tomato_cube.jpg" alt="かぞくのキューブ"></figure>
 										<div class="text-area">
 											<p class="ttl">かぞくのキューブ</p>
-											<p class="cont-txt">15g入りの小分け包装が2個入った<br class="pc">お手軽パッケージです。</p>
+											<p class="cont-txt">15g入りの小分け包装が2個入った<br class="forPC">お手軽パッケージです。</p>
 											<table class="cmn-table mt-4">
 												<tbody>
 													<tr>
@@ -111,7 +111,7 @@
 										<figure><img src="/assets/images/lineup/lineup_tomato_longcase.jpg" alt="かぞくのロングケース"></figure>
 										<div class="text-area">
 											<p class="ttl">かぞくのロングケース</p>
-											<p class="cont-txt">たくさんの方でお召し上がりいただきたい増量パッケージです。<br class="pc">ご自宅のストックやカジュアルな贈り物におすすめです。</p>
+											<p class="cont-txt">たくさんの方でお召し上がりいただきたい増量パッケージです。<br class="forPC">ご自宅のストックやカジュアルな贈り物におすすめです。</p>
 											<table class="cmn-table mt-4">
 												<tbody>
 													<tr>
@@ -206,7 +206,7 @@
 										<div class="text-area">
 											<p class="comment">あなたと食べたい</p>
 											<p class="ttl"><small>はちみつ</small>トースト<span class="eng">TOAST</span></p>
-											<p class="more"><a href="/lineup/toast.php" class="arrow">LEARN MORE</a></p>
+											<p class="more"><a href="/lineup/honey-toast.php" class="arrow">LEARN MORE</a></p>
 										</div>
 									</li>
 									<li class="col-3 col-sm-12 js-clickArea one-item" data-aos="fade-up">
@@ -238,7 +238,7 @@
 										<div class="text-area">
 											<p class="comment">いっしょに休もう</p>
 											<p class="ttl">こくとう<small>と</small>きなこ<span class="eng">BROWN SUGAR &amp; SOYBEAN FLOUR</span></p>
-											<p class="more"><a href="/lineup/brownsugar-soybeanflour/" class="arrow">LEARN MORE</a></p>
+											<p class="more"><a href="/lineup/brown-sugar-soybean-flour/" class="arrow">LEARN MORE</a></p>
 										</div>
 									</li>
 									<li class="col-3 col-sm-12 js-clickArea one-item" data-aos="fade-up">

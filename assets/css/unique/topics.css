@@ -85,7 +85,7 @@
 	display: block;
 }
 
-@media screen and (min-width: 0px) and (max-width: 767px) {
+@media screen and (min-width: 0px) and (max-width: 895px) {
 	#topics .topics-box .year-list {
 		flex-wrap: wrap;
 		justify-content: center;
@@ -142,7 +142,7 @@
 	margin-top:3em;
 }
 #topics .topics-box .topics-body > img {
-	width:100%;
+	max-width:100%;
 	height:auto;
 	margin-bottom:2em;
 }

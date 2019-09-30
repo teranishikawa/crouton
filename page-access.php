@@ -18,8 +18,8 @@ get_header();
                     	<h3 class="title" data-aos="fade-right">2019年10月末オープン予定！</h3>
                         <!--<h3 class="title" data-aos="fade-right">私たちのお店にお越しください</h3>-->
                         <p class="cont-txt" data-aos="fade-up">
-							お店には「かぞくのクルトン」すべての種類をご用意しています。<br class="pc">
-							もちろんご試食していただくことができます。<br class="pc">
+							お店には「かぞくのクルトン」すべての種類をご用意しています。<br class="forPC">
+							もちろんご試食していただくことができます。<br class="forPC">
 							味と楽しさを実感していただくために、ぜひご来店ください。
                         </p>
                     </div>
@@ -28,7 +28,9 @@ get_header();
 				<section class="wide info-access">
                     <div class="inner">
                         <h3 class="title" data-aos="fade-left"><span class="eng line"></span>店舗案内</h3>
-						<figure data-aos="fade-up"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/access/store_1.jpg" alt="店舗案内" class="js-switch"></figure>
+						<div data-aos="layer-fade-right">
+							<figure class="layer-fade-child"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/access/store_1.jpg" alt="店舗案内" class="js-switch"></figure>
+						</div>
                     </div>
                 </section>
 
@@ -42,11 +44,11 @@ get_header();
 				<section class="wide map-access">
                     <div class="inner">
                         <h3 class="title" data-aos="fade-left"><span class="eng line"></span>アクセスマップ</h3>
-						<figure data-aos="fade-up"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/access/store_map.png" alt="店舗案内" class="js-switch"></figure>
+						<div id="gmap" class="gmap" data-aos="fade-up"></div>
                         <p class="store-name" data-aos="fade-left">かぞくのクルトン　本山本店</p>
-                        <p class="store-address" data-aos="fade-up">〒464-0819<br class="sp">名古屋市千種区四谷通1-1<br class="sp">イリヤ本山1F<br>TEL:052-789-1008</p>
-                        <p class="store-access" data-aos="fade-up">地下鉄東山線　4番出口より徒歩3分　愛知工業大学すぐ南</p>
-                        <a href="#" class="arrow" target="_blank" data-aos="fade-up">MAP</a>
+                        <p class="store-address" data-aos="fade-up">〒464-0819 <br class="forSP">名古屋市千種区四谷通1-1 <br class="forSP">イリヤ本山1F<br>TEL:<a href="tel:0527891008">052-789-1008</a></p>
+                        <p class="store-access" data-aos="fade-up">地下鉄東山線本山駅　4番出口より徒歩3分　<br class="forSP">愛知工業大学すぐ南</p>
+                        <a href="https://goo.gl/maps/qTKJzSdWuxW9QLdt7" class="arrow" target="_blank" data-aos="fade-up">MAP</a>
                         </p>
                     </div>
                 </section>
@@ -57,7 +59,7 @@ get_header();
 						<ul class="row">
 							<li class="col-4 col-sm-12 one-item js-clickArea" data-aos="fade-up" data-aos-delay="300">
 								<figure class="zoom col-sm-7"><span><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_lineup.jpg" alt=""></span></figure>
-								<div class="text-area col-sm-5 order-sm-first">
+								<div class="text-area col-sm-5">
 									<p class="ttl">ラインナップ</p>
 									<p class="more"><span><a href="/lineup/" class="arrow">LEARN MORE</a></span></p>
 								</div>
@@ -66,7 +68,7 @@ get_header();
 								<figure class="zoom col-sm-7"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_gift2.jpg" alt=""></figure>
 								<div class="text-area col-sm-5">
 									<p class="ttl">ギフトセット</p>
-									<p class="more"><span><a href="/secret/" class="arrow">LEARN MORE</a></span></p>
+									<p class="more"><span><a href="/gift/" class="arrow">LEARN MORE</a></span></p>
 								</div>
 							</li>
 							<li class="col-4 col-sm-12 one-item js-clickArea" data-aos="fade-up" data-aos-delay="300">

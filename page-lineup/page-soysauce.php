@@ -36,7 +36,7 @@
 											<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/lineup/lineup_mitarashishoyu_02.jpg" alt=""></figure>
 										</div>
 										<div class="text-area col-sm-12 order-first" data-aos="fade-right">
-											<p class="catch">口の中に広がる香ばしさ。<br class="pc">懐かしいみたらし団子そのもの</p>
+											<p class="catch">口の中に広がる香ばしさ。<br class="forPC">懐かしいみたらし団子そのもの</p>
 											<p class="cont-txt">口の中に広がる味も香りも、懐かしいみたらし団子そのもの。みりんのほのかな甘さとごま油と刻みのり香りが醤油の風味を引き立て、飽きることなく食べることができます。</p>
 										</div>
 									</li>
@@ -56,7 +56,7 @@
 										<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/lineup/lineup_mitarashishoyu_cubebara.jpg" alt="みたらし醤油"></figure>
 										<div class="text-area">
 											<p class="ttl">かぞくのキューブ</p>
-											<p class="cont-txt">15g入りの小分け包装が2個入った<br class="pc">お手軽パッケージです。</p>
+											<p class="cont-txt">15g入りの小分け包装が2個入った<br class="forPC">お手軽パッケージです。</p>
 											<table class="cmn-table mt-4">
 												<tbody>
 													<tr>
@@ -75,7 +75,7 @@
 										<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/lineup/lineup_mitarashishoyu_longcase.jpg" alt="かぞくのロングケース"></figure>
 										<div class="text-area">
 											<p class="ttl">かぞくのロングケース</p>
-											<p class="cont-txt">たくさんの方でお召し上がりいただきたい増量パッケージです。<br class="pc">ご自宅のストックやカジュアルな贈り物におすすめです。</p>
+											<p class="cont-txt">たくさんの方でお召し上がりいただきたい増量パッケージです。<br class="forPC">ご自宅のストックやカジュアルな贈り物におすすめです。</p>
 											<table class="cmn-table mt-4">
 												<tbody>
 													<tr>

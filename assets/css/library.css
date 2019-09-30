@@ -590,7 +590,7 @@ table {
 	margin-left: 91.666667%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 895px) {
 	.row {
 		margin-right: -5px;
 		margin-left: -5px;
@@ -1010,7 +1010,7 @@ table {
 	align-self: stretch !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 895px) {
 	.flex-sm-row {
 		-ms-flex-direction: row !important;
 		flex-direction: row !important;
@@ -1196,7 +1196,7 @@ table {
 	height: auto;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:895px) {
 	.forPC {
 		display: none !important;
 	}
@@ -1523,7 +1523,7 @@ table {
 	margin-left: auto !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 895px) {
 	.m-sm-0 {
 		margin: 0 !important;
 	}

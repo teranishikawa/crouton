@@ -101,7 +101,7 @@
     margin-top: 15px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1360px) {
+@media screen and (min-width: 896px) and (max-width: 1360px) {
 	#delicious .various .text h3 {
 		font-size: 2.2rem;
 		margin-bottom: 1.5vw;
@@ -111,7 +111,7 @@
 	}
 }
 
-@media screen and (min-width: 0px) and (max-width: 767px) {
+@media screen and (min-width: 0px) and (max-width: 895px) {
 	#delicious .various .various-box {
 		flex-wrap:wrap
 	}
@@ -122,7 +122,7 @@
 	#delicious .various .various-box .text {
 		flex-basis:100%;
 		max-width:100%;
-		padding: 2vw 4vw;
+		padding: 4vw;
 	}
 
 	#delicious .example li {
@@ -133,6 +133,17 @@
 	#delicious .example li:nth-child(2n){
 		margin-right:0%;
 	}
-	
+	#delicious .next_link .photo {
+		width: 100%;
+	}
+	#delicious section.next_link .text-area {
+		width: 100%;
+		margin-top: 35px;
+		padding-left: 0;
+	}
+	#delicious .next_link .text-area .more {
+	    position: static;
+	}
+
 }
 

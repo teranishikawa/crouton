@@ -35,7 +35,7 @@
 											<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/lineup/lineup_salted-chocolate_02.jpg" alt=""></figure>
 										</div>
 										<div class="text-area col-sm-12 order-first" data-aos="fade-right">
-											<p class="catch">チョコの濃厚な甘さの中に<br class="pc">ほんのりとした塩味</p>
+											<p class="catch">チョコの濃厚な甘さの中に<br class="forPC">ほんのりとした塩味</p>
 											<p class="cont-txt">ダークチョコレートの濃厚な甘さの中にほんのりとゲランドの塩味がさっぱりとした後味の印象を与えます。チョコの甘さとクルトンの香ばしさの対比は、噛めば噛むほど楽しくなることでしょう。</p>
 										</div>
 									</li>
@@ -57,7 +57,7 @@
 									<li class="col-6 col-sm-12 one-item" data-aos="fade-left">
 										<div class="text-area">
 											<p class="ttl">かぞくのキューブ</p>
-											<p class="cont-txt">15g入りの小分け包装が2個入った<br class="pc">お手軽パッケージです。</p>
+											<p class="cont-txt">15g入りの小分け包装が2個入った<br class="forPC">お手軽パッケージです。</p>
 											<table class="cmn-table mt-4">
 												<tbody>
 													<tr>

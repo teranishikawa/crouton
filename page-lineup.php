@@ -96,7 +96,7 @@
 										<div class="text-area">
 											<p class="comment">あなたと食べたい</p>
 											<p class="ttl"><small>はちみつ</small>トースト<span class="eng">TOAST</span></p>
-											<p class="more"><a href="/lineup/toast/" class="arrow">LEARN MORE</a></p>
+											<p class="more"><a href="/lineup/honey-toast/" class="arrow">LEARN MORE</a></p>
 										</div>
 									</li>
 									<li class="col-4 col-sm-6 js-clickArea one-item" data-aos="fade-up">
@@ -128,7 +128,7 @@
 										<div class="text-area">
 											<p class="comment">いっしょに休もう</p>
 											<p class="ttl">こくとう<small>と</small>きなこ<span class="eng">BROWN SUGAR &amp; SOYBEAN FLOUR</span></p>
-											<p class="more"><a href="/lineup/brownsugar-soybeanflour/" class="arrow">LEARN MORE</a></p>
+											<p class="more"><a href="/lineup/brown-sugar-soybean-flour/" class="arrow">LEARN MORE</a></p>
 										</div>
 									</li>
 									<li class="col-4 col-sm-6 js-clickArea one-item" data-aos="fade-up" data-aos-delay="300">
@@ -136,7 +136,7 @@
 										<div class="text-area">
 											<p class="comment">ほっとしたい時間に</p>
 											<p class="ttl"><small>むらさき</small>いも<span class="eng">PURPLE SWEET POTATO</span></p>
-											<p class="more"><a href="/lineup/purplesweetpotato/" class="arrow">LEARN MORE</a></p>
+											<p class="more"><a href="/lineup/purple-sweet-potato/" class="arrow">LEARN MORE</a></p>
 										</div>
 									</li>
 									<li class="col-4 col-sm-6 js-clickArea one-item" data-aos="fade-up" data-aos-delay="600">
@@ -144,7 +144,7 @@
 										<div class="text-area">
 											<p class="comment">おーい、食べよう！</p>
 											<p class="ttl"><small>みたらし</small>醤油<span class="eng">SOY SAUCE</span></p>
-											<p class="more"><span><a href="/lineup/soysauce/" class="arrow">LEARN MORE</a></span></p>
+											<p class="more"><span><a href="/lineup/soy-sauce/" class="arrow">LEARN MORE</a></span></p>
 										</div>
 									</li>
 								</ul>
@@ -165,14 +165,14 @@
 										<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/lineup/idx_package_cube.jpg" alt="かぞくのキューブ"></figure>
 										<div class="text-area">
 											<p class="ttl">かぞくのキューブ</p>
-											<p class="cont-txt">ちょっと小腹が空いたときに、パクっと幸せなひとくち。<br class="pc">15g入りの小分け包装が2個入ったお手軽なパッケージです。</p>
+											<p class="cont-txt">ちょっと小腹が空いたときに、パクっと幸せなひとくち。<br class="forPC">15g入りの小分け包装が2個入ったお手軽なパッケージです。</p>
 										</div>
 									</li>
 									<li class="col-6 col-sm-12 one-item" data-aos="fade-up" data-aos-delay="300">
 										<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/lineup/idx_package_long.jpg" alt="かぞくのロングケース"></figure>
 										<div class="text-area">
 											<p class="ttl">かぞくのロングケース</p>
-											<p class="cont-txt">たくさんの方でお召し上がりいただきたい増量パッケージです。<br class="pc">ご自宅のストックやカジュアルな贈り物におすすめです。</p>
+											<p class="cont-txt">たくさんの方でお召し上がりいただきたい増量パッケージです。<br class="forPC">ご自宅のストックやカジュアルな贈り物におすすめです。</p>
 										</div>
 									</li>
 								</ul>
@@ -206,7 +206,7 @@
 							</li>
 							<li class="col-4 col-sm-12 one-item js-clickArea active" data-aos="fade-up" data-aos-delay="300">
 								<figure class="zoom col-sm-7"><span><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_lineup.jpg" alt=""></span></figure>
-								<div class="text-area col-sm-5 order-sm-first">
+								<div class="text-area col-sm-5">
 									<p class="ttl">ラインナップ</p>
 									<p class="more"><span><a href="/lineup/" class="arrow">LEARN MORE</a></span></p>
 								</div>

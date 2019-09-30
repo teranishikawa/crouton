@@ -100,7 +100,7 @@
 .lineup.detail .feature li .text-area .catch {
 	font-family: 'Noto Serif Japanese', serif;
 	font-weight: 500;
-	font-size: 2.2rem;
+	font-size: calc(1.4rem + 0.3vw);
 	margin-bottom: 10px;
 }
 .lineup.detail .contents .lineupbox li {
@@ -119,7 +119,7 @@
 	margin-right:0.5em;
 }
 
-@media screen and (min-width: 0px) and (max-width: 767px) {
+@media screen and (min-width: 0px) and (max-width: 895px) {
 	.lineup.idx .contents .lineup > figure {
 		
 	}
@@ -193,7 +193,7 @@
 	}
 
 	.lineup.detail .contents .lineupbox li {
-		margin-top: 30px;
+		margin-top: 30px!important;
 	}
 
 	.lineup.detail .feature li .photo {

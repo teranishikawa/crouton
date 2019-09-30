@@ -1,26 +1,17 @@
 @charset "utf-8";
-
-#concept .main-concept .width-fixed {
+/*
+html {
+    min-width: auto;
+}
+*/
+#concept .width-fixed {
     position: relative;
     overflow: visible;
+    padding-right: 0;
 }
 
-#concept .floating-txt {
-    position: absolute;
-    z-index: 99;
-    top: 22%;
-    right: 0;
-    bottom: 0;
-    width: 40.496%;
-    max-height: 28%;
-    min-height: 12%;
-    padding: 50px;
-    background: #fff;
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center; 
-}
+
+
 
 #concept .swiper-container {
     min-width: 1170px;
@@ -32,7 +23,7 @@
 
 #concept section:not(.pagelink-area) .text-area {
     width: 36.75%;
-    padding: 0 35px;
+    padding: 35px;
 }
 
 #concept section.morning{
@@ -45,39 +36,27 @@
     margin-top: 30px;
 }
 
+#concept .swiper-wrapper {
+    transition-timing-function: linear;
+}
+
 #concept figure + .width-fixed {
     margin-top: 30px;
 }
 
-@media screen and (min-width: 0px) and (max-width: 767px) {
-    #concept .floating-txt {
-        position: static;
-        top: 0;
-        width: 100%;
-        height: auto;
-        max-height: auto;
-        min-height: auto;
-        padding: 20px 0 0 0;
-        display: inherit;
-    }
 
-    #concept .swiper-container {
-        min-width: auto;
-    }
-
-    #concept .introduction .photo {
-        width: 100%;
-    }
-     #concept .make-story .photo {
+@media screen and (min-width: 0px) and (max-width: 1280px) {
+   
+    #concept .photo {
         width:100%!important;
      }
-    #concept .make-story .photo img{
+    #concept .photo img{
         width: 63%!important;
     }
   
     #concept section:not(.pagelink-area) .text-area {
         width: 100%;
-        padding: 0;
+        padding: 35px 0;
     }
     #concept .flex-sm-column-reverse{
         text-align: right;
@@ -94,7 +73,18 @@
     #concept section:not(.pagelink-area) ul > li + li {
         margin-top: 30px;
     }
+
 }
-#concept .swiper-wrapper {
-    transition-timing-function: linear;
+@media screen and (min-width: 0px) and (max-width: 895px) {
+
+
+    #concept .swiper-container {
+        min-width: auto;
+    }
+
+    #concept section:not(.pagelink-area) .text-area {
+
+        padding: 0;
+    }
+  
 }

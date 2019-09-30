@@ -10,7 +10,7 @@ function output_title() {
 	$pageTitle = the_title( '', '', false );
 
 	if( is_home() || is_front_page() ){//TOPページの場合
-		$title = $siteTitle;
+		$title = $siteTitle.' | 名古屋市本山 クルトンのお菓子専門店';
 	}
 	elseif( is_page() ) {//固定ページの場合
 		$title = $pageTitle.' | '.$siteTitle ;
@@ -145,3 +145,65 @@ add_image_size('lineup_feature', 740, 460, true);
 add_image_size('lineup_package', 667, 550, true);
 add_image_size('lineup_flavor_thumb', 520, 462, true);
 add_image_size('lineup_subnav_thumb', 200, 200, true);
+
+/********************************
+	meta情報
+*******************************/
+function output_meta($metatag) {
+	//基本のdescription,keyword (top)
+	$description = '名古屋市本山のクルトンのお菓子専門店「かぞくのクルトン」公式サイトのページです。小さなお子さまからご年配の方まで、幅広く楽しんでいただける多彩な味を取り揃えています。店舗・商品・お知らせ等の最新情報をご覧いただけます。';
+	$keyword = 'クルトン,食卓,おかし,お菓子,デザート,おやつ,スイーツ,ギフト,贈り物';
+	$get_description = CFS()->get('description');
+	$get_keyword = CFS()->get('keyword');
+	
+	if( is_home() || is_front_page() ){//TOPページの場合
+		//topは基本を使用
+	}
+	else if( is_post_type_archive('topics') || is_single('topics') ) {//アーカイブページ、記事ページの場合（デフォルトの投稿は判定できない）
+		$description = 'かぞくのクルトン、ニュース・トピックスのページです。最新の商品情報、店舗情報、ニュースリリースなどを随時更新しています。';
+		$keyword = 'お知らせ,ニュース,かぞくのクルトン,スイーツ,お菓子,贈り物,ギフト,専門店';
+	}
+	else if( is_post_type_archive('recipe') || is_single('recipe') ) {//アーカイブページ、記事ページの場合（デフォルトの投稿は判定できない）
+		$description = 'かぞくのクルトン、アレンジレシピのページです。さらにおいしくお召し上がりいただくために、プロのテーブルスタイリストが考案したレシピをご覧いただけます。味わいも彩りもさらに豊かになるクルトンレシピをぜひお試しください。';
+		$keyword = 'レシピ,アレンジ,おいしい,作り方,クルトン,スイーツ,お菓子,おやつ,おかず,サラダ';
+	}
+	
+	else if( is_post_type_archive('lineup') ) {//アーカイブページ、記事ページの場合（デフォルトの投稿は判定できない）
+		$description = 'かぞくのクルトン、商品ラインナップのページです。季節限定のフレーバー商品、豊富な味のバリエーションがあるスタンダード・フレーバーをご紹介しています。';
+		$keyword = '味,フレーバー,商品,かぞくのクルトン,スイーツ,お菓子,贈り物,ギフト,専門店';
+	}
+	else if( is_singular('lineup') ) {//記事ページの場合
+		if( $get_description != '' ) {
+			$description = $get_description;
+		}
+		if( $get_keyword != '' ) {
+			$keyword = $get_keyword;
+		}
+	}
+	else if( is_page() ) {//固定ページの場合
+		if( $get_description != '' ) {
+			$description = $get_description;
+		}
+		if( $get_keyword != '' ) {
+			$keyword = $get_keyword;
+		}
+	}
+	if ( $metatag == 'description' ) {
+		echo $description;
+	}
+	if ( $metatag == 'keyword' ) {
+		echo $keyword;
+	}
+}
+function isSP(){
+	//ユーザーエージェントを取得
+	$ua = $_SERVER['HTTP_USER_AGENT'];
+	//スマホと判定する文字リスト
+	$ua_list = array('iPhone','iPod','Android');
+	foreach ($ua_list as $ua_smt) {
+	//ユーザーエージェントに文字リストの単語を含む場合はTRUE、それ以外はFALSE
+	if (strpos($ua, $ua_smt) !== false) {
+	return true;
+	}
+	} return false;
+}

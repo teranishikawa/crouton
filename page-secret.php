@@ -5,6 +5,9 @@ Template Name: かぞくのクルトンのひみつ
 get_header();
 ?>
 
+<?php get_template_part('assets/parts/loading'); ?>
+
+
 		<main>
 			<div class="contents">
 				<div class="main-visual">
@@ -14,41 +17,46 @@ get_header();
                     </div>
 				</div>
 
-				<section class="wide secret-intro" data-aos="fade-down">
+				<section class="wide secret-intro">
 					<div class="inner">
-                        <h3 class="title">大切にしていること</h3>
-                        <p class="cont-txt">家族が集まる真ん中にあるのは食卓です。<br>そこに美味しくて心のこもったお菓子があれば、会話も弾み、みんなが笑顔になれるはず。<br>私たちはかぞくのクルトンを通して、<br>かけがえのない時間をもっと増やしていきます。</p>
+                        <h3 class="title" data-aos="twist-left">大切にしていること</h3>
+                        <p class="cont-txt">
+                            <p data-aos="twist-left" data-aos-delay="300">家族が集まる真ん中にあるのは食卓です。</p>
+                            <p data-aos="twist-left" data-aos-delay="500">そこに美味しくて心のこもったお菓子があれば、会話も弾み、みんなが笑顔になれるはず。</p>
+                            <p data-aos="twist-left" data-aos-delay="700">私たちは「かぞくのクルトン」を通して、</p>
+                            <p data-aos="twist-left" data-aos-delay="900">かけがえのない時間をもっと増やしていきます。</p>
+                        </p>
                     </div>
                 </section>
 
-                <section class="wide anker-secret" data-aos="fade-right">
+                <section class="wide anker-secret">
                     <div class="inner">
                         <ul class="row no-gutters no-gutters-sm justify-content-center align-items-start">
-                            <li data-aos="fade-up">
+                            <li data-aos="twist-right">
                                 <a href="#secret1">
                                     <span class="eng secret-numbering">01</span>
                                     <span class="secret-numbering-title">自然な味わいの<br>ひみつ </span>
                                 </a>
                             </li>
-                            <li data-aos="fade-up" data-aos-delay="300">
+                            <li data-aos="twist-right" data-aos-delay="300">
                                 <a href="#secret2">
                                     <span class="eng secret-numbering">02</span>
                                     <span class="secret-numbering-title">素材のひみつ</span>
                                 </a>
                             </li>
-                            <li data-aos="fade-up" data-aos-delay="500">
+                            <li data-aos="twist-right" data-aos-delay="500">
                                 <a href="#secret3">
                                     <span class="eng secret-numbering">03</span>
                                     <span class="secret-numbering-title">製法のひみつ</span>
                                 </a>
                             </li>
-                            <li data-aos="fade-up" data-aos-delay="700">
+                            <li data-aos="twist-right" data-aos-delay="700">
                                 <a href="#secret4">
                                     <span class="eng secret-numbering">04</span>
                                     <span class="secret-numbering-title">クルトンとは？</span>
                                 </a>
                             </li>
-                            <li data-aos="fade-up" data-aos-delay="900">
+                            <li data-aos="twist-right" data-aos-delay="900">
                                 <a href="#secret5">
                                     <span class="eng secret-numbering">05</span>
                                     <span class="secret-numbering-title">かぞくのクルトン<br>誕生のひみつ</span>
@@ -61,18 +69,35 @@ get_header();
                 <section class="wide taste" id="secret1">
                     <div class="inner wide">
                         <div class="secret-head">
-                            <figure data-aos="fade-up"><img class="js-switch" src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/photo_secret_01_1_pc.jpg" alt=""></figure>
+                            <div data-aos="layer-fade-right">
+                                <figure class="layer-fade-child">
+                                    <img class="js-switch" src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/photo_secret_01_1_pc.jpg" alt="">
+                                </figure>
+                            </div>
                             <h3 class="title" data-aos="fade-right"><span class="eng line wht">01</span></h3>
-                            <h2 data-aos="fade-left">自然な味わいのひみつ</h2>
+                            <h2 data-aos="twist-right">自然な味わいのひみつ</h2>
                         </div>
                         
                         <ul class="row no-gutters no-gutters-sm justify-content-start align-items-center flex-nowrap flex-sm-column">
-                            <li class="photo" data-aos="fade-right">
-                                <figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/photo_secret_01_2.jpg" alt=""></figure>
+                            <li class="photo">
+                                <div data-aos="layer-fade-right">
+                                    <figure class="layer-fade-child"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/photo_secret_01_2.jpg" alt=""></figure>
+                                </div>
                             </li>
                             <li class="text-area" data-aos="fade-left">
-                                <p class="catch">自然のおいしさを大切に</p>
-                                <p class="cont-txt">かぞくのために、腕をふるう手料理のように、<br>素材を吟味し、手間をかけ、工夫を重ねて。<br>化学調味料・保存料など余分なものはできるだけ使わずに、<br>温かく、自然な味わいに仕上げました。</p>
+                                <p class="catch" data-aos="twist-right">自然のおいしさを大切に</p>
+                                <p class="cont-txt">
+                                    <p data-aos="twist-left" data-aos-delay="300">かぞくのために、腕をふるう手料理のように、</p>
+                                    <p data-aos="twist-left" data-aos-delay="500">素材を吟味し、手間をかけ、工夫を重ねて。</p>
+                                    <span class="forPC">
+                                    <p data-aos="twist-left" data-aos-delay="700">化学調味料・保存料など余分なものはできるだけ使わずに、</p>
+                                    <p data-aos="twist-left" data-aos-delay="900">温かく、自然な味わいに仕上げました。</p>
+                                    </span>
+                                    <span class="forSP">
+                                    <p data-aos="twist-left" data-aos-delay="700">化学調味料・保存料など余分なものはできるだけ使わずに、
+                                    温かく、自然な味わいに仕上げました。</p>
+                                    </span>
+                                </p>
                             </li>
                         </ul>
                     </div>
@@ -81,18 +106,29 @@ get_header();
                 <section class="wide materials" id="secret2">
                     <div class="inner wide">
                         <div class="secret-head">
-                            <figure data-aos="fade-up"><img class="js-switch" src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/photo_secret_02_1_pc.jpg" alt=""></figure>
+                            <div data-aos="layer-fade-right">
+                                <figure class="layer-fade-child">
+                                    <img class="js-switch" src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/photo_secret_02_1_pc.jpg" alt="">
+                                </figure>
+                            </div>
                             <h3 class="title" data-aos="fade-right"><span class="eng line wht">02</span></h3>
-                            <h2 data-aos="fade-left">素材のひみつ</h2>
+                            <h2 data-aos="twist-right">素材のひみつ</h2>
                         </div>
                         
                         <ul class="row no-gutters no-gutters-sm justify-content-start align-items-center flex-nowrap flex-sm-column-reverse">
-                            <li class="photo" data-aos="fade-left">
-                                <figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/photo_secret_02_2.jpg" alt=""></figure>
+                            <li class="photo">
+                                <div data-aos="layer-fade-right">
+                                    <figure class="layer-fade-child"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/photo_secret_02_2.jpg" alt=""></figure>
+                                </div>
                             </li>
                             <li class="text-area order-first" data-aos="fade-right">
-                                <p class="catch">専用の食パンが味わいの種</p>
-                                <p class="cont-txt">クルトンづくりは、クルトンのために焼くおいしい食パン<br class="pc">づくりからはじまります。<br>味わいに合わせて、焼き具合を変えたり、<br>材料を変えたり、素材を練りこんだりして、<br>おいしいクルトンの種をつくっています。</p>
+                                <p class="catch" data-aos="twist-right">専用の食パンが味わいの種</p>
+                                <p class="cont-txt">
+                                    <p data-aos="twist-left" data-aos-delay="300">クルトンづくりは、クルトンのために焼くおいしい食パン<br class="forPC">づくりからはじまります。
+                                    <p data-aos="twist-left" data-aos-delay="500">味わいに合わせて、焼き具合を変えたり、</p>
+                                    <p data-aos="twist-left" data-aos-delay="700">材料を変えたり、素材を練りこんだりして、</p>
+                                    <p data-aos="twist-left" data-aos-delay="900">おいしいクルトンの種をつくっています。</p>
+                                </p>
                             </li>
                         </ul>
                     </div>
@@ -101,18 +137,28 @@ get_header();
                 <section class="wide nonfly" id="secret3">
                     <div class="inner wide">
                         <div class="secret-head">
-                            <figure data-aos="fade-up"><img class="js-switch" src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/photo_secret_03_1_pc.jpg" alt=""></figure>
+                            <div data-aos="layer-fade-right">
+                                <figure class="layer-fade-child">
+                                    <img class="js-switch" src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/photo_secret_03_1_pc.jpg" alt="">
+                                </figure>
+                            </div>
                             <h3 class="title" data-aos="fade-right"><span class="eng line wht">03</span></h3>
-                            <h2 data-aos="fade-left">独自のノンフライ製法</h2>
+                            <h2 data-aos="twist-right">独自のノンフライ製法</h2>
                         </div>
                         
                         <ul class="row no-gutters no-gutters-sm justify-content-start align-items-center flex-nowrap flex-sm-column">
-                            <li class="photo" data-aos="fade-right">
-                                <figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/photo_secret_03_2.jpg" alt=""></figure>
+                            <li class="photo">
+                                <div data-aos="layer-fade-right">
+                                    <figure class="layer-fade-child"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/photo_secret_03_2.jpg" alt=""></figure>
+                                </div>
                             </li>
                             <li class="text-area" data-aos="fade-left">
-                                <p class="catch">表面は「サクサク」、<br>中は「ほんのりしっとり」。</p>
-                                <p class="cont-txt">油を使わずに焼き上げる独自のノンフライ製法で、<br>表面は「サクサク」、中は「ほんのりしっとり」と<br>香ばしく軽やかな”天ぷら”のような食感に焼き上げました。</p>
+                                <p class="catch" data-aos="twist-right">表面は「サクサク」、<br>中は「ほんのりしっとり」。</p>
+                                <p class="cont-txt">
+                                    <p data-aos="twist-left" data-aos-delay="300">油を使わずに焼き上げる独自のノンフライ製法で、</p>
+                                    <p data-aos="twist-left" data-aos-delay="500">表面は「サクサク」、中は「ほんのりしっとり」と</p>
+                                    <p data-aos="twist-left" data-aos-delay="700">香ばしく軽やかな”天ぷら”のような食感に焼き上げました。</p>
+                                </p>
                             </li>
                         </ul>
                     </div>
@@ -122,27 +168,45 @@ get_header();
                     <div class="inner">
                         <div class="width-fixed">
                             <ul class="row no-gutters no-gutters-sm justify-content-between align-items-stretch flex-sm-column">
-                                <li class="about-crouton js-clickArea" id="secret4">
+                                <li class="about-crouton js-clickArea one-item" id="secret4" data-aos="fade-up">
                                     <a href="<?php echo esc_url( home_url('/secret/about_croutons/') ); ?>">
                                         <h3 class="title" data-aos="fade-left"><span class="eng line">04</span></h3>
-                                        <figure data-aos="fade-up"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/idx_about.jpg" alt=""></figure>
+                                        <figure class="zoom" data-aos="fade-up"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/idx_about.jpg" alt=""></figure>
                                         <div class="text-area">
-                                            <p class="catch" data-aos="fade-right">クルトンとは？</p>
-                                            <p class="cont-txt" data-aos="fade-up">クルトンといえば、まずシーザーサラダやポタージュスープのトッピングが思い浮かぶことでしょう。また、クルトンレシピもたくさん紹介されており、食事に彩りを添える食材として親しまれています。</p>
-                                            <p class="more" data-aos="fade-up"><span><a href="<?php echo esc_url( home_url('/secret/about_croutons/') ); ?>" class="arrow">LEARN MORE</a></span></p>
+                                            <p class="catch">クルトンとは？</p>
+                                            <p class="cont-txt">クルトンといえば、まずシーザーサラダやポタージュスープのトッピングが思い浮かぶことでしょう。また、クルトンレシピもたくさん紹介されており、食事に彩りを添える食材として親しまれています。</p>
+                                            <p class="more"><span><a href="<?php echo esc_url( home_url('/secret/about_croutons/') ); ?>" class="arrow">LEARN MORE</a></span></p>
                                         </div>
                                     </a>
                                 </li>
-                                <li class="crouton-born js-clickArea" id="secret5">
+                                <li class="crouton-born js-clickArea one-item" id="secret5" data-aos="fade-up" data-aos-delay="1000">
                                     <a href="<?php echo esc_url( home_url('/secret/birth/') ); ?>">
                                         <h3 class="title" data-aos="fade-left"><span class="eng line">05</span></h3>
-                                        <figure data-aos="fade-up"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/idx_born.jpg" alt=""></figure>
+                                        <figure class="zoom" data-aos="fade-up"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/idx_born.jpg" alt=""></figure>
                                         <div class="text-area">
-                                            <p class="catch" data-aos="fade-right">かぞくのクルトン誕生のひみつ</p>
-                                            <p class="cont-txt" data-aos="fade-up">とても個性的なお菓子である「かぞくのクルトン」が生まれた背景には、半世紀以上に渡る小麦に関わるノウハウと想いが詰まっています。</p>
-                                            <p class="more" data-aos="fade-up"><span><a href="<?php echo esc_url( home_url('/secret/birth/') ); ?>" class="arrow">LEARN MORE</a></span></p>
+                                            <p class="catch">かぞくのクルトン誕生のひみつ</p>
+                                            <p class="cont-txt">とても個性的なお菓子である「かぞくのクルトン」が生まれた背景には、半世紀以上に渡る小麦に関わるノウハウと想いが詰まっています。</p>
+                                            <p class="more"><span><a href="<?php echo esc_url( home_url('/secret/birth/') ); ?>" class="arrow">LEARN MORE</a></span></p>
                                         </div>
                                     </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="wide l_navi_package">
+                    <div class="inner">
+                        <div class="width-fixed">
+                            <ul class="row justify-content-between">
+                                <li class="col-12 col-sm-12 one-item">
+                                    <div class="row no-gutters no-gutters-sm  js-clickArea">
+                                        <figure class="col-7 col-sm-12 zoom" data-aos="fade-right"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/idx_lineup.jpg" alt="ラインナップ"></figure>
+                                        <div class="col-5 col-sm-12 text-area row justify-content-start align-items-center" data-aos="fade-left">
+                                            <p class="ttl">豊富なフレーバー12種類<br>ラインナップのご案内</p>
+                                            <p class="more"><span><a href="/lineup/" class="arrow">LEARN MORE</a></span></p>
+                                        </div>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -166,9 +230,9 @@ get_header();
 									<p class="more"><span><a href="/secret/" class="arrow">LEARN MORE</a></span></p>
 								</div>
 							</li>
-							<li class="col-4 col-sm-12 one-item js-clickArea active" data-aos="fade-up" data-aos-delay="600">
+							<li class="col-4 col-sm-12 one-item js-clickArea" data-aos="fade-up" data-aos-delay="600">
 								<figure class="zoom col-sm-7"><span><img src="<?php echo get_template_directory_uri(); ?>/assets/images/idx_lineup.jpg" alt=""></span></figure>
-								<div class="text-area col-sm-5 order-sm-first">
+								<div class="text-area col-sm-5">
 									<p class="ttl">ラインナップ</p>
 									<p class="more"><span><a href="/lineup/" class="arrow">LEARN MORE</a></span></p>
 								</div>

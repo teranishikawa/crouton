@@ -44,6 +44,7 @@
 
 .swiper-container-thumbs {
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .swiper-slide-thumb-active {
@@ -95,7 +96,7 @@
 }
 
 
-@media screen and (min-width: 0px) and (max-width: 767px) {
+@media screen and (min-width: 0px) and (max-width: 895px) {
     .wide .photo,
     .wide .text-area,
     .wide .about-noshi .photo {

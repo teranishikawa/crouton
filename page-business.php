@@ -19,7 +19,7 @@ get_header();
 				<section class="wide lead-business">
                     <div class="inner width-fixed">
                         <h3 class="title" data-aos="fade-right">カラフルなイメージで多くの皆様に手に取っていただける商品です。</h3>
-                        <p class="cont-txt" data-aos="fade-up">これまでにない斬新なお菓子として、お客様の興味を惹き付けます。<br class="pc">また、カラフルなパッケージが店舗内で効果的な演出効果を生み、<br class="pc">多くのお客様に手にとっていただけると考えております。</p>
+                        <p class="cont-txt" data-aos="fade-up">これまでにない斬新なお菓子として、お客様の興味を惹き付けます。<br class="forPC">また、カラフルなパッケージが店舗内で効果的な演出効果を生み、<br class="forPC">多くのお客様に手にとっていただけると考えております。</p>
 
                         <figure data-aos="fade-left">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/business/business_01.jpg" alt="">
@@ -30,11 +30,11 @@ get_header();
 				<section class="wide anker-business">
                     <div class="inner">
                         <ul class="row no-gutters no-gutters-sm justify-content-center align-items-start width-fixed">
-                            <li><a href="#business1"><span class="business-numbering-title">かぞくのクルトン<br class="pc">品揃え</span></a></li>
+                            <li><a href="#business1"><span class="business-numbering-title">かぞくのクルトン<br class="forPC">品揃え</span></a></li>
                             <li><a href="#business2"><span class="business-numbering-title">ギフトセット</span></a></li>
                             <li><a href="#business3"><span class="business-numbering-title">催事・出店</span></a></li>
-                            <li><a href="#business4"><span class="business-numbering-title">素材選定・<br class="pc">製法のひみつ</span></a></li>
-                            <li><a href="#business5"><span class="business-numbering-title">安全・安心への<br class="pc">取り組み</span></a></li>
+                            <li><a href="#business4"><span class="business-numbering-title">素材選定・<br class="forPC">製法のひみつ</span></a></li>
+                            <li><a href="#business5"><span class="business-numbering-title">安全・安心への<br class="forPC">取り組み</span></a></li>
                             <li><a href="#business6"><span class="business-numbering-title">大口対応</span></a></li>
                             <li><a href="#business7"><span class="business-numbering-title">お問い合わせ</span></a></li>
                         </ul>
@@ -44,7 +44,7 @@ get_header();
 				<section id="business1" class="wide lineup-business">
                     <div class="inner">
                         <h3 class="title aos-init aos-animate" data-aos="fade-right"><span class="eng line">01</span>かぞくのクルトン 品揃え</h3>
-                        <p class="cont-txt" data-aos="fade-up">クルトンをお菓子にしています。普通の焼き菓子とはちょっと違う、飽きの来ないフレーバーを数多く取り揃えております。<br class="pc">催事イベントや銘菓コーナーでのお取り扱い等、ご興味いただけましたらぜひお問い合わせください。</p>
+                        <p class="cont-txt" data-aos="fade-up">クルトンをお菓子にしています。普通の焼き菓子とはちょっと違う、飽きの来ないフレーバーを数多く取り揃えております。<br class="forPC">催事イベントや銘菓コーナーでのお取り扱い等、ご興味いただけましたらぜひお問い合わせください。</p>
 
                 		<div class="lineupbox">
                 			<div class="width-fixed">
@@ -54,23 +54,23 @@ get_header();
                 						<div class="text-area">
                 							<p class="comment">ごほうびにどうぞ</p>
                 							<p class="ttl"><small>塩</small>チョコレート<span class="eng">SALT DARK CHOCOLATE</span></p>
-                							<p class="more"><span><a href="/lineup/salt-dark-chocolate/" class="arrow">LEARN MORE</a></span></p>
+                							<p class="more"><span><a href="/lineup/salted-dark-chocolate/" class="arrow">LEARN MORE</a></span></p>
                 						</div>
                 					</li>
                 					<li class="col-3 col-sm-6 js-clickArea one-item" data-aos="fade-up" data-aos-delay="300">
-                						<figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/lineup/lineup_lnavi_salt-caramel-blondechocolate.jpg" alt="抹茶チョコレート"></figure>
+                						<figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/lineup/lineup_lnavi_salt-caramel-blondechocolate.jpg" alt="塩キャラメルチョコレート"></figure>
                 						<div class="text-area">
                 							<p class="comment">おまちどうさま</p>
                 							<p class="ttl"><small>塩</small>キャラメル<small>チョコレート</small><span class="eng">SALT CARAMEL BLONDE CHOCOLATE</span></p>
-                							<p class="more"><span><a href="/lineup/salt-caramel_blonde-chocolate/" class="arrow">LEARN MORE</a></span></p>
+                							<p class="more"><span><a href="/lineup/salted-caramel-blonde-chocolate/" class="arrow">LEARN MORE</a></span></p>
                 						</div>
                 					</li>
                 					<li class="col-3 col-sm-6 js-clickArea one-item" data-aos="fade-up" data-aos-delay="600">
-                						<figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/lineup/lineup_lnavi_matcha-whitechocolate.jpg" alt="塩キャラメルチョコレート"></figure>
+                						<figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/lineup/lineup_lnavi_matcha-whitechocolate.jpg" alt="抹茶チョコレート"></figure>
                 						<div class="text-area">
                 							<p class="comment">深みが良いね</p>
                 							<p class="ttl"><small>抹茶</small>チョコレート<span class="eng">MATCHA WHITE CHOCOLATE</span></p>
-                							<p class="more"><span><a href="/lineup/macha-white-chocolate/" class="arrow">LEARN MORE</a></span></p>
+                							<p class="more"><span><a href="/lineup/matcha-white-chocolate/" class="arrow">LEARN MORE</a></span></p>
                 						</div>
                 					</li>
                 					<li class="col-3 col-sm-6 js-clickArea one-item" data-aos="fade-up" data-aos-delay="900">
@@ -94,7 +94,7 @@ get_header();
                 						<div class="text-area">
                 							<p class="comment">あなたと食べたい</p>
                 							<p class="ttl"><small>はちみつ</small>トースト<span class="eng">TOAST</span></p>
-                							<p class="more"><a href="/lineup/toast/" class="arrow">LEARN MORE</a></p>
+                							<p class="more"><a href="/lineup/honey-toast/" class="arrow">LEARN MORE</a></p>
                 						</div>
                 					</li>
                 					<li class="col-3 col-sm-6 js-clickArea one-item" data-aos="fade-up" data-aos-delay="600">
@@ -126,7 +126,7 @@ get_header();
                 						<div class="text-area">
                 							<p class="comment">いっしょに休もう</p>
                 							<p class="ttl">こくとう<small>と</small>きなこ<span class="eng">BROWN SUGAR &amp; SOYBEAN FLOUR</span></p>
-                							<p class="more"><a href="/lineup/brownsugar-soybeanflour/" class="arrow">LEARN MORE</a></p>
+                							<p class="more"><a href="/lineup/brown-sugar-soybean-flour/" class="arrow">LEARN MORE</a></p>
                 						</div>
                 					</li>
                 					<li class="col-3 col-sm-6 js-clickArea one-item" data-aos="fade-up" data-aos-delay="600">
@@ -134,7 +134,7 @@ get_header();
                 						<div class="text-area">
                 							<p class="comment">ほっとしたい時間に</p>
                 							<p class="ttl"><small>むらさき</small>いも<span class="eng">PURPLE SWEET POTATO</span></p>
-                							<p class="more"><a href="/lineup/purplesweetpotato/" class="arrow">LEARN MORE</a></p>
+                							<p class="more"><a href="/lineup/purple-sweet-potato/" class="arrow">LEARN MORE</a></p>
                 						</div>
                 					</li>
                 					<li class="col-3 col-sm-6 js-clickArea one-item" data-aos="fade-up" data-aos-delay="900">
@@ -142,7 +142,7 @@ get_header();
                 						<div class="text-area">
                 							<p class="comment">おーい、食べよう！</p>
                 							<p class="ttl"><small>みたらし</small>醤油<span class="eng">SOY SAUCE</span></p>
-                							<p class="more"><span><a href="/lineup/soysauce/" class="arrow">LEARN MORE</a></span></p>
+                							<p class="more"><span><a href="/lineup/soy-sauce/" class="arrow">LEARN MORE</a></span></p>
                 						</div>
                 					</li>
                 					
@@ -180,7 +180,7 @@ get_header();
 				<section id="business3" class="wide shop-business">
                     <div class="inner">
                         <h3 class="title aos-init aos-animate" data-aos="fade-right"><span class="eng line">03</span>催事・出店</h3>
-                        <p class="cont-txt mb-4" data-aos="fade-up">様々な催事への出店も行います。<br class="pc">子供向け、家族向けのイベントはもちろん、ビールフェアなどおつまみとしての需要が見込めるイベントでもぜひご検討ください。</p>
+                        <p class="cont-txt mb-4" data-aos="fade-up">様々な催事への出店も行います。<br class="forPC">子供向け、家族向けのイベントはもちろん、ビールフェアなどおつまみとしての需要が見込めるイベントでもぜひご検討ください。</p>
                         <div class="row width-fixed">
                             <div class="col-6 col-sm-12" data-aos="fade-up">
                                 <figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/business/business_event01.jpg" alt=""></figure>
@@ -238,7 +238,7 @@ get_header();
 				<section id="business6" class="wide large-business">
                     <div class="inner">
                         <h3 class="title aos-init aos-animate" data-aos="fade-right"><span class="eng line">06</span>大口対応</h3>
-                        <p class="cont-txt mb-4" data-aos="fade-up">ノベルティ、記念品など、大口のご注文も承っております。<br class="pc">ご要望に合わせ、当店よりご提案させていただきます。</p>
+                        <p class="cont-txt mb-4" data-aos="fade-up">ノベルティ、記念品など、大口のご注文も承っております。<br class="forPC">ご要望に合わせ、当店よりご提案させていただきます。</p>
                         <div class="row width-fixed">
                             <div class="col-4 col-sm-12" data-aos="fade-up">
                                 <figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/business/business_front_01.png" alt="3個セット"></figure>
@@ -267,7 +267,7 @@ get_header();
                                 <h3 class="title aos-init aos-animate" data-aos="fade-right">お問い合わせ</h3>
                                 <p class="cont-txt">出店、催事、コラボレーション等、ご興味を頂けましたらお気軽にお声がけください。</p>
                                 <div class="col-4 col-sm-12 icongraph" data-aos="fade-up" data-aos-delay="300">
-                                    <a href="/contact/">
+                                    <a href="/inquiry/">
                                         <figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/business/i_desktop.png" alt="お問合せフォーム"></figure>
                                         <p class="caption jpn">お問い合わせフォーム</p>
                                     </a>

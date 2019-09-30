@@ -1,6 +1,6 @@
 <section class="wide flavor">
 	<div class="inner">
-		<h3 class="title" data-aos="fade-right"><span class="eng line">FLAVOR</span>フレーバー</h3>
+		<h3 class="title" data-aos="fade-right"><span class="eng line"></span>フレーバー</h3>
 		<div class="lineupbox">
 			<div class="width-fixed">
 				<ul class="row">
@@ -30,12 +30,12 @@
 			$img_src1 = wp_get_attachment_image_src(CFS()->get('package1_img'),'lineup_package');
 			if($img_src1) $img_src1 = '<img src="'.$img_src1[0].'" alt="'.get_the_title().'">';
 ?>
-					<li class="col-3 col-sm-6 js-clickArea one-item" data-aos="fade-up">
-						<figure class="zoom"><?php echo $img_src1 ?></figure>
+					<li class="col-3 col-sm-6 js-clickArea one-item" data-aos="layer-fade-right">
+						<figure class="zoom layer-fade-child"><?php echo $img_src1 ?></figure>
 						<div class="text-area">
-							<p class="comment"><?php echo CFS()->get('catch_copy') ?></p>
-							<p class="ttl"><?php the_title() ?><span class="eng"><?php echo CFS()->get('title_en') ?></span></p>
-							<p class="more"><span><a href="<?php echo get_permalink() ?>" class="arrow">LEARN MORE</a></span></p>
+							<p class="comment" data-aos="twist-left"><?php echo CFS()->get('catch_copy') ?></p>
+							<p class="ttl" data-aos="twist-left"><?php the_title() ?><span class="eng"><?php echo CFS()->get('title_en') ?></span></p>
+							<p class="more" data-aos="fade-in"><span><a href="<?php echo get_permalink() ?>" class="arrow">LEARN MORE</a></span></p>
 						</div>
 					</li>
 <?php
@@ -69,12 +69,12 @@
 			$img_src1 = wp_get_attachment_image_src(CFS()->get('package1_img'),'lineup_package');
 			if($img_src1) $img_src1 = '<img src="'.$img_src1[0].'" alt="'.get_the_title().'">';
 ?>
-					<li class="col-3 col-sm-6 js-clickArea one-item" data-aos="fade-up">
-						<figure class="zoom"><?php echo $img_src1 ?></figure>
+					<li class="col-3 col-sm-6 js-clickArea one-item" data-aos="layer-fade-right">
+						<figure class="zoom layer-fade-child"><?php echo $img_src1 ?></figure>
 						<div class="text-area">
-							<p class="comment"><?php echo CFS()->get('catch_copy') ?></p>
-							<p class="ttl"><?php the_title() ?><span class="eng"><?php echo CFS()->get('title_en') ?></span></p>
-							<p class="more"><span><a href="<?php echo get_permalink() ?>" class="arrow">LEARN MORE</a></span></p>
+							<p class="comment" data-aos="twist-left"><?php echo CFS()->get('catch_copy') ?></p>
+							<p class="ttl" data-aos="twist-left"><?php the_title() ?><span class="eng"><?php echo CFS()->get('title_en') ?></span></p>
+							<p class="more" data-aos="fade-in"><span><a href="<?php echo get_permalink() ?>" class="arrow">LEARN MORE</a></span></p>
 						</div>
 					</li>
 <?php
