@@ -91,7 +91,7 @@
 							if($img_src){
 								echo '<img src="'.$img_src[0].'" alt="'.get_the_title().'">';
 							}
-							echo CFS()->get('topics_text')
+							the_content();
 							?>
 						</div>
 
