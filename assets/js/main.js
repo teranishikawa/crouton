@@ -180,24 +180,26 @@ function SwiperControl() {
 			clickable: true,
 		},
 	});
-	var pickupSwiper = new Swiper('#js-pickup-swiper', {
-		autoplay: {
-			delay: 5000,
-			stopOnLast: false,
-			disableOnInteraction: true,
-		},
-		loop: true,
-		speed: 1000,
-		pagination: {
-			el: '.pickup-swiper-pagination',
-			clickable: true,
-		},
-//		breakpoints: {
-//			767: {
-//				spaceBetween: 20,
+	if($('#js-pickup-swiper .swiper-slide').length > 1){
+		var pickupSwiper = new Swiper('#js-pickup-swiper', {
+			autoplay: {
+				delay: 5000,
+				stopOnLast: false,
+				disableOnInteraction: true,
+			},
+			loop: true,
+			speed: 1000,
+			pagination: {
+				el: '.pickup-swiper-pagination',
+				clickable: true,
+			},
+//			breakpoints: {
+//				767: {
+//					spaceBetween: 20,
+//				}
 //			}
-//		}
-	});
+		});
+	}
 
 	var conceptSwiper = new Swiper('#js-brandconcept-swiper-container', {
 		centeredSlides: true,
