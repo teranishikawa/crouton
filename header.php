@@ -33,8 +33,11 @@
 <?php
 //-------------css条件分岐------------------
 if ( is_home() || is_front_page() ) : //TOPページの場合?>
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/unique/top.css">
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/unique/top.css">
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/libs/createjs-2015.11.26.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/concept.js"></script>
+
+
 <?php elseif( is_page('lineups') || is_page_ancestor('lineups') ): //advantageページ、advantageの下層ページの場合?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/unique/lineup.css">
 
@@ -53,6 +56,8 @@ if ( is_home() || is_front_page() ) : //TOPページの場合?>
 
 <?php elseif( is_page('concept') ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/unique/concept.css">
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/libs/createjs-2015.11.26.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/concept.js"></script>
 
 <?php elseif( is_page('business') ): ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/unique/business.css">
@@ -99,7 +104,7 @@ if ( is_home() || is_front_page() ) : //TOPページの場合?>
 </head>
 
 
-<body id="<?php addSlugName('id'); ?>" class="<?php addSlugName('class'); ?>">
+<body id="<?php addSlugName('id'); ?>" class="<?php addSlugName('class'); ?>" onload="init();">
 	<noscript>JavascriptがOFFのため正しく表示されない可能性があります。</noscript>
 	<div id="wrap">
 

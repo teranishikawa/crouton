@@ -122,6 +122,7 @@ body.is-loading {
 	z-index: 9999;
 	transition: 1.5s;
 	transform: translateZ(0);
+
 }
 
 body.is-animation-ended.is-load-ended .loader {
@@ -139,11 +140,7 @@ body.is-animation-ended.is-load-ended .loader {
     border-radius: 50%;
     border-right: 3px solid #000;
     border-top: 3px solid #000;*/
-    content: '';
-    display: block;
-    background:url(../images/logo_pc.png) no-repeat;
-    width: 121px;
-    height: 96px;
+ 
     
 }
 /*
@@ -164,7 +161,9 @@ body.is-animation-ended.is-load-ended .loader {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #fc8d7d;
+  width:100%;
+  height:100%;
+  background:url(../images/logo_pc.png) no-repeat center center #fc8d7d;
   z-index: 9999;
   -webkit-animation: byeShutter 2.6s forwards;
           animation: byeShutter 2.6s forwards;
@@ -181,6 +180,7 @@ body.is-animation-ended.is-load-ended .loader {
   background-color: #fec6be;
   width: 0;
   height: 1px;
+  top:130px;
   -webkit-animation: shutterOpen1 2.6s forwards;
           animation: shutterOpen1 2.6s forwards;
 }
@@ -194,8 +194,8 @@ body.is-animation-ended.is-load-ended .loader {
 }
 
 .content {
-  -webkit-animation: contentScale 2.6s forwards;
-          animation: contentScale 2.6s forwards;
+  -webkit-animation: contentScale 1s forwards;
+          animation: contentScale 1s forwards;
 }
 
 @-webkit-keyframes byeShutter {
@@ -1696,4 +1696,10 @@ footer .arrow::after {
     .pagelink-area .text-area .more {
         right: 5px !important;
     }
+}
+
+
+#animation_container,#animation_container canvas,#dom_overlay_container{
+  width:100%;
+  height:auto;
 }

@@ -2,8 +2,7 @@
 ローディング用div
 -->
 
-
-<div id="js-loader" class="loader">
+<div id="js-loader" class="loader">	
 	<div class="shutter"></div>
 	<div class="content"></div>
 </div>

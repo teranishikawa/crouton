@@ -137,7 +137,12 @@
 				<div class="ttl-area" data-aos="fade-left">
 					<h2><span class="eng line"></span>コンセプト</h2>
 				</div>
-				<video src="<?php echo get_template_directory_uri(); ?>/assets/images/top/concept_video.mp4" playsinline autoplay loop muted></video>
+				
+				<div id="animation_container">
+					<canvas id="canvas" style="position: absolute; display: block;"></canvas>
+						<div id="dom_overlay_container" style="pointer-events:none; position: absolute; left: 0px; top: 0px; display: block;">
+					</div>
+				</div>
 				
 				<div class="text-area">							
 					<p class="copy" data-aos="twist-left">食卓がつくる、絆をもっと。</p>

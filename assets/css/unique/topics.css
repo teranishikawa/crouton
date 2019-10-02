@@ -146,6 +146,14 @@
 	height:auto;
 	margin-bottom:2em;
 }
+#topics .topics-box .topics-body a{
+	text-decoration:underline;
+}
+#topics .topics-box .topics-body a:hover{
+	text-decoration:none;
+	color:#fc8d7d;
+}
+
 #topics .topics-box .topics-detail .detail_navi {
 	border-top: 1px solid #000;
 	display: flex;

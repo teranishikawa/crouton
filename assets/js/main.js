@@ -337,35 +337,7 @@ function SwiperControl() {
 			swiper: galleryThumbs9
 		}
 	});
-	//動作が不安定だったのでroll部分だけslickを使用
-	$('#js-roll-slick-container').slick({
-		vertical: true,
-		slidesToShow: 3,
-		slidesToScroll: 1,
-		autoplay: true,
-		autoplaySpeed: 0,
-		cssEase: 'linear',
-		pauseOnFocus:false,
-		pauseOnHover:false,
-		respondTo:'window',
-		variableWidth: false,
-		lazyLoad: 'ondemand',
-		speed: 5000,
-		arrows: false,
-		responsive: [{
-			breakpoint: 768,
-			settings: {
-				vertical: false,
-				variableWidth: true,
-				// centerMode: true,
-				speed: 8000,
-				slidesToShow: 3,
-			}
-		}]
-	});
-	$(window).on('resize', function () {
-		// $('#js-roll-slick-container').slick('slickPlay');
-	});
+	
 
 
 }
@@ -590,4 +562,48 @@ function initGmap() {
 			icon: '/wp-content/themes/crouton/assets/images/map_pin.png',
 		});
 	}
+}
+
+/******************************************************************************/
+// brand concept
+/******************************************************************************/
+
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function init() {
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("24C29F0A1C645948AA62DE1FDB60A250");
+	var lib=comp.getLibrary();
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
+	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
+	var lib=comp.getLibrary();
+	loader.loadManifest(lib.properties.manifest);
+}
+function handleFileLoad(evt, comp) {
+	var images=comp.getImages();	
+	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
+}
+function handleComplete(evt,comp) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	var queue = evt.target;
+	var ssMetadata = lib.ssMetadata;
+	for(i=0; i<ssMetadata.length; i++) {
+		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+	}
+	exportRoot = new lib.video_concept();
+	stage = new lib.Stage(canvas);	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		stage.addChild(exportRoot);
+		createjs.Ticker.setFPS(lib.properties.fps);
+		createjs.Ticker.addEventListener("tick", stage);
+	}	    
+	//Code to support hidpi screens and responsive scaling.
+	AdobeAn.makeResponsive(true,'width',true,1,[canvas,anim_container,dom_overlay_container]);	
+	AdobeAn.compositionLoaded(lib.properties.id);
+	fnStartAnimation();
 }
