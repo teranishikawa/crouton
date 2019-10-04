@@ -31,7 +31,7 @@
 			if($img_src1) $img_src1 = '<img src="'.$img_src1[0].'" alt="'.get_the_title().'">';
 ?>
 					<li class="col-3 col-sm-6 js-clickArea one-item" data-aos="layer-fade-right">
-						<figure class="zoom layer-fade-child"><?php echo $img_src1 ?></figure>
+						<figure class="zoom layer-fade-child package"><?php echo $img_src1 ?><figcaption style="background-color:<?php echo CFS()->get('label2_color') ?>"><?php echo CFS()->get('label2') ?></figcaption></figure>
 						<div class="text-area">
 							<p class="comment" data-aos="twist-left"><?php echo CFS()->get('catch_copy') ?></p>
 							<p class="ttl" data-aos="twist-left"><?php the_title() ?><span class="eng"><?php echo CFS()->get('title_en') ?></span></p>
@@ -70,7 +70,7 @@
 			if($img_src1) $img_src1 = '<img src="'.$img_src1[0].'" alt="'.get_the_title().'">';
 ?>
 					<li class="col-3 col-sm-6 js-clickArea one-item" data-aos="layer-fade-right">
-						<figure class="zoom layer-fade-child"><?php echo $img_src1 ?></figure>
+						<figure class="zoom layer-fade-child package"><?php echo $img_src1 ?><figcaption style="background-color:<?php echo CFS()->get('label2_color') ?>"><?php echo CFS()->get('label2') ?></figcaption></figure>
 						<div class="text-area">
 							<p class="comment" data-aos="twist-left"><?php echo CFS()->get('catch_copy') ?></p>
 							<p class="ttl" data-aos="twist-left"><?php the_title() ?><span class="eng"><?php echo CFS()->get('title_en') ?></span></p>

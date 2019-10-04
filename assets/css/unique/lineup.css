@@ -200,3 +200,10 @@
 		width: 100%;
 	}
 }
+
+.lineup.detail .main-visual h2 .label {
+  font-size: 1.4rem;
+  font-weight:normal;
+  color: #fff;
+  padding: 8px 20px;
+}

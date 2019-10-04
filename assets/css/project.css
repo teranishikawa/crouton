@@ -1703,3 +1703,24 @@ footer .arrow::after {
   width:100%;
   height:auto;
 }
+
+figure.package {
+  position:relative;
+}
+figure.package figcaption {
+  opacity:0;
+  z-index:-1;
+  background-color:#fff;
+  position:absolute;
+  top:0;
+  left:0;
+  display:inline-block;
+  font-size: 1.2rem;
+  color:#fff;
+  padding: 6px 10px;
+  transition: all 7s;
+}
+.aos-animate figure.package figcaption {
+  opacity:1;
+  z-index:2;
+}
