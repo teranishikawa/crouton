@@ -19,8 +19,8 @@
 					<div class="col-6 col-sm-12 map" data-aos="fade-left">
 						<dl>
 							<dt>かぞくのクルトン　本山本店</dt>
-							<dd class="attend">2019年10月末オープン予定！</dd>
-							<dd>地下鉄東山線本山駅　4番出口より徒歩3分　愛知工業大学すぐ南</dd>
+							<dd class="attend">2019年10月末オープン予定</dd>
+							<dd>地下鉄東山線・名城線「本山駅」4番出口より徒歩1分</dd>
 						</dl>
 						<div id="gmap" class="gmap">
 						</div>

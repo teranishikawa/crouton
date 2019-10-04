@@ -19,13 +19,9 @@ get_header();
 
 				<section class="wide secret-intro">
 					<div class="inner">
-                        <h3 class="title" data-aos="twist-left">大切にしていること</h3>
-                        <p class="cont-txt">
-                            <p data-aos="twist-left" data-aos-delay="300">家族が集まる真ん中にあるのは食卓です。</p>
-                            <p data-aos="twist-left" data-aos-delay="500">そこに美味しくて心のこもったお菓子があれば、会話も弾み、みんなが笑顔になれるはず。</p>
-                            <p data-aos="twist-left" data-aos-delay="700">私たちは「かぞくのクルトン」を通して、</p>
-                            <p data-aos="twist-left" data-aos-delay="900">かけがえのない時間をもっと増やしていきます。</p>
-                        </p>
+                        <h3 class="title" data-aos="twist-left">
+                            かぞくのクルトンは、心のこもった手料理のように、<br class="forPC">
+                            実直に、深い愛情を込めてつくった焼き菓子です。</h3>
                     </div>
                 </section>
 
@@ -174,7 +170,7 @@ get_header();
                                         <figure class="zoom" data-aos="fade-up"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/idx_about.jpg" alt=""></figure>
                                         <div class="text-area">
                                             <p class="catch">クルトンとは？</p>
-                                            <p class="cont-txt">クルトンといえば、まずシーザーサラダやポタージュスープのトッピングが思い浮かぶことでしょう。また、クルトンレシピもたくさん紹介されており、食事に彩りを添える食材として親しまれています。</p>
+                                            <p class="cont-txt">クルトンとは、パンをサイコロ状に切って、もう一度焼き上げたり、炒めたり、揚げたりしたもの。サラダのトッピングやスープの浮き実など、食感や味わい、風味を添える素材として親しまれています。</p>
                                             <p class="more"><span><a href="<?php echo esc_url( home_url('/secret/about_croutons/') ); ?>" class="arrow">LEARN MORE</a></span></p>
                                         </div>
                                     </a>
@@ -185,7 +181,7 @@ get_header();
                                         <figure class="zoom" data-aos="fade-up"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/secret/idx_born.jpg" alt=""></figure>
                                         <div class="text-area">
                                             <p class="catch">かぞくのクルトン誕生のひみつ</p>
-                                            <p class="cont-txt">とても個性的なお菓子である「かぞくのクルトン」が生まれた背景には、半世紀以上に渡る小麦に関わるノウハウと想いが詰まっています。</p>
+                                            <p class="cont-txt">かぞくのクルトンは、半世紀以上に渡って小麦を加工して、パン・麺・お菓子等を製造・販売してきたノウハウと思いが詰まっています。</p>
                                             <p class="more"><span><a href="<?php echo esc_url( home_url('/secret/birth/') ); ?>" class="arrow">LEARN MORE</a></span></p>
                                         </div>
                                     </a>

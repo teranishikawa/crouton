@@ -53,7 +53,7 @@
 								<li><a href="#topics"><span class="scroll-bullet"></span>
 										<p class="description">ニュース・トピックス</p>
 									</a></li>
-								<li><a href="#access ?>"><span class="scroll-bullet"></span>
+								<li><a href="#access-area"><span class="scroll-bullet"></span>
 										<p class="description">店舗紹介・アクセス</p>
 									</a></li>
 							</ul>
@@ -154,7 +154,7 @@
 						<p data-aos="twist-left" data-aos-delay="800">心の食卓はつながって、かぞくの絆がつくられる。</p>
 						<p data-aos="twist-left" data-aos-delay="1000">離れていたって、心はひとりにならない。</p>
 						<p data-aos="twist-left" data-aos-delay="1200">食卓がつくる、絆をもっと。</p>
-						<p data-aos="twist-left" data-aos-delay="1400">かぞくのクルトン</p>
+						<p data-aos="twist-left" data-aos-delay="1400">かぞくのクルトン。</p>
 						<p class="more" data-aos="twist-right" data-aos-delay="1600"><a href="<?php echo esc_url( home_url('/concept/') ); ?>" class="arrow">LEARN MORE</a></p>
 					</p>
 				</div>
@@ -234,7 +234,7 @@
 									<a href="<?php echo esc_url( home_url('/lineup/honey-toast/') ); ?>" class="arrow left only">
 										<figure class="zoom layer-fade-child"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/lineup_toast.jpg" alt="はちみつトースト" data-productname="toast"></figure>
 										<div class="text-area order-first" data-aos="fade-right" data-aos-delay="800">
-											<p class="ttl"><small>はちみつ</small>トースト<span class="eng">TOAST</span></p>
+											<p class="ttl"><small>はちみつ</small>トースト<span class="eng">HONEY TOAST</span></p>
 										</div>
 									</a>
 								</td>
@@ -333,7 +333,7 @@
 									<a href="<?php echo esc_url( home_url('/lineup/honey-toast/') ); ?>" class="arrow only">
 										<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/lineup_toast.jpg" alt="はちみつトースト" data-productname="toast"></figure>
 										<div class="text-area order-first">
-											<p class="ttl"><small>はちみつ</small>トースト<span class="eng">TOAST</span></p>
+											<p class="ttl"><small>はちみつ</small>トースト<span class="eng">HONEY TOAST</span></p>
 										</div>
 									</a>
 								</td>

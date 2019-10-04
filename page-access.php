@@ -15,12 +15,12 @@ get_header();
 
 				<section class="wide lead-access">
                     <div class="inner width-fixed">
-                    	<h3 class="title" data-aos="fade-right">2019年10月末オープン予定！</h3>
+                    	<h3 class="title" data-aos="fade-right">2019年10月末オープン</h3>
                         <!--<h3 class="title" data-aos="fade-right">私たちのお店にお越しください</h3>-->
                         <p class="cont-txt" data-aos="fade-up">
-							お店には「かぞくのクルトン」すべての種類をご用意しています。<br class="forPC">
-							もちろんご試食していただくことができます。<br class="forPC">
-							味と楽しさを実感していただくために、ぜひご来店ください。
+							名古屋市本山の焼き菓子「クルトン」専門店『かぞくのクルトン』では、<br class="forPC">
+							全商品をお取り扱いするとともに、ご試食もご用意しております。<br class="forPC">
+							スタッフ一同お客様のご来店を心よりお待ちしております。					
                         </p>
                     </div>
                 </section>
@@ -46,8 +46,9 @@ get_header();
                         <h3 class="title" data-aos="fade-left"><span class="eng line"></span>アクセスマップ</h3>
 						<div id="gmap" class="gmap" data-aos="fade-up"></div>
                         <p class="store-name" data-aos="fade-left">かぞくのクルトン　本山本店</p>
+                        <p class="attend" data-aos="fade-left">2019年10月末オープン予定</p>
                         <p class="store-address" data-aos="fade-up">〒464-0819 <br class="forSP">名古屋市千種区四谷通1-1 <br class="forSP">イリヤ本山1F<br>TEL:<a href="tel:0527891008">052-789-1008</a></p>
-                        <p class="store-access" data-aos="fade-up">地下鉄東山線本山駅　4番出口より徒歩3分　<br class="forSP">愛知工業大学すぐ南</p>
+                        <p class="store-access" data-aos="fade-up">地下鉄東山線・名城線「本山駅」4番出口より徒歩1分</p>
                         <a href="https://goo.gl/maps/qTKJzSdWuxW9QLdt7" class="arrow" target="_blank" data-aos="fade-up">MAP</a>
                         </p>
                     </div>

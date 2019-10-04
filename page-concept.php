@@ -36,7 +36,7 @@ get_header();
 								<p data-aos="twist-left" data-aos-delay="800">心の食卓はつながって、かぞくの絆がつくられる。</p>
 								<p data-aos="twist-left" data-aos-delay="1000">離れていたって、心はひとりにならない。</p>
 								<p data-aos="twist-left" data-aos-delay="1200">食卓がつくる、絆をもっと。</p>
-								<p data-aos="twist-left" data-aos-delay="1400">かぞくのクルトン</p>
+								<p data-aos="twist-left" data-aos-delay="1400">かぞくのクルトン。</p>
 							</p>
 						</div>
 					</div>

@@ -942,7 +942,7 @@ footer .copyright {
 #access-area .map dd {
 	font-size: 1.4rem;
 }
-#access-area .map dd.attend{
+.attend{
 	font-size: 1.6rem;
 	font-weight: bold;
 	color:#fc8d7d;

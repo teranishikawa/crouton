@@ -16,9 +16,11 @@
 			<div class="inner">
 
 				<div class="arrange width-fixed">
-					<p data-aos="fade-up">かぞくのクルトンをさらにおいしくお召し上がりいただくために、<br class="forPC">
-						プロのテーブルスタイリストが考案したアレンジレシピをご用意しました。<br>
-					味わいも彩りもさらに豊かになるクルトンレシピをぜひお試しください。</p>
+					<p data-aos="fade-up">
+						かぞくのクルトンは、お菓子ということにとらわれず、<br class="forPC">
+						サラダやスープなど、「クルトン」としても、<br class="forPC">
+						お楽しみください。おいしくお召し上がりいただけるかぞくのクルトンのアレンジレシピをご紹介します。
+					</p>
 
 					<?php $cat = get_query_var('recipe_cat'); ?>
 					<ul class="year-list width-fixed" data-aos="fade-right">

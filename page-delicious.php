@@ -24,17 +24,21 @@ get_header();
 									</figure>
 								</div>
 								<div class="text ex-area aos-init aos-animate" data-aos="fade-right">
-									<h3 data-aos="twist-right" data-aos-delay="1000">おいしさの組み合わせ<br class="forSP">さまざま</h3>
+									<h3 data-aos="twist-right" data-aos-delay="1000">かぞくと過ごす食卓の<br class="forPC">かけがえのない時間の架け橋に。</h3>
 									<p data-aos="twist-left" data-aos-delay="1200">
-										お菓子としてそのまま食べてもおいしいかぞくのクルトンは、多彩な風味を持つフレーバーの多さが特色です。<br>
-										色々なお飲み物に合うのはもちろん、おつまみや料理にアレンジすることで、見た目も鮮やかなさまざなおいしさを演出することができます。
+										<p>
+										ティータイムやおやつの時間、<br class="forPC">大切な人との心豊かにひとときに。<br>
+										コーヒー、紅茶、お茶、ビールやワインアルコール類ともご一緒に。</p>
+										<p class="mt-3">お菓子ということにとらわれず、
+										サラダやスープなど、「クルトン」としても、お楽しみいただけます。</p>
+										<p class="mt-3">心のままにお召し上がりください。</p>
 									</p>
 								</div>
 							</div>
 						</div>
 
 						<div class="example width-fixed">
-							<h3 class="title" data-aos="fade-right"><span class="eng line"></span>おいしいお召し上がり方の例</h3>
+							<h3 class="title" data-aos="fade-right"><span class="eng line"></span>さまざまなお召し上がり方</h3>
 							<ul>
 								<li data-aos="twist-left"><figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/example_01.jpg" alt="おやつとして"><figcaption>01</figcaption></figure><p>おやつとして</p></li>
 								<li data-aos="twist-left" data-aos-delay="500"><figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/example_02.jpg" alt="サラダにのせて"><figcaption>02</figcaption></figure><p>サラダにのせて</p></li>
@@ -59,10 +63,8 @@ get_header();
                                         <figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recipe/idx_recipe.jpg" alt="アレンジレシピ"></figure>
                                     </div>
                                     <div class="text-area" data-aos="fade-left">
-                                        <p class="catch">さらにおいしく<br class="forSP">お召し上がりいただくために</p>
-                                        <p class="cont-txt">かぞくのクルトンをさらにおいしくお召し上がりいただくために、
-															プロのフードコーディネーターが考案したアレンジレシピをご用意しました。
-															味わいも彩りもさらに豊かになるクルトンレシピをぜひお試しください。</p>
+                                        <p class="catch">アレンジレシピのご紹介</p>
+                                        <p class="cont-txt">かぞくのクルトンは、お菓子ということにとらわれず、サラダやスープなど、「クルトン」としても、お楽しみください。おいしくお召し上がりいただけるかぞくのクルトンのアレンジレシピをご紹介します。</p>
                                         <p class="more"><span><a href="<?php echo esc_url( home_url('/recipe/') ); ?>" class="arrow">LEARN MORE</a></span></p>
                                     </div>
                                 </li>

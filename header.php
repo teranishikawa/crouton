@@ -104,7 +104,7 @@ if ( is_home() || is_front_page() ) : //TOPページの場合?>
 </head>
 
 
-<body id="<?php addSlugName('id'); ?>" class="<?php addSlugName('class'); ?>" onload="init();">
+<body id="<?php addSlugName('id'); ?>" class="<?php addSlugName('class'); ?>"<?php if(is_front_page()||is_page('concept')){ echo 'onload="init();"'; } ?> >
 	<noscript>JavascriptがOFFのため正しく表示されない可能性があります。</noscript>
 	<div id="wrap">
 

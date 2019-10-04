@@ -17,8 +17,19 @@ get_header();
   <section class="wide giftset-intro">
     <div class="inner">
         <div class="text-area">
-            <p class="catch" data-aos="fade-left">新しいジャンル「クルトンのお菓子」をギフトとして。</p>
-            <p class="cont-txt" data-aos="fade-up">かぞくのクルトンは、小さなお子さまからご年配の方まで、<br class="forPC">幅広く楽しんでいただける多彩なフレーバーをご用意しております。<br class="forPC">ブライダルの引き菓子に。出産祝いのお返しに。大切な方への贈り物に。<br>さまざまなシーンにご利用いただける、かぞくのクルトンのギフトセットをぜひご利用ください。</p>
+            <p class="catch" data-aos="fade-left">大切な人に、心つながる贈り物を。<br class="forPC">かぞくと過ごす食卓のかけがえのない時間の架け橋に。</p>
+            <p class="cont-txt" data-aos="fade-up">
+                <p>かぞくのクルトンは、お子さまからお歳を召した方まで、<br class="forPC">
+                幅広くお楽しみいただける豊富なラインナップをご用意しており、<br class="forPC">現代の多様な生活シーンに馴染むお菓子です。</p>
+
+                <p class="mt-3">晴れた日も、曇った日も、雨の日も。<br class="forPC">
+                特別な日にも、そうではない日にも。</p>
+
+                <p class="mt-3">贈り物は、大きな喜びを伝えるときだけ贈るわけではありません。<br class="forPC">
+                「ありがとう」「ごめんね」。嬉しい時も、悲しい時も、少しだけ心を伝えたい時も、大切な方を想う心が通じる贈り物を。</p>
+
+                <p class="mt-3">日常の感謝、大切な方へに、ブライダルの引き菓子、出産祝いのお返し、さまざまなシーンにかぞくのクルトンのギフトセットをぜひご利用ください。</p>
+            </p>
         </div>
     </div>
 </section>
@@ -268,7 +279,7 @@ if($the_query->have_posts()){
                 <li class="about-noshi">
                     <dl class="noshi-txt">
                         <dt>のしについて</dt>
-                        <dd>のしをご希望の方に、表題入りののしを各種取り揃えております。<br class="forPC">店頭にてお申しつけください。空欄ののしのご用意もございます。</dd>
+                        <dd>ご用途に合わせたのし紙をご用意しております。<br class="forPC">ご指定の表書きやお名前もお入れできます。店頭にてお申しつけください。</dd>
                     </dl>
                     <div class="row no-gutters no-gutters-sm justify-content-between align-items-center">
                         <div class="photo">

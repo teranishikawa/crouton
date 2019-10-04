@@ -200,3 +200,9 @@
 		width: 100%;
 	}
 }
+
+
+/*特長の２番目を不可視に*/
+.lineup.detail .feature li:nth-child(2) .text-area {
+	display: none;
+}

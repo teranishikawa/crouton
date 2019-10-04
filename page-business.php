@@ -18,8 +18,8 @@ get_header();
 
 				<section class="wide lead-business">
                     <div class="inner width-fixed">
-                        <h3 class="title" data-aos="fade-right">カラフルなイメージで多くの皆様に手に取っていただける商品です。</h3>
-                        <p class="cont-txt" data-aos="fade-up">これまでにない斬新なお菓子として、お客様の興味を惹き付けます。<br class="forPC">また、カラフルなパッケージが店舗内で効果的な演出効果を生み、<br class="forPC">多くのお客様に手にとっていただけると考えております。</p>
+                        <h3 class="title" data-aos="fade-right">新規出店、大口のご注文、催事、卸売販売、<br class="forPC">法人様の様々なニーズにお応えしています。</h3>
+                        <p class="cont-txt" data-aos="fade-up">ご利用の目的やシーン、ご予算に合わせたご提案をさせていただくことも可能です。<br class="forPC">かぞくのクルトンにご興味を持っていただけましたら、気軽にお問い合わせください。</p>
 
                         <figure data-aos="fade-left">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/business/business_01.jpg" alt="">
@@ -33,7 +33,7 @@ get_header();
                             <li><a href="#business1"><span class="business-numbering-title">かぞくのクルトン<br class="forPC">品揃え</span></a></li>
                             <li><a href="#business2"><span class="business-numbering-title">ギフトセット</span></a></li>
                             <li><a href="#business3"><span class="business-numbering-title">催事・出店</span></a></li>
-                            <li><a href="#business4"><span class="business-numbering-title">素材選定・<br class="forPC">製法のひみつ</span></a></li>
+                            <li><a href="#business4"><span class="business-numbering-title">おいしさのひみつ</span></a></li>
                             <li><a href="#business5"><span class="business-numbering-title">安全・安心への<br class="forPC">取り組み</span></a></li>
                             <li><a href="#business6"><span class="business-numbering-title">大口対応</span></a></li>
                             <li><a href="#business7"><span class="business-numbering-title">お問い合わせ</span></a></li>
@@ -44,9 +44,13 @@ get_header();
 				<section id="business1" class="wide lineup-business">
                     <div class="inner">
                         <h3 class="title aos-init aos-animate" data-aos="fade-right"><span class="eng line">01</span>かぞくのクルトン 品揃え</h3>
-                        <p class="cont-txt" data-aos="fade-up">クルトンをお菓子にしています。普通の焼き菓子とはちょっと違う、飽きの来ないフレーバーを数多く取り揃えております。<br class="forPC">催事イベントや銘菓コーナーでのお取り扱い等、ご興味いただけましたらぜひお問い合わせください。</p>
+                        <p class="cont-txt" data-aos="fade-up">
+                            <p>かぞくのクルトンは、小さなお子さまからご年配の方まで、<br class="forPC">
+                            幅広く楽しんでいただける多彩なフレーバーをご用意しております。</p>
+                            <p class="mt-3">催事イベントや銘菓コーナーでのお取り扱い等、ご興味いただけましたらぜひお問い合わせください。</p>
+                        </p>
 
-                		<div class="lineupbox">
+                		<div class="lineupbox mt-4">
                 			<div class="width-fixed">
                 				<ul class="row">
                 					<li class="col-3 col-sm-6 js-clickArea one-item" data-aos="fade-up">
@@ -159,19 +163,16 @@ get_header();
                         <div class="row width-fixed">
                             <div class="col-4 col-sm-12" data-aos="fade-up">
                                 <figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/business/business_gift_01.jpg" alt="3個セット"></figure>
-                                <p class="product-name">3個セット</p>
+                                <p class="product-name">チョコレートギフトボックス3個詰合せ</p>
                                 <p class="product-price">税込2,494円（税抜2,310円）</p>
                             </div>
                             <div class="col-4 col-sm-12" data-aos="fade-up" data-aos-delay="300">
                                 <figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/business/business_gift_02.jpg" alt="6個セット"></figure>
-                                <p class="product-name">3個セット</p>
+                                <p class="product-name">ギフトボックス6個詰合せ</p>
                                 <p class="product-price">税込3,758円（税抜3,480円）</p>
+                                <p><small>※かぞくのチョコレートをお選びの場合は、金額が異なります。</small></p>
                             </div>
-                            <div class="col-4 col-sm-12" data-aos="fade-up" data-aos-delay="600">
-                                <figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/business/business_gift_03.jpg" alt="3・6個セット"></figure>
-                                <p class="product-name">3個・6個セット</p>
-                                <p class="product-price">税込5,637円（税抜5,220円）</p>
-                            </div>
+                         
                         </div>
                     </div>
                 </section>
@@ -195,17 +196,16 @@ get_header();
 
 				<section id="business4" class="wide product-business">
                     <div class="inner">
-                        <h3 class="title aos-init aos-animate" data-aos="fade-right"><span class="eng line">04</span>素材選定・製法のひみつ</h3>
+                        <h3 class="title aos-init aos-animate" data-aos="fade-right"><span class="eng line">04</span>おいしさのひみつ</h3>
                         <div class="width-fixed">
                             <ul class="row no-gutters no-gutters-sm jutify-content-between align-items-center">
                                 <li class="photo col-sm-12" data-aos="fade-right">
                                     <figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/business/business_event.jpg" alt=""></figure>
                                 </li>
                                 <li class="text-area col-sm-12" data-aos="fade-left">
-                                    <p class="cont-txt">
-かぞくのために、腕をふるう手料理のように、素材を吟味し、手間をかけ、工夫を重ねて。化学調味料・保存料など余分なものはできるだけ使わずに、温かく、自然な味わいに仕上げました。
+                                    <p class="cont-txt">かぞくのために、腕をふるう手料理のように、素材を吟味し、手間をかけ、工夫を重ねて。化学調味料・保存料など余分なものはできるだけ使わずに、温かく、自然な味わいに仕上げました。
                                     </p>
-                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/secret/birth/') ); ?>" class="arrow">LEARN MORE</a></span></p>
+                                    <p class="more"><span><a href="<?php echo esc_url( home_url('/secret/') ); ?>" class="arrow">LEARN MORE</a></span></p>
                                 </li>
                             </ul>
                         </div>
@@ -220,7 +220,7 @@ get_header();
                             <ul class="row no-gutters no-gutters-sm jutify-content-between align-items-center">
                                 <li class="text-area col-sm-12" data-aos="fade-right">
                                     <p class="cont-txt">
-                                        原材料からはじまり生産工程を隅々まで管理し、クルトン作りに携わる人すべてが品質に対して高い意識を持つことで、安心・安全なクルトンは生まれます。
+                                        原材料の受け入れ管理から生産工程、製品をお届けするまでのプロセスについて、チェック項目やルールを設け厳しい品質の管理を行っています。
                                     </p>
                                     <p class="more"><span><a href="<?php echo esc_url( home_url('/secret/birth/#safety') ); ?>" class="arrow">LEARN MORE</a></span></p>
                                 </li>
@@ -238,7 +238,7 @@ get_header();
 				<section id="business6" class="wide large-business">
                     <div class="inner">
                         <h3 class="title aos-init aos-animate" data-aos="fade-right"><span class="eng line">06</span>大口対応</h3>
-                        <p class="cont-txt mb-4" data-aos="fade-up">ノベルティ、記念品など、大口のご注文も承っております。<br class="forPC">ご要望に合わせ、当店よりご提案させていただきます。</p>
+                        <p class="cont-txt mb-4" data-aos="fade-up">お手土産やお中元、お歳暮などのご挨拶、様々なビジネスシーンにもご利用ください。</p>
                         <div class="row width-fixed">
                             <div class="col-4 col-sm-12" data-aos="fade-up">
                                 <figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/business/business_front_01.png" alt="3個セット"></figure>
@@ -265,7 +265,7 @@ get_header();
                         <div class="width-fixed">
                             <div class="row graybase">
                                 <h3 class="title aos-init aos-animate" data-aos="fade-right">お問い合わせ</h3>
-                                <p class="cont-txt">出店、催事、コラボレーション等、ご興味を頂けましたらお気軽にお声がけください。</p>
+                                <p class="cont-txt">かぞくのクルトンにご興味を持っていただけましたら、気軽にお問い合わせください。</p>
                                 <div class="col-4 col-sm-12 icongraph" data-aos="fade-up" data-aos-delay="300">
                                     <a href="/inquiry/">
                                         <figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/business/i_desktop.png" alt="お問合せフォーム"></figure>
@@ -273,16 +273,16 @@ get_header();
                                     </a>
                                 </div>
                                 <div class="col-4 col-sm-12 icongraph" data-aos="fade-up" data-aos-delay="600">
-                                    <a href="">
+                                    <a href="tel:0527891008">
                                         <figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/business/i_phone.png" alt="お電話でのお問い合わせ"></figure>
-                                        <p class="caption eng">000-000-0000</p>
-                                        <p class="sup">担当 〇〇<br>受付時間 月～金10:00～17:00</p>
+                                        <p class="caption eng">052-789-1008</p>
+                                        <p class="sup">受付時間 11:00～19：00　水曜定休</p>
                                     </a>
                                 </div>
                                 <div class="col-4 col-sm-12 icongraph" data-aos="fade-up" data-aos-delay="900">
-                                    <a href="">
+                                    <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#110;&#102;&#111;&#64;&#107;&#97;&#122;&#111;kun&#111;cr&#111;u&#116;&#111;n.c&#111;&#109;">
                                         <figure class="zoom"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/business/i_envelope.png" alt="メールでのお問い合わせ"></figure>
-                                        <p class="caption eng">xxx@xxxxx.co.jp</p>
+                                        <p class="caption eng">&#105;&#110;&#102;&#111;&#64;&#107;&#97;z&#111;ku&#110;&#111;cr&#111;&#117;&#116;&#111;&#110;&#46;c&#111;&#109;</p>
                                     </a>
                                 </div>
                             </div>

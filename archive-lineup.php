@@ -14,8 +14,11 @@
 
 		<section class="wide chocolate">
 			<div class="inner">
-				<h3 class="title" data-aos="fade-right"><span class="eng line"></span>チョコレート・フレーバー<span class="label">季節限定</span></h3>
-				<p class="cont-txt" data-aos="fade-right" data-aos-delay="300">10月～5月限定のチョコレート・フレーバーは、<br class="forPC">ほどよい甘さがお口の中で、サクサク食感とともに広がる上品な味わいです。</p>
+				<h3 class="title" data-aos="fade-right"><span class="eng line"></span>かぞくのチョコレートクルトン　ラインナップ<span class="label">季節限定</span></h3>
+				<p class="cont-txt" data-aos="fade-right" data-aos-delay="300">
+					香ばしいサクサクのクルトンを口溶け豊かな<br class="forPC">チョコレートで包み込んだかぞくのチョコレートクルトン。<br>
+					販売期間：10月～5月下旬頃を予定しておりますが、変更になる場合がございます。
+				</p>
 
 				<div class="lineup">
 
@@ -97,8 +100,8 @@
 
 		<section class="wide flavor">
 			<div class="inner">
-				<h3 class="title" data-aos="fade-right"><span class="eng line"></span>スタンダード・フレーバー</h3>
-				<p class="cont-txt" data-aos="fade-right" data-aos-delay="300">スタンダード・フレーバーは、ティータイムにおすすめな甘味ある「はちみつトースト」や<br class="forPC">お酒のおつまみにぴったりな「おいしいカレー」など、豊富な味のバリエーションをお楽しみいただけます。</p>
+				<h3 class="title" data-aos="fade-right"><span class="eng line"></span>定番ラインナップ</h3>
+				<p class="cont-txt" data-aos="fade-right" data-aos-delay="300">大切な人と食卓を楽しむ、味わい豊かな9種類のクルトン。</p>
 
 				<div class="lineup">
 					<div data-aos="layer-fade-right">
@@ -154,7 +157,7 @@
 		<section class="wide package">
 			<div class="inner">
 				<h3 class="title" data-aos="fade-right"><span class="eng line"></span>パッケージラインナップ</h3>
-				<p class="cont-txt" data-aos="fade-right" data-aos-delay="300">ライフスタイルや用途に合わせて、2種類のパッケージをご用意しました。</p>
+				<p class="cont-txt" data-aos="fade-right" data-aos-delay="300">用途に合わせて、2種類のパッケージをご用意しました。</p>
 
 				<div class="lineup">
 					<div class="width-fixed">
@@ -163,7 +166,7 @@
 								<figure><img src="<?php echo get_template_directory_uri(); ?>/assets/images/lineup/idx_package_cube.jpg" alt="かぞくのキューブ"></figure>
 								<div class="text-area">
 									<p class="ttl">かぞくのキューブ</p>
-									<p class="cont-txt">ちょっと小腹が空いたときに、パクっと幸せなひとくち。<br class="forPC"class="forPC">15g入りの小分け包装が2個入ったお手軽なパッケージです。</p>
+									<p class="cont-txt">15g入りの個包装が2個入ったキューブ。少しずつ小分けに。<br class="forPC">大切な方と分け合って。シーンに合わせてお召し上がりください。</p>
 								</div>
 							</li>
 							<li class="col-6 col-sm-12 one-item" data-aos="fade-up" data-aos-delay="1000">
