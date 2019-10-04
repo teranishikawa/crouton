@@ -1698,11 +1698,14 @@ footer .arrow::after {
     }
 }
 
-
+/*ブランドコンセプト共通*/
 #animation_container,#animation_container canvas,#dom_overlay_container{
   width:100%;
   height:auto;
 }
+
+
+/*ラインナップ食パンラベル*/
 
 figure.package {
   position:relative;
