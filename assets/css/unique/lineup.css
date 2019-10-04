@@ -201,8 +201,16 @@
 	}
 }
 
+<<<<<<< HEAD
 
 /*特長の２番目を不可視に*/
 .lineup.detail .feature li:nth-child(2) .text-area {
 	display: none;
+=======
+.lineup.detail .main-visual h2 .label {
+  font-size: 1.4rem;
+  font-weight:normal;
+  color: #fff;
+  padding: 8px 20px;
+>>>>>>> fa0c6d3290607420f1e71e62798a62aa5e59c0e2
 }
