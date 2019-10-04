@@ -31,7 +31,7 @@ $(function(){
 				<div class="main-visual">
 					<div class="inner">
 						<figure><?php echo $img_mv ?></figure>
-						<h2><small><?php echo CFS()->get('catch_copy') ?></small><?php the_title(); ?><span class="eng"><?php echo CFS()->get('title_en') ?></span><span class="label" style="background-color:<?php echo CFS()->get('label2_color') ?>"><?php echo CFS()->get('label2') ?></span></h2>
+						<h2><small><?php echo CFS()->get('catch_copy') ?></small><?php the_title(); ?><span class="eng"><?php echo CFS()->get('title_en') ?></span><?php if(CFS()->get('label2') != ""){ ?><span class="label" style="background-color:<?php echo CFS()->get('label2_color') ?>"><?php echo CFS()->get('label2') ?></span><?php } ?></h2>
 					</div>
 				</div>
 
